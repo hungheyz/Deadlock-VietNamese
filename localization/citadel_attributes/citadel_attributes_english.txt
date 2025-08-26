@@ -1,0 +1,2706 @@
+"lang"
+{
+	"Language"		"english"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"Bị bất động"
+		"MODIFIER_STATE_DISARMED"							"Bị tước vũ khí"
+		"MODIFIER_STATE_SILENCED"							"Bị câm lặng"
+		"MODIFIER_STATE_STUNNED"							"Bị choáng"
+		"MODIFIER_STATE_INVULNERABLE"						"Miễn sát thương"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"Miễn sát thương phép"
+		//"MODIFIER_STATE_BURNING"							"Cháy"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Bị làm chậm"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Suy yếu lá chắn đạn"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Bị mê ngủ"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Tăng sát thương chí mạng"		 				
+		"MODIFIER_STATE_CHAINED"							"Bị trói"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Giáp bị vô hiệu hoá"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Miễn đạn"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone được gắn"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Vũ khí ngừng hoạt động"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"Độc"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Thời gian sống"
+		"MODIFIER_STATE_BLINDED"							"Bị mù"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"Hiệu ứng trạng thái"
+		"Citadel_StatusEffectStun"				"Choáng"
+		"Citadel_StatusEffectEMP"				"Bị câm lặng"
+		"Citadel_StatusEffectFreeze"			"Đóng băng"
+		"Citadel_StatusEffectBurn"				"Cháy"
+		"Citadel_StatusEffectBleed"				"Chảy máu"
+		"Citadel_StatusEffectSleep"				"Ngủ"
+		"Citadel_StatusEffectTethered"			"Trói"
+		"Citadel_StatusEffectImmobilize" 		"Tê liệt"
+		"Citadel_StatusEffectDisarmed"			"Bị tước vũ khí"
+		"Citadel_StatusEffectInvisible"			"Tàng hình"
+		"Citadel_StatusEffectPetrify"			"Bị hóa đá"
+		"Citadel_StatusEffectCustomDebuff"		"Hiệu ứng giảm"
+		//"Citadel_StatusEffectStacks"			"Tích luỹ"
+		"Citadel_StatusEffectInfiniteClip"		"Đạn vô hạn"
+		//"Citadel_StatusEffectBulletDebuff"		"Hiệu ứng đạn"
+		//"Citadel_StatusEffectBuff"				"Hiệu ứng tăng"
+		"Citadel_StatusEffectUnstoppable"		"Bất khả chiến bại"
+		"Citadel_StatusEffectDisplacement"		"Bị quật ngã"
+		"Citadel_StatusEffectSilence"			"Bị câm lặng"
+
+		//"modifier_citadel_in_shop"				"Trong cửa hàng"	
+		"modifier_citadel_in_fountain"			"Căn cứ chính"
+		"modifier_citadel_pre_match_wait"		"Chờ trận đấu bắt đầu"
+		//"modifier_citadel_rapid_fire"			"Cơn mưa đạn"
+		//"modifier_citadel_damageboost"			"Tăng sát thương"
+		//"modifier_citadel_damage_reduction" 	"Tăng giáp"
+		"modifier_slowaura" 					"Bị chậm"
+		"modifier_citadel_slowtarget" 			"Bị chậm"
+		"modifier_citadel_lineslow"				"Bị chậm"
+		"modifier_slow_base"																		"Bị làm chậm"
+		"modifier_damageovertime" 				"Chảy máu"
+		"modifier_citadel_stunned" 				"Bị choáng"
+		"modifier_citadel_knockdown"			"Bị choáng"
+		"modifier_citadel_delayed_stun"			"Choáng trì hoãn"
+		//"modifier_citadel_knockdown_stumble"	"Vấp ngã"
+		"modifier_citadel_banished"				"Bị trục xuất"
+		//"modifier_citadel_speed_boost" 			"Tăng tốc"
+		//"modifier_pullaura" 					"Bị kéo"
+		//"modifier_healaura" 					"Hồi máu"
+		"modifier_citadel_root"					"Bị bất động"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Ẩn thân"
+		//"modifier_invis_start_delay" 			"Bắt đầu ẩn thân"
+		//"modifier_invis_fading"					"Dần biến mất"
+		//"modifier_camouflage_invis"				"Ngụy trang"
+		"modifier_citadel_silenced"				"Bị câm lặng"
+		"silencer_immune"						"Miễn bị câm lặng"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"Bị tước vũ khí"
+		"modifier_citadel_tech_shield"		"Lá chắn phép"
+
+		"modifier_item_disarmed"				"Bị tước vũ khí"
+		"modifier_citadel_disarm_proc"			"Bị tước vũ khí"
+		//"modifier_citadel_disarm_proc_buildup"	"Đang bị tước vũ khí..."
+		//"disarm_immune"							"Miễn tước vũ khí"
+		//"modifier_citadel_dodging"				"Tránh đòn"
+		//"modifier_prevent_healing"				"Không thể hồi máu"
+		
+		//"modifier_obscured_by_steam"			"Bị che khuất"
+		"modifier_citadel_unstick" 				"Thoát kẹt"
+		"modifier_citadel_barrier"				"Lá chắn"
+
+		"base_stat_regen"						"Hồi máu cơ bản của tướng"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"Khi trúng đòn:"
+		"Citadel_AbilityProperty_OnExplode"	"Khi phát nổ:"
+		"Citadel_AbilityProperty_OnAttach"	"Khi gắn:"
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"Sát thương mỗi giây"
+		"StatDesc_MeleeDamage"							"Sát thương cận chiến"
+		"StatDesc_LightMeleeDamage"						"Cận chiến nhẹ"
+		"StatDesc_HeavyMeleeDamage"						"Cận chiến nặng"
+		"StatDesc_MaxHealth"							"Máu tối đa"
+		"StatDesc_ClipSizeBonus"						"Đạn"
+		"StatDesc_ClipSizeIncrease"						"Tăng sức chứa băng đạn"
+		"StatDesc_ClipSizeIncrease_postfix"				"%"
+		//"StatDesc_BonusClips"							"Băng đạn"
+		//"StatDesc_AmmoRegen"							"Hồi đạn"
+		"StatDesc_HealthRegen"							"Hồi máu"
+		"StatDesc_BaseHealthRegen"						"Hồi máu"
+		"StatDesc_OutOfCombatHealthRegen"				"Hồi máu khi không chiến đấu"
+		//"StatDesc_ExternalHealthRegen"					"Hồi máu từ nguồn ngoài"
+		"StatDesc_RunSpeed"								"Tốc độ di chuyển"
+		"StatDesc_RunSpeed_postfix"						"m/s"
+		"StatDesc_SprintSpeed"							"Tốc độ chạy nhanh"
+		"StatDesc_SprintSpeed_postfix"					"m/s"
+		//"StatDesc_RunAcceleration"						"Gia tốc di chuyển"
+		//"StatDesc_SprintAcceleration"					"Gia tốc chạy nhanh"
+		"StatDesc_IncomingDamageReduction"				"Giáp"
+		//"StatDesc_IncomingDamageScale"					"Tỉ lệ sát thương nhận vào"
+		"StatDesc_BulletArmor"							"Giáp"
+		"StatDesc_BulletArmorDamageReduction"			"Kháng đạn"
+		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
+		//"StatDesc_IncomingBulletDamageReduction"		"Giáp chống sát thương đạn"
+		//"StatDesc_IncomingBulletDamageScale"			"Tỉ lệ sát thương đạn"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Giáp chống sát thương cận chiến"
+		//"StatDesc_IncomingMeleeDamageScale"				"Tỉ lệ sát thương cận chiến"
+		"StatDesc_TechArmor"							"Giáp phép"				
+		"StatDesc_TechArmorDamageReduction"		 		"Kháng phép"
+		"StatDesc_TechArmorDamageReduction_postfix"		"%"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Giáp kỹ năng"
+		//"StatDesc_IncomingAbilityDamageScale"			"Tỉ lệ sát thương kỹ năng"
+		"StatDesc_TechPower"							"Sức mạnh phép"
+		//"StatDesc_ManaPerLevel"							"Năng lượng mỗi cấp"
+		//"StatDesc_HealthPerLevel"						"Máu mỗi cấp"
+		//"StatDesc_ManaRegenPerLevel"					"Hồi năng lượng theo cấp"
+		//"StatDesc_HealthRegenPerLevel"					"Hồi máu theo cấp"
+		//"StatDesc_WeaponDPSPerLevel"					"Sát thương vũ khí mỗi giây theo cấp"
+		//"StatDesc_SuperSprintSpeed"						"Tốc độ chạy siêu nhanh"
+		//"StatDesc_WeaponRange"							"Khoảng cách"
+		//"StatDesc_WeaponRecoilReduction"				"Giảm giật súng"
+		"StatDesc_FireRate"								"Tốc độ bắn"
+		"StatDesc_FireRate_postfix"						"%"
+		//"StatDesc_Toughness"							"Độ bền"
+		//"StatDesc_Technology"							"Công nghệ"
+		//"StatDesc_Weaponry"								"Hệ thống vũ khí"
+		"StatDesc_WeaponPower"							"Sát thương vũ khí"
+		"StatDesc_BulletDamage"							"Sát thương đạn"
+		//"StatDesc_TechPowerAmp"							"Phép"
+		//"StatDesc_EnergyMax"							"Năng lượng"
+		//"StatDesc_EnergyRegenTime"						"Thời gian hồi năng lượng"
+		"StatDesc_RoundsPerSecond"						"Đạn mỗi giây"
+		//"StatDesc_BulletDamagePerLevel"					"Sát thương đạn theo cấp"
+		//"StatDesc_WeaponPowerAmp"						"Cường hóa sát thương đạn"
+		//"StatDesc_AirJumps"								"Nhảy trên không"
+		//"StatDesc_ZipLineSpeed"							"Tốc độ dây chuyền"
+		//"StatDesc_ProcModifier"							"Tỷ lệ kích hoạt hiệu ứng"
+		"StatDesc_TechCooldown"							"Thời gian hồi kỹ năng"
+		"StatDesc_TechCooldown_postfix"					"%"
+		"StatDesc_TechCooldownBetweenCharges"			"Thời gian hồi nạp"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
+		"StatDesc_TechRange"							"Tầm kỹ năng"
+		"StatDesc_TechRange_postfix"					"%"
+		"StatDesc_MaxChargesIncrease"					"Tăng tối đa số lần tích năng lượng"
+		//"StatDesc_RechargeRate"							"Tốc độ nạp lại"
+		"StatDesc_TechDuration"							"Thời gian tồn tại kỹ năng"
+		"StatDesc_TechDuration_postfix"					"%"
+		"StatDesc_WeaponPowerAttribute"					"Sát thương vũ khí"
+		"StatDesc_ArmorAttribute"						"Giáp"
+		"StatDesc_HealthAttribute"						"Máu"
+		"StatDesc_TechDamageAttribute"					"Sát thương phép"
+		"StatDesc_FireRateAttribute"					"Tốc độ bắn"
+		"StatDesc_ReloadTime"							"Thời gian nạp đạn"
+		"StatDesc_ReloadTime_postfix"					"s"
+		"StatDesc_Stamina"								"Thể lực"
+		"StatDesc_StaminaRegenPerSecond"				"Hồi phục thể lực"
+		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
+		"StatDesc_BaseWeaponDamage"						"Sát thương vũ khí"
+		"StatDesc_BaseWeaponDamage_postfix"				"%"
+		"StatDesc_TechDamageScale"						"Sát thương phép"
+		//"StatDesc_TechShieldHealth"						"Lá chắn phép"
+		"StatDesc_BulletShieldHealth"					"Lá chắn sát thương"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"Giảm thời gian nạp đạn"
+		"StatDesc_ReloadSpeed_postfix"					"%"
+		"StatDesc_CritDamageReceivedScale"				"Giảm sát thương chí mạng nhận vào"
+		"StatDesc_CritDamageReceivedScale_postfix"		"%"
+		"StatDesc_StaminaCooldown"						"Thời gian hồi thể lực"
+		"StatDesc_StaminaCooldown_postfix"				"s"
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"Hồi phục thể lực"
+		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"Kháng hiệu ứng xấu"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"Tăng hồi máu"
+		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"Tỉ lệ tăng sát thương chí mạng"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Kháng sát thương cận chiến"
+		"StatDesc_MeleeResist_postfix"					"%"
+
+		"StatDesc_BulletSpeed"							"Vận tốc đạn"
+		"StatDesc_BulletSpeed_postfix"					"m/s"
+		"StatDesc_BulletSpeedIncrease"					"Tăng vận tốc đạn"
+		"StatDesc_BulletSpeedIncrease_postfix"			"%"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		"m"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		"m"
+
+		//"StatDesc_AttackPower"							"Sức mạnh tấn công"
+		//"StatDesc_AbilityPower"							"Sức mạnh kỹ năng"
+		//"StatDesc_DefensePower"							"Sức mạnh phòng thủ"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"Hút máu phép"
+		"StatDesc_TechLifesteal_postfix"				"%"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"Hút máu phép trên mục tiêu không phải tướng"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"Hút máu đạn"
+		"StatDesc_BulletLifesteal_postfix"				"%"
+
+		"StatDesc_StaminaRegenPercent"						"Hồi phục thể lực"
+		"StatDesc_StaminaRegenPercent_postfix"				"%"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"Bắn nhanh"
+		"Attribute_EWeaponAttribute_BurstFire"			"Bắn từng loạt"
+		"Attribute_EWeaponAttribute_Spreadshot"			"Bắn tỏa"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"Vũ khí tia"
+		"Attribute_EWeaponAttribute_CloseRange"			"Tầm gần"
+		"Attribute_EWeaponAttribute_MediumRange"		"Tầm trung"
+		"Attribute_EWeaponAttribute_LongRange"			"Tầm xa"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"Sát thương lớn"
+		"Attribute_EWeaponAttribute_Projectile"			"Đạn tên lửa"
+		"Attribute_EWeaponAttribute_Pistol"				"Súng lục"
+		"Attribute_EWeaponAttribute_Heavy"				"Súng hạng nặng"
+		"Attribute_EWeaponAttribute_Bow"				"Cung"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 thêm vào mọi hiệu ứng tăng sát thương vũ khí"
+		//"ArmorAttribute_Desc"							"%s1 thêm vào mọi hiệu ứng tăng giáp đạn và giáp phép"
+		//"HealthAttribute_Desc"							"%s1 thêm vào mọi hiệu ứng tăng máu và hồi máu"
+		//"TechDamageAttribute_Desc"						"%s1 thêm vào mọi hiệu ứng tăng sát thương phép"
+		//"FireRateAttribute_Desc"						"%s1 thêm vào mọi hiệu ứng tăng tốc độ bắn"
+
+		//"WeaponPowerAttribute_Desc_0"					"không có thêm hiệu ứng tăng sát thương vũ khí"
+		//"ArmorAttribute_Desc_0"							"không có thêm hiệu ứng tăng giáp đạn"
+		//"HealthAttribute_Desc_0"						"không có thêm hiệu ứng tăng máu và hồi máu"
+		//"TechDamageAttribute_Desc_0"					"Không có thêm hiệu ứng tăng sát thương phép"
+		//"FireRateAttribute_Desc_0"						"Không có thêm hiệu ứng tăng tốc độ bắn"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						"%"
+
+		"HealAmount_label"							"Lượng hồi máu"
+
+		"HealAmount_postvalue_label"							"Lượng hồi máu"
+		"HealInterval_label"						"Khoảng thời gian hồi máu"
+		"HealInterval_postvalue_label"						"Khoảng thời gian hồi máu"
+		"HealInterval_postfix"						"s"
+		
+		"SlowPercent_label"							"Tốc độ di chuyển"
+		
+		"SlowPercent_postvalue_label"							"Tốc độ di chuyển"
+		"SlowPercent_postfix"						"%"
+		"SlowPercent_prefix"						"-"
+		"movement_slow"								"-Tốc độ di chuyển"
+
+		//"DroneLifetime_label"							"Thời gian sống của Drone"
+
+		"CritChance_label"							"Xác suất chí mạng"
+
+		"CritChance_postvalue_label"							"Xác suất chí mạng"
+		"CritChance_postfix"							"%"
+
+		"ShieldHealth_label"							"Máu lá chắn"
+
+
+		"ShieldHealth_postvalue_label"							"Máu lá chắn"
+
+		//"SpeedBoostPercent_label"						"Tốc độ"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						"%"
+
+		"Damage_label"								"Sát thương"
+
+		"Damage_postvalue_label"								"Sát thương"
+		"DamageBoosted_label"						"Sát thương"
+		"DamageBoosted_postvalue_label"						"Sát thương"
+		"BonusDamage_label"							"Sát thương cộng thêm"
+		"BonusDamage_postvalue_label"							"Sát thương cộng thêm"
+		"DamagePlayer_label"							"Sát thương gây lên tướng"
+
+		"DamagePlayer_postvalue_label"							"Sát thương gây lên tướng"
+
+		"DamageNPC_label"								"Sát thương gây lên đơn vị không phải tướng"
+
+
+		"DamageNPC_postvalue_label"								"Sát thương gây lên đơn vị không phải tướng"
+
+		"DetectionRadius_label"						"Bán kính phát hiện"
+
+
+		"DetectionRadius_postvalue_label"						"Bán kính phát hiện"
+
+		//"MaxMines_label"								"Số mìn tối đa"
+	
+		//"HealRate_label"								"Tốc độ hồi máu"
+		"HealRate_postfix"								"/sec"
+
+		"Radius_label"								"Bán kính"
+
+		"Radius_postvalue_label"								"Bán kính"
+		"Radius_postfix"								"m"
+
+		"InactiveRadius_label"						"Bán kính không hoạt động"
+
+		"InactiveRadius_postvalue_label"						"Bán kính không hoạt động"
+		"InactiveRadius_postfix"						"m"
+
+		"ActiveRadius_label"						"Bán kính hoạt động"
+
+		"ActiveRadius_postvalue_label"						"Bán kính hoạt động"
+		"ActiveRadius_postfix"						"m"
+
+		"MaxRadius_label"								"Bán kính tối đa"
+		"MinRadius_postvalue_label"					"Bán kính tối thiểu"
+		"MinRadius_postfix"							"m"
+		"MaxRadius_postvalue_label"								"Bán kính tối đa"
+		"MaxRadius_postfix"								"m"
+
+		//"TackleRadius_label"							"Bán kính quật"
+		"TackleRadius_postfix"							"m"
+
+		"MovementDamagePercent_label"					"Sát thương"
+
+		"MovementDamagePercent_postvalue_label"					"Sát thương"
+		//"MovementDamagePercent_postfix"					" % Sát thương mỗi khi di chuyển 256 đơn vị"
+
+		"DPS_prefix"									""
+		"DPS_postfix"									""
+		"DPS_label"									"Sát thương mỗi giây"
+
+		"DPS_postvalue_label"									"Sát thương mỗi giây"
+
+		"DamagePercentHealth_label"				"Sát thương bằng Máu tối đa"
+
+		"DamagePercentHealth_postvalue_label"				"Sát thương bằng Máu tối đa"
+		"DamagePercentHealth_postfix"			"%"
+		"DPSPercentHealth_label" "Sát thương bằng Máu tối đa"
+		"DPSPercentHealth_postvalue_label" "Sát thương bằng Máu tối đa"
+		"DPSPercentHealth_postfix" "%"
+
+		//"DPSIncrease_label"							"Tỷ lệ tăng sát thương"
+		"DPSMin_label"								"Sát thương mỗi giây tối thiểu"
+		"DPSMin_postvalue_label"								"Sát thương mỗi giây tối thiểu"
+		"DPSMax_label"								"Sát thương mỗi giây tối đa"
+
+		"DPSMax_postvalue_label"								"Sát thương mỗi giây tối đa"
+
+		"DPS_Self_label"								"Sát thương lên bản thân"
+
+		"DPS_Self_postvalue_label"								"Sát thương lên bản thân"
+		"DPS_Self_postfix"								"/sec"
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"Sát thương cơ bản"
+
+		"BaseAttackDamage_postvalue_label"						"Sát thương cơ bản"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"Máu cộng thêm"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"Sức mạnh phép"
+		"SpiritPowerInnate_postvalue_label"					"Sức mạnh phép"
+
+		"BonusHealth_postvalue_label"							"Máu cộng thêm"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"Máu tối đa"
+
+		"MaxHealth_postvalue_label"							"Máu tối đa"
+
+		//"BonusEnergyMax_label"						"Năng lượng"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"Máu tối đa"
+
+		"BonusMaxHealth_postvalue_label"						"Máu tối đa"
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				"%"
+		"BonusHealthPercent_label"					"Máu"
+
+		"BonusHealthPercent_postvalue_label"					"Máu"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_postfix"					""
+		"BonusHealthRegen_label"					"Hồi máu"
+
+		"BonusHealthRegen_postvalue_label"					"Hồi máu"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_postfix"				""
+		"OutOfCombatHealthRegen_label"					"Hồi máu khi không chiến đấu"
+
+		"OutOfCombatHealthRegen_postvalue_label"					"Hồi máu khi không chiến đấu"
+
+		"BaseWeaponDamage_postfix"						"%"
+
+		//"LevelUpBaseWeaponDamage"					"Sát thương đạn"
+		"LevelUpBaseMeleeDamage"					"Sát thương cận chiến"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_postfix"						""
+		"HealthRegen_label"						"Hồi máu"
+
+		"HealthRegen_postvalue_label"						"Hồi máu"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"Hồi máu tối đa"
+
+		"BonusRegenMaxHealthPercent_postvalue_label"						"Hồi máu tối đa"
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Hồi máu khi không chiến đấu"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"/sec"
+		"ExternalBonusHealthRegen_label"				"Hồi máu"
+
+		"ExternalBonusHealthRegen_postvalue_label"				"Hồi máu"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/sec"
+		"ActiveHealthRegenBoost_label"				"Hồi máu"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"Hồi máu"
+
+		"NonPlayerBonusWeaponPower_label"			"Sát thương vũ khí lên NPC"
+
+		"NonPlayerBonusWeaponPower_postvalue_label"			"Sát thương vũ khí lên NPC"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			"%"
+		"NonPlayerBonusWeaponPower_conditional"		"lên NPC"
+
+		"NonPlayerBulletResist_label"			"Kháng đạn lên NPC"
+
+		"NonPlayerBulletResist_postvalue_label"			"Kháng đạn lên NPC"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			"%"
+		"NonPlayerBulletResist_conditional"		"lên NPC"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				"%"
+		"BonusMeleeDamagePercent_label"				"Sát thương cận chiến"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"Sát thương cận chiến"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"Sát thương cận chiến"
+
+		"BonusMeleeDamage_postvalue_label"						"Sát thương cận chiến"
+
+		"FuseTime_label"								"Thời gian kích nổ"
+
+		"FuseTime_postvalue_label"								"Thời gian kích nổ"
+		"FuseTime_postfix"								"s"
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						"mỗi giây"
+		//"BonusAmmoRegen_label"						"Hồi đạn"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								"%"
+		//"BonusAmmo_label"								"Đạn"
+
+		"Lifetime_postfix"								"s"
+		"Lifetime_label"								"Thời gian sống"
+
+		"Lifetime_postvalue_label"								"Thời gian sống"
+
+		"Distance_postfix"								"m"
+		//"Distance_label"								"Khoảng cách"
+
+		//"ChainDamageCoeff_postfix"						"% sát thương súng"
+		//"ChainDamageCoeff_label"						"Sát thương chuỗi"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"Giáp đạn"
+
+		"BulletArmor_postvalue_label"								"Giáp đạn"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"Kháng đạn"
+
+		"BulletResist_postvalue_label"							"Kháng đạn"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"Kháng đạn"
+
+		"BulletArmorDamageReduction_postvalue_label"				"Kháng đạn"
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				"%"
+		"TechArmorDamageReduction_Label"				"Kháng phép"
+
+		"TechArmorDamageReduction_postvalue_label"				"Kháng phép"
+
+		"BulletResistReduction_label"		"Kháng đạn"
+
+		"BulletResistReduction_postvalue_label"		"Kháng đạn"
+		"BulletResistReduction_postfix"	"%"
+
+		"MagicResistReduction_label"		"Kháng phép"
+
+		"MagicResistReduction_postvalue_label"		"Kháng phép"
+		"MagicResistReduction_postfix"	"%"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						"%"
+		"TechDamageScale_label"							"Sát thương phép thuật"
+
+		"TechDamageScale_postvalue_label"							"Sát thương phép thuật"
+
+		"OutgoingTechDamagePercent_label" "Sát thương phép thuật"
+
+		"OutgoingTechDamagePercent_postvalue_label" "Sát thương phép thuật"
+		"OutgoingTechDamagePercent_postfix" "%"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"Giáp phép"
+		
+		"TechArmor_postvalue_label"								"Giáp phép"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							"%"
+		"TechResist_label"								"Kháng phép"
+
+		"TechResist_postvalue_label"								"Kháng phép"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"Tăng sức mạnh phép thuật mỗi tầng"
+
+		"TechResistPerStack_postvalue_label"						"Tăng sức mạnh phép thuật mỗi tầng"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					"%"
+		"MagicIncreasePerStack_label"					"Tăng sức mạnh phép thuật mỗi tầng"
+
+		"MagicIncreasePerStack_postvalue_label"					"Tăng sức mạnh phép thuật mỗi tầng"
+
+		"BulletDamageReduction_postfix"					"%"
+		"BulletDamageReduction_label"					"Giáp đạn"
+
+		"BulletDamageReduction_postvalue_label"					"Giáp đạn"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"Sát thương đạn"
+		"ActiveBulletDamageReduction_postvalue_label"			"Sát thương đạn"
+		"ActiveBulletDamageReduction_postfix"			"%"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"Tốc độ di chuyển"
+		"BonusMoveSpeed_postvalue_label"						"Tốc độ di chuyển"
+		"BonusMoveSpeed_postfix"						" m/s"
+		
+		"TeleporterBonus"							"Tốc độ di chuyển cộng thêm!"
+		"RunSpeed_postfix"						" m/s"
+
+		"WeaponRange_label"							"Tầm vũ khí"
+
+		"WeaponRange_postvalue_label"							"Tầm vũ khí"
+		"WeaponRange_postfix"						" m"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					"%"
+		"BonusMoveSpeedPercent_label"					"Tốc độ di chuyển"
+
+		"BonusMoveSpeedPercent_postvalue_label"					"Tốc độ di chuyển"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"Kháng làm chậm"
+		"SlowResistancePercent_postvalue_label"					"Kháng làm chậm"
+		"SlowResistancePercent_postfix"					"%"
+
+		"AirSpeedBonus_label"						"Tốc độ bay cộng thêm"
+
+		"AirSpeedBonus_postvalue_label"						"Tốc độ bay cộng thêm"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						"m/s"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"Giảm thời gian hồi chiêu theo mỗi viên đạn"
+
+
+		"BonusCooldownReduction_postvalue_label"					"Giảm thời gian hồi chiêu theo mỗi viên đạn"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"Đạn"
+
+		"BonusClipSize_postvalue_label"							"Đạn"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					"%"
+		"BonusClipSizePercent_label"					"Đạn tối đa"
+
+		"BonusClipSizePercent_postvalue_label"					"Đạn tối đa"
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"Đạn tạm thời"
+
+		"TemporaryBonusClipSize_postvalue_label"				"Đạn tạm thời"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			"%"
+		"TemporaryBonusClipSizePercent_label"			"Đạn tạm thời"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"Đạn tạm thời"
+
+		"AmmoReloadPercent_postfix"					"%"
+		"AmmoReloadPercent_label"					"Số đạn nạp lại"
+
+		"AmmoReloadPercent_postvalue_label"					"Số đạn nạp lại"
+
+		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"Sát thương xuyên đạn"
+
+		"BulletPenetrationPercent_postvalue_label"				"Sát thương xuyên đạn"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"Sức mạnh phép thuật"
+		"TechPower_postvalue_label"								"Sức mạnh phép thuật"
+		"TechPower_postfix"								""
+
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"Sức mạnh phép thuật"
+		"TechPowerPercent_postvalue_label"						"Sức mạnh phép thuật"
+		"TechPowerPercent_postfix"						"%"
+
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"Máu cơ bản"
+		"ArmorPower_postvalue_label"								"Máu cơ bản"
+		"ArmorPower_postfix"								"%"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Phép thuật"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"Sức mạnh phép thuật"
+		"SpellAmplificationPercent_postvalue_label"				"Sức mạnh phép thuật"
+		"SpellAmplificationPercent_postfix"				""
+
+		//BaseDamagePerShot_label							"Sát thương cơ bản"
+		"NanoTechPerShot_label"							"Sức mạnh phép thuật"
+		"NanoTechPerShot_postvalue_label"							"Sức mạnh phép thuật"
+		//"ExplosiveSplashDamage_label"						"Sát thương nổ"
+		"BulletDamageTotal_label"							"Sát thương đạn"
+
+		"BulletDamageTotal_postvalue_label"							"Sát thương đạn"
+
+		"ChargesRestored_label"							"Số lần sử dụng được hồi lại"			
+
+
+		"ChargesRestored_postvalue_label"							"Số lần sử dụng được hồi lại"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							"%"
+		"BonusFireRate_label"							"Tốc độ bắn"
+
+		"BonusFireRate_postvalue_label"							"Tốc độ bắn"
+
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						"%"
+		"ActivatedFireRate_label"						"Tốc độ bắn"
+
+		"ActivatedFireRate_postvalue_label"						"Tốc độ bắn"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				"%"
+		"BonusFireRatePlayerUnit_label"					"Tốc độ bắn của lính"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"Tốc độ bắn của lính"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"Tốc độ bắn của NPC"
+
+		"BonusFireRateNPC_postvalue_label"							"Tốc độ bắn của NPC"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					"%"
+		//"BonusMeleeAttackSpeed_label"					"Tốc độ cận chiến"
+
+		"AbilityDamageReduction_label"				"Giảm sát thương phép thuật"
+
+		"AbilityDamageReduction_postvalue_label"				"Giảm sát thương phép thuật"
+		"AbilityDamageReduction_postfix"				"%"
+
+		//"SlowProcChance_label"						"Xác suất làm chậm khi trúng đòn"
+		"SlowProcChance_postfix"						"%"
+
+		"EnemySlowPct_label"							"Tốc độ di chuyển của kẻ địch"
+
+		"EnemySlowPct_postvalue_label"							"Tốc độ di chuyển của kẻ địch"
+		"EnemySlowPct_postfix"							"%"
+		"EnemySlowPct_prefix"							"-"
+
+		"SlowDuration_label"							"Thời gian làm chậm"			
+
+		"SlowDuration_postvalue_label"							"Thời gian làm chậm"
+		"SlowDuration_postfix"							"s"
+
+		"MoveSpeedSlowDuration_label"							"Thời gian làm chậm"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"Thời gian làm chậm"
+		"MoveSpeedSlowDuration_postfix"							"s"
+
+		//"PoisonDamage_label"							"Sát thương độc"
+		"PoisonDuration_label"							"Thời gian hiệu lực"
+		"PoisonDuration_postvalue_label"							"Thời gian hiệu lực"
+		"PoisonDuration_postfix"							"s"
+
+
+		"DebuffDuration_label"						"Thời gian tồn tại Debuff"
+
+
+		"DebuffDuration_postvalue_label"						"Thời gian tồn tại Debuff"
+		"DebuffDuration_postfix"						"s"
+
+		"DotHealthPercent_label"						"Sát thương chảy máu"
+
+		"DotHealthPercent_postvalue_label"						"Sát thương chảy máu"
+		"DotHealthPercent_postfix"						"%/sec"
+
+		"CurrentHealthPercent_label"					"Máu hiện tại"
+
+		"CurrentHealthPercent_postvalue_label"					"Máu hiện tại"
+		"CurrentHealthPercent_postfix"					"%"
+		
+		"CurrentHealthPercentDamage_label"				"Máu hiện tại"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"Máu hiện tại"
+		"CurrentHealthPercentDamage_postfix"			"%"
+		"FreezeDuration_label"							"Thời gian đóng băng"
+		"FreezeDuration_postvalue_label"							"Thời gian đóng băng"
+		"FreezeDuration_postfix"							"s"
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						"%"
+		"CooldownReduction_label"						"Giảm hồi chiêu kỹ năng"
+		"CooldownReduction_postvalue_label"						"Giảm hồi chiêu kỹ năng"
+		
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					"%"
+		"SingleAbilityCooldownReduction_label"						"Giảm hồi chiêu kỹ năng"
+		"SingleAbilityCooldownReduction_postvalue_label"			"Giảm hồi chiêu kỹ năng"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						"%"
+		"ItemCooldownReduction_label"						"Giảm hồi chiêu trang bị"
+		"ItemCooldownReduction_postvalue_label"						"Giảm hồi chiêu trang bị"
+
+		"CooldownRefundPercent_postfix"	"%"
+		"CooldownRefundPercent_label"	"Hoàn lại thời gian hồi chiêu"
+
+		"CooldownRefundPercent_postvalue_label"	"Hoàn lại thời gian hồi chiêu"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				"%"
+		"ImbuedCooldownReduction_label"					"Giảm hồi chiêu kỹ năng cường hóa"
+
+		"ImbuedCooldownReduction_postvalue_label"					"Giảm hồi chiêu kỹ năng cường hóa"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"Giảm hồi chiêu kỹ năng thường"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"Giảm hồi chiêu kỹ năng thường"
+
+		"CooldownReductionFlat_postfix"					"s"
+		"CooldownReductionFlat_label"					"Giảm hồi chiêu"
+
+		"CooldownReductionFlat_postvalue_label"					"Giảm hồi chiêu"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"Cộng thêm lần dùng kỹ năng"
+
+		"BonusAbilityCharges_postvalue_label"					"Cộng thêm lần dùng kỹ năng"
+
+		//"BonusChargedAbilityDamage_label"				"Sát thương kỹ năng tích tụ"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				"%"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"Giảm thời gian chờ giữa các lần nạp"
+		"CooldownBetweenChargeReduction_postvalue_label"			"Giảm thời gian chờ giữa các lần nạp"
+		"CooldownBetweenChargeReduction_postfix"		"%"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						"m/s"
+		"BonusSprintSpeed_label"						"Tốc độ chạy nước rút"
+		
+		"BonusSprintSpeed_postvalue_label"						"Tốc độ chạy nước rút"
+		
+		"SprintSpeed_postfix"							"m/s"
+		"SprintSpeed_label"								"Tốc độ chạy nước rút"
+
+		"SprintSpeed_postvalue_label"								"Tốc độ chạy nước rút"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"Tốc độ chạy nước rút"
+		"BonusSprintSpeedPercent_postvalue_label"				"Tốc độ chạy nước rút"
+		"BonusSprintSpeedPercent_postfix"				"%"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"Tốc độ chạy nước rút"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"Tốc độ chạy nước rút"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			"%"
+
+		"TotalHealthRegen_label"						"Tổng hồi máu"
+
+
+		"TotalHealthRegen_postvalue_label"						"Tổng hồi máu"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"Kháng debuff"
+		"StatusResistancePercent_postvalue_label"				"Kháng debuff"
+		"StatusResistancePercent_postfix"				"%"
+
+		"ActiveStatusResistancePercent_postfix"			"%"
+		"ActiveStatusResistancePercent_label"			"Kháng Debuff"
+
+		"ActiveStatusResistancePercent_postvalue_label"			"Kháng Debuff"
+
+		"StatusResistanceDuration_label"				"Thời gian hiệu lực"
+
+		"StatusResistanceDuration_postvalue_label"				"Thời gian hiệu lực"
+		"StatusResistanceDuration_postfix"				"s"
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Lượng sát thương lan"
+		"CleavePercentage_postfix"						"%"
+
+		//"CleaveRadius_label"							"Bán kính sát thương lan"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							"%"
+		//"BonusAccuracy_label"							"Độ chính xác súng"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				"%"
+		"BonusBulletSpeedPercent_label"					"Tốc độ đạn"
+
+		"BonusBulletSpeedPercent_postvalue_label"					"Tốc độ đạn"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"Hút máu"
+		"LifeStealPercent_postvalue_label"						"Hút máu"
+		"LifeStealPercent_postfix"						"%"
+
+		"LifestealPercentHero_label"					"Hút máu"
+
+		"LifestealPercentHero_postvalue_label"					"Hút máu"
+		"LifestealPercentHero_postfix"					"%"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"Hút máu trên đơn vị không phải tướng"
+		"LifestealPercentNonHero_postvalue_label"					"Hút máu trên đơn vị không phải tướng"
+		"LifestealPercentNonHero_postfix"				"%"
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"Hút máu đạn"
+		"BulletLifestealPercent_postvalue_label"					"Hút máu đạn"
+		"BulletLifestealPercent_postfix"				"%"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"Hút máu phép"
+		"TechLifestealPercent_postvalue_label"						"Hút máu phép"
+		"TechLifestealPercent_postfix"					"%"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"Hút máu cận chiến"
+		"MeleeLifestealPercent_postvalue_label"					"Hút máu cận chiến"
+		"MeleeLifestealPercent_postfix"					"%"
+
+		"StunDuration_label"							"Thời gian choáng"
+
+		"StunDuration_postvalue_label"							"Thời gian choáng"
+		"StunDuration_postfix"							"s"
+
+		"StunDelay_label"								"Độ trễ choáng"
+
+		"StunDelay_postvalue_label"								"Độ trễ choáng"
+		"StunDelay_postfix"								"s"
+
+		"MinStunDuration_prefix"						""
+		"MinStunDuration_postfix"						"s"
+		"MinStunDuration_label"							"Thời gian choáng tối thiểu"
+
+		"MinStunDuration_postvalue_label"							"Thời gian choáng tối thiểu"
+
+		"MaxStunDuration_prefix"						""
+		"MaxStunDuration_postfix"						"s"
+		"MaxStunDuration_label"							"Thời gian choáng tối đa"
+
+		"MaxStunDuration_postvalue_label"							"Thời gian choáng tối đa"
+
+		"TossDuration_postvalue_label"					"Thời gian hiệu lực"
+		"TossDuration_postfix"							"s"
+
+		//"MeleeDamageReduction_label"					"Giáp cận chiến"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			"%"
+		//"MeleeDamageReductionPercent_label"			"Giáp cận chiến"
+		
+		//"DispenserHealth_label"						"Máu của trạm hồi máu"
+
+		//"ShotRegenTime_label"							"Thời gian hồi đạn"
+		"ShotRegenTime_postfix"							"s"
+
+		//"MaxShots_label"								"Số phát bắn tối đa"
+
+		"PathLength_label"							"Độ dài tia"
+
+		"PathLength_postvalue_label"							"Độ dài tia"
+		"PathLength_postfix"							"m"
+
+		"ChainCount_label"							"Số lần nhảy tối đa"
+
+		"ChainCount_postvalue_label"							"Số lần nhảy tối đa"
+		"BonusPerChain_label"						"Sát thương khi nhảy"
+
+		"BonusPerChain_postvalue_label"						"Sát thương khi nhảy"
+
+		"RichochetChance_label"						"Tỉ lệ kích hoạt"
+
+		"RichochetChance_postvalue_label"						"Tỉ lệ kích hoạt"
+		"RichochetChance_postfix"						"%"
+
+		//"SlowSpeedLimit_label"						"Tốc độ giảm xuống còn"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		//"HealAmpReceivePercent_label"					"Tăng hồi máu nhận vào"
+		"HealAmpReceivePercent_postfix"					"%"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"Hiệu quả hồi máu"
+		"HealAmpCastPercent_postvalue_label"					"Hiệu quả hồi máu"
+		"HealAmpCastPercent_postfix"					"%"
+		
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Tăng hồi máu"
+		"HealAmpRegenPercent_postfix"					"%"
+
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Hệ Số hồi máu"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"x"
+
+		"HealAmpReceivePenaltyPercent_label"		"Giảm hồi máu"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"Giảm hồi máu"
+		"HealAmpReceivePenaltyPercent_prefix" ""
+		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Giảm hồi máu"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"Giảm hồi máu"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
+		"PercentHealthHealing_label" "Máu hồi được"
+		"PercentHealthHealing_postvalue_label" "Máu hồi được"
+		"PercentHealthHealing_postfix" "%"
+		"DegenResistance_label"						"Kháng giảm hồi máu"
+		"DegenResistance_postvalue_label"						"Kháng giảm hồi máu"
+		"DegenResistance_postfix"					"%"
+		"DegenResistance_prefix"					"{s:sign}"
+
+		"ProcChance_label"							"Tỉ lệ kích hoạt"
+
+		"ProcChance_postvalue_label"							"Tỉ lệ kích hoạt"
+		"ProcChance_postfix"							"%"
+
+		//"OutgoingDamageReduction_label"				"Sát thương tấn công"
+		"OutgoingDamageReduction_prefix"				"-"
+		"OutgoingDamageReduction_postfix"				"%"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "Sát thương"
+		"OutgoingDamagePercent_postvalue_label" "Sát thương"
+		"OutgoingDamagePercent_postfix" "%"
+
+		"ProcHealth_label"							"Ngưỡng máu"
+
+		"ProcHealth_postvalue_label"							"Ngưỡng máu"
+		"ProcHealth_postfix"							"%"
+
+		//"DamageBoostFromBehind_label"					"Sát thương từ phía sau"
+		"DamageBoostFromBehind_postfix"					"%"
+
+		//"DamageBoostElsewhere_label"					"Sát thương từ nơi khác"
+		"DamageBoostElsewhere_postfix"					"%"
+
+		//"BonusDPSVsPlayers_label"						"Sát thương mỗi giây lên người chơi"
+
+		//"BonusDPSVsCreeps_label"						"Sát thương mỗi giây lên lính"
+
+		//"EvasionPercentGlider_label"					"Tỷ lệ né khi lướt"
+		"EvasionPercentGlider_postfix"					"%"
+
+		"EvasionPercent_label"						"Né đạn"
+
+		"EvasionPercent_postvalue_label"						"Né đạn"
+		"EvasionPercent_postfix"						"%"
+
+		//"MeleeDamagePercent_label"					"Tăng sát thương cận chiến"
+		"MeleeDamagePercent_postfix"					"%"
+
+
+		"TechShieldHealth_label"					"Giáp phép"
+
+
+		"TechShieldHealth_postvalue_label"					"Giáp phép"
+		//"TempTechShieldHealth_label"				"Giáp phép tạm thời"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Sát thương giáp phép"
+		"TechShieldDamagePercent_postfix"			"%"
+
+		"BulletShieldHealth_label"					"Máu khiên đạn"
+
+		"BulletShieldHealth_postvalue_label"					"Máu khiên đạn"
+		//"TempBulletShieldHealth_label"				"Máu khiên đạn tạm thời"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Tăng sát thương chống Khiên Đạn"
+		"BulletShieldDamagePercent_postfix"			"%"
+
+		//"ShieldBlockPercent_label"					"Sát thương đánh bật lại"
+		"ShieldBlockPercent_postfix"					"%"
+
+		//"DamagePercent_label"							"Sát thương đạn gây ra"
+		"DamagePercent_postfix"							"%"
+		
+		//"CycleTimePercent_label"						"Tốc độ bắn so với súng"
+		"CycleTimePercent_postfix"						"%"
+
+		//"StickyClusterCount_label"					"Tách thành"
+		//"StickyClusterCount_postfix"					"Lựu đạn dính"
+
+		//"FuseDuration_label"							"Thời gian chờ nổ"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Số lượng drone"
+		
+		//"BasicReflectPercent_label"					"Phản sát thương từ đòn đánh thường"
+		"BasicReflectPercent_postfix"					"%"
+
+		"LifeDrainPerSecond_label"					"Sát thương mỗi giây"
+
+		"LifeDrainPerSecond_postvalue_label"					"Sát thương mỗi giây"
+		"LifeDrainPerSecond_postfix"					""
+
+		"HealthPercent_label"							"Phần trăm máu"
+
+		"HealthPercent_postvalue_label"							"Phần trăm máu"
+		"HealthPercent_postfix"							"%"
+
+		//"DodgeAnimSpeedScale_label"					"Hệ số tốc độ né tránh"
+		"DodgeAnimSpeedScale_postfix"					"x"
+
+		"BonusDamagePercent_label"					"Sát thương tăng thêm"
+
+		"BonusDamagePercent_postvalue_label"					"Sát thương tăng thêm"
+		"BonusDamagePercent_postfix"					"%"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"Sát thương đạn"
+		"BulletDamagePercent_postvalue_label"					"Sát thương đạn"
+		"BulletDamagePercent_postfix"					"%"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"Hút máu phép"
+		"AbilityLifestealPercent_postvalue_label"				"Hút máu phép"
+		"AbilityLifestealPercent_postfix"				"%"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"Hút máu phép"
+		"AbilityLifestealPercentHero_postvalue_label"				"Hút máu phép"
+		"AbilityLifestealPercentHero_postfix"			"%"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"Hút máu phép"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"Hút máu phép"
+		"AbilityLifestealPercentHeroPassive_postfix"			"%"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"Hút máu phép với đơn vị không phải tướng"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"Hút máu phép với đơn vị không phải tướng"
+		"AbilityLifestealPercentNonHero_postfix"		"%"
+
+		"RegenDuration_label"							"Thời gian hồi phục"
+
+		"RegenDuration_postvalue_label"							"Thời gian hồi phục"
+		"RegenDuration_postfix"							"s"
+
+		//"SpreadDuration_label"						"Thời gian lan: "
+		"SpreadDuration_postfix"						"s"
+		
+		"EndRadius_label"								"Bán kính cuối"
+		
+		"EndRadius_postvalue_label"								"Bán kính cuối"
+		"EndRadius_postfix"								"m"
+
+		//"BulletPercentAsBurn_label"					"Sát thương đạn gây hiệu ứng cháy"
+		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"Lượt sử dụng"
+
+
+		"ItemInitialCharges_postvalue_label"					"Lượt sử dụng"
+
+		"AuraDuration_label"							"Thời gian tồn tại hào quang"
+
+		"AuraDuration_postvalue_label"							"Thời gian tồn tại hào quang"
+		"AuraDuration_postfix"							"s"
+
+		//"ApproachSpeed_label"							"Tốc độ vật thể"
+
+		"GrenadesInVolley_label"						"Số lựu đạn"
+
+
+		"GrenadesInVolley_postvalue_label"						"Số lựu đạn"
+
+		"ReloadSpeedDecrease_prefix"					""
+		"ReloadSpeedDecrease_label"						"Thời gian nạp đạn"
+		"ReloadSpeedDecrease_postvalue_label"						"Thời gian nạp đạn"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"Sát thương hấp thụ"
+
+		"AbsorbPercentage_postvalue_label"						"Sát thương hấp thụ"
+		"AbsorbPercentage_postfix"						"%"
+
+		//"HitCap_label"								"Giới hạn đòn đánh"
+		//"HitCap_postfix"								"Đòn đánh"
+
+		//"AbilityDamageReductionPerHit_label"			"Giảm sát thương kỹ năng mỗi đòn trúng"
+		"AbilityDamageReductionPerHit_postfix"			"%"
+
+		//"ActiveAbilityDamageReduction_label"			"Giảm sát thương kỹ năng chủ động"
+		"ActiveAbilityDamageReduction_postfix"			"%"
+
+		"BonusAttackRange_postfix"						"meters"
+		//"BonusAttackRange_label"						"Tầm vũ khí"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"Tầm giảm sát thương của vũ khí"
+
+		"BonusAttackRangePercent_postvalue_label"					"Tầm bắt đầu giảm sát thương của vũ khí"
+
+		"WeaponRecoilReduction_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Giảm độ giật"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"Sát thương đạn"
+		"BonusDPSPercent_postvalue_label"						"Sát thương đạn"
+		"BonusDPSPercent_postfix"						"%"
+
+		//"DroneHealth_label"							"Máu Drone"
+
+		//"DeployHealthRegen_label"						"Máu thiết bị triển khai"
+
+		"TurretFireRate_label"							"Tốc độ bắn của trụ"
+
+		"TurretFireRate_postvalue_label"							"Tốc độ bắn của trụ"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						"%"
+
+		"TurretDPS_label"								"Sát thương mỗi giây của trụ"
+
+
+		"TurretDPS_postvalue_label"								"Sát thương mỗi giây của trụ"
+
+		//"MobileResupplyRegenMultiplier_label"			"Hệ số hồi phục từ tiếp tế di động"
+		"MobileResupplyRegenMultiplier_postfix"			"x"
+
+		"HealRadius_label"								"Bán kính hồi máu"
+
+		"HealRadius_postvalue_label"								"Bán kính hồi máu"
+		"HealRadius_postfix"								"m"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"Kháng đạn"
+
+		"BulletArmorReduction_postvalue_label"					"Kháng đạn"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"Kháng đạn"
+
+		"LocalBulletArmorReduction_postvalue_label"				"Kháng đạn"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Kháng phép"
+		"LocalTechArmorReduction_postfix"				"%"
+
+		"BulletResistOnActive_label"					"Kháng đạn"
+
+		"BulletResistOnActive_postvalue_label"					"Kháng đạn"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					"%"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Can đảm"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Can đảm"
+
+		"FireRate_postfix"								"%"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"Sát thương vũ khí"
+		"WeaponPower_postvalue_label"								"Sát thương vũ khí"
+		"WeaponPower_postfix"							"%"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"Sát thương gánh chịu"
+
+		"DamageIncrease_postvalue_label"						"Sát thương gánh chịu"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"Sát thương gánh chịu"
+		"DamageIncreasePercent_postvalue_label"					"Sát thương gánh chịu"
+		"DamageIncreasePercent_postfix"					"%"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Tốc độ kỹ năng"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"Thời gian nạp đạn"
+		"ReloadSpeedMultipler_postvalue_label"					"Thời gian nạp đạn"
+		"ReloadSpeedMultipler_postfix"					"%"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					" mỗi lính gần đó"
+		"HealthRegenPerTrooper_label"					"Hồi máu"
+
+		"HealthRegenPerTrooper_postvalue_label"					"Hồi máu"
+
+		//"TroopersToSummon_label"						"Lính được tạo"
+		//"TrooperLifetime_label"						"Thời gian tồn tại lính"
+		"TrooperLifetime_postfix"						"s"
+
+		"DamagePerChain_label"						"Sát thương chấn động"
+		
+
+		"DamagePerChain_postvalue_label"						"Sát thương chấn động"
+		
+		"SpeedMax_label"								"Tốc độ di chuyển"
+		"SpeedMax_postvalue_label"								"Tốc độ di chuyển"
+		"SpeedMax_postfix"							" m/s"
+		"MoveSpeedMax_label"							"Tốc độ di chuyển"
+		"MoveSpeedMax_postvalue_label"							"Tốc độ di chuyển"
+		"MoveSpeedMax_postfix"						" m/s"
+
+		"BulletDamagePercentAsTechDamage_label"		"Tăng sát thương phép thuật"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"Tăng sát thương phép thuật"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Sát thương đạn "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Sát thương Chí mạng cộng thêm"
+		"BonusCritDamagePercent_postfix"				"%"
+
+		//"DPSDmgPercent_label"							"Sát thương mỗi giây"
+		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"Sát thương mỗi giây"
+
+
+		"DamagePerSecond_postvalue_label"						"Sát thương mỗi giây"
+
+		//"TechReduction_label"						"Giảm sức mạnh phép thuật"
+
+		//"TechResistReduction_label"					"Kháng phép của mục tiêu"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					"%"
+		"DamagePulseAmount_label"						"Sát thương Xung"
+		"DamagePulseAmount_postvalue_label"						"Sát thương Xung"
+		"DamagePulseInterval_label"					"Khoảng cách thời gian giữa mỗi nhịp gây sát thương"
+		"DamagePulseInterval_postvalue_label"					"Khoảng cách thời gian giữa mỗi nhịp gây sát thương"
+		"DamagePulseInterval_postfix"					"s"
+		"DamagePulseRadius_label"						"Bán kính xung"
+		"DamagePulseRadius_postvalue_label"						"Bán kính xung"
+		"DamagePulseRadius_postfix"					"m"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"Sát thương vũ khí"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"Sát thương vũ khí"
+		"CloseRangeBonusDamagePercent_postfix"			"%"
+
+		"CloseRangeBonusDamageRange_label"				"Tầm gần"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"Tầm gần"
+		"CloseRangeBonusDamageRange_postfix"			"m"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"Sát thương vũ khí"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"Sát thương vũ khí"
+		"CloseRangeBonusWeaponPower_postfix"			"%"
+		"CloseRangeBonusWeaponPower_conditional"		"Trong tầm"
+
+		"BonusSpirit_conditional"						"Sau khi kích hoạt hiệu ứng"
+
+		"AfterProc_conditional"							"Sau khi kích hoạt hiệu ứng"
+		"DuringAmbush_conditional"						"Trong lúc mai phục"
+
+		"AboveHealthThreshold_conditional"				"Trên ngưỡng máu"
+		"BelowHealthThreshold_conditional"				"Dưới ngưỡng máu"
+		"DashJump_conditional"							"Sau khi lướt-nhảy"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Kẻ địch trên ngưỡng máu"
+		
+		"Quicksilver_conditional"						"Sau khi sử dụng kỹ năng"
+
+		"SurgeOfPower_conditional"						"Sau khi sử dụng kỹ năng"
+
+		"SpiritStrike_conditional"						"Sau khi cận chiến thành công"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"Khoảng cách tối thiểu"
+
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"Khoảng cách tối thiểu"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"Sát thương vũ khí"
+		"LongRangeBonusWeaponPower_postvalue_label"				"Sát thương vũ khí"
+		"LongRangeBonusWeaponPower_postfix"				"%"
+		"LongRangeBonusWeaponPower_conditional"			"Ngoài tầm"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"Tầm kỹ năng"
+		"TechRangeMultiplier_postvalue_label"						"Tầm kỹ năng"
+		"TechRangeMultiplier_postfix"					"%"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"Tầm kỹ năng"
+		"TechRangeMultiplierBuff_postvalue_label"						"Tầm kỹ năng"
+		"TechRangeMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"Tầm kỹ năng được tăng cường"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"Tầm kỹ năng được tăng cường"
+		"ImbuedTechRangeMultiplier_postfix"				"%"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"Tầm kỹ năng cơ bản"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"Tầm kỹ năng cơ bản"
+		"NonImbuedTechRangeMultiplier_postfix"			"%"
+
+		//"ThrowRange_label"								"Khoảng cách ném"
+		"ThrowRange_postfix"							"m"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"Bán kính"
+		"TechRadiusMultiplier_postvalue_label"					"Bán kính"
+		"TechRadiusMultiplier_postfix"					"%"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"Bán kính"
+		"TechRadiusMultiplierBuff_postvalue_label"					"Bán kính"
+		"TechRadiusMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Bán kính cường hóa"
+		"ImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Bán kính không cường hóa"
+		"NonImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"Tầm kỹ năng"
+		"TechRangeAdditive_postvalue_label"						"Tầm kỹ năng"
+		"TechRangeAdditive_postfix"						"m"
+
+		//"WindUpTime_label"								"Thời gian vận chiêu"
+		"WindUpTime_postfix"								"s"
+
+		"HealthDrainedPerSecond_label"				"Hút máu"
+
+		"HealthDrainedPerSecond_postvalue_label"				"Hút máu"
+		"HealthDrainedPerSecond_postfix"				"/s"
+
+		"DebuffDurationReductionPercentage_label"		"Giảm thời gian hiệu lực Debuff"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"Giảm thời gian hiệu lực Debuff"
+		"DebuffDurationReductionPercentage_postfix"		"%"
+
+		//"HealthCost_label"							"Tiêu hao máu"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"Tốc độ dây trượt"
+		"ZipLineSpeedPercent_postvalue_label"						"Tốc độ dây trượt"
+		"ZipLineSpeedPercent_postfix"					"%"
+		
+		//"ZiplineJumpBonusDuration_label"					"Thời gian hiệu lực sau nhảy"
+		"ZiplineJumpBonusDuration_postfix"					"s"
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Tốc độ nhảy cộng thêm"
+		"ZiplineJumpBonusMoveSpeed_postfix"					"m/s"
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Tốc độ Hyperline"
+
+		"MaxProjectiles_label"						"Số lượng vật thể"
+
+
+		"MaxProjectiles_postvalue_label"						"Số lượng vật thể"
+
+		//"DeathDelay_label"							"Thời gian trì hoãn chết"
+
+		//"TackleDurationMax_label"						"Thời gian tối đa của đòn húc"
+
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"Tốc độ di chuyển"
+		"MoveSpeedBonus_postvalue_label"							"Tốc độ di chuyển"
+		"MoveSpeedBonus_postfix"						"m/s"
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Tốc độ di chuyển của đồng minh"
+		"MoveSpeedFriendlyBuff_postfix"			" m/s"
+		
+		//"ProcBuildupPercent_label"					"Tích lũy hiệu ứng"
+		"ProcBuildupPercent_postfix"					"%"
+
+		//"AwakenDamage_label"							"Sát thương Thức Tỉnh"
+
+		//"LockOnTime_label"							"Thời gian khóa"
+		"LockOnTime_postfix"							" giây"
+
+		//"StalkDuration_label"							"Thời gian rình rập"
+		"StalkDuration_postfix"							" giây"
+
+		"MaxStacks_label"								"Cộng dồn tối đa"
+
+		"MaxStacks_postvalue_label"								"Cộng dồn tối đa"
+		"CurrentStacks_label"							"Cộng dồn hiện tại:"
+
+		"CurrentStacks_postvalue_label"							"Cộng dồn hiện tại:"
+
+		//"TimeToMaxStacks_label"							"Thời gian để đạt cộng dồn tối đa"
+		"TimeToMaxStacks_postfix"						"s"
+
+		//"DamagePerHit_label"							"Sát thương mỗi đòn đánh"
+
+		//"FinalBlow_label"							"Sát thương Đòn Kết Liễu"
+
+		"DamageThreshold_label"						"Ngưỡng Sát thương"
+		
+
+		"DamageThreshold_postvalue_label"						"Ngưỡng Sát thương"
+		
+		"DamageReduction_label"						"Giảm Sát thương"
+		"DamageReduction_postvalue_label"						"Giảm Sát thương"
+		"DamageReduction_postfix"					"%"
+
+		"MeleeDamage_label"							"Sát thương Cận chiến"
+
+
+		"MeleeDamage_postvalue_label"							"Sát thương Cận chiến"
+
+		//"ConvertedHealth_label"						"Máu lính"
+
+		"SilenceDuration_label"							"Thời gian câm lặng"
+
+		"SilenceDuration_postvalue_label"							"Thời gian câm lặng"
+		"SilenceDuration_postfix"						"s"
+
+		"Range_postfix"									"m"
+		"Range_label"									"Khoảng cách"
+
+		"Range_postvalue_label"									"Khoảng cách"
+
+		"MinRange_label"								"Tầm tối thiểu"
+
+		"MinRange_postvalue_label"								"Tầm tối thiểu"
+		"MinRange_postfix"								"m"
+
+		//"ConeRadius_label"							"Khoảng cách sét"
+		"ConeRadius_postfix"							"m"
+		"ConeAngle_label"						"Góc hình quạt"
+		"ConeAngle_postvalue_label"						"Góc hình quạt"
+		"ConeAngle_postfix"						" deg"
+
+		"ShockRadius_label"							"Bán kính"
+
+		"ShockRadius_postvalue_label"							"Bán kính"
+		"ShockRadius_postfix"						"m"
+
+		//"KnockDownRadius_label"						"Bán kính hạ gục"
+		"KnockDownRadius_postfix"						"m"
+
+		"BurnDuration_postfix"							"s"
+		"BurnDuration_label"							"Thời gian cháy"
+
+		"BurnDuration_postvalue_label"							"Thời gian cháy"
+
+		"AbilityCooldown_postfix"						"s"
+		"AbilityCooldown_label"						"Hồi chiêu"
+
+		"AbilityCooldown_postvalue_label"						"Hồi chiêu"
+
+		"TechCooldown_postfix"						"%"
+		"TechDuration_postfix"						"%"
+		"TechLifesteal_postfix"						"%"
+		"TechRange_postfix"							"%"
+
+		"HealingPercent_label"						"Phần trăm hồi máu"
+
+		"HealingPercent_postvalue_label"						"Phần trăm hồi máu"
+		"HealingPercent_postfix"						"%"
+
+		"AbilityCooldownBetweenCharge_label"			"Độ trễ khi nạp"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"Độ trễ khi nạp"
+		"AbilityCooldownBetweenCharge_postfix"			"s"
+
+		"AbilityChargeUpTime_label" "Thời gian tích tụ"
+
+		"AbilityChargeUpTime_postvalue_label" "Thời gian tích tụ"
+		"AbilityChargeUpTime_postfix"	"s"
+
+		"AbilityDuration_postfix"						"s"
+		"AbilityDuration_label"						"Thời gian hiệu lực"
+
+		"AbilityDuration_postvalue_label"						"Thời gian hiệu lực"
+
+		"TetherDuration_postfix"					"s"
+		"TetherDuration_label"						"Thời gian trói"
+
+		"TetherDuration_postvalue_label"						"Thời gian trói"
+
+		"TetherRadius_postfix"						"m"
+		//"TetherRadius_label"						"Bán kính trói"
+
+		"AbilityCastRange_postfix"						"m"
+		"AbilityCastRange_label"						"Tầm thi triển"
+
+		"AbilityCastRange_postvalue_label"						"Tầm thi triển"
+
+		"AbilityCastRangeMinimum_postfix"				"m"
+		//"AbilityCastRangeMinimum_label"					"Tầm tối thiểu"
+
+		"AbilityChannelTime_postfix"					"s"
+		"AbilityChannelTime_label"					"Thời gian duy trì kỹ năng"
+
+		"AbilityChannelTime_postvalue_label"					"Thời gian duy trì kỹ năng"
+
+		"AbilityCastDelay_postfix"					"s"
+		"AbilityCastDelay_label"					"Độ trễ thi triển"
+
+		"AbilityCastDelay_postvalue_label"					"Độ trễ thi triển"
+
+		"AbilityCharges_label"						"Lượt sử dụng"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"Lượt sử dụng"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"Thời gian kỹ năng"
+		"BonusAbilityDurationPercent_postvalue_label"				"Thời gian kỹ năng"
+		"BonusAbilityDurationPercent_postfix"			"%"		
+		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"Thời gian kỹ năng cơ bản"
+		"NonImbuedBonusDuration_postvalue_label"				"Thời gian kỹ năng cơ bản"
+		"NonImbuedBonusDuration_postfix"			"%"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"Thời gian kỹ năng được tăng cường"
+		"ImbuedBonusDuration_postvalue_label"						"Thời gian kỹ năng được tăng cường"
+		"ImbuedBonusDuration_postfix"					"%"
+
+		"MissCooldown_postfix"							"s"
+		//"MissCooldown_label"							"Hồi chiêu khi hụt"
+
+		"ShockDelay_label"							"Thời gian trễ trước khi choáng"
+
+		"ShockDelay_postvalue_label"							"Thời gian trễ trước khi choáng"
+		"ShockDelay_postfix"							"s"
+
+		"ArmTime_label"									"Thời gian kích hoạt"
+
+		"ArmTime_postvalue_label"									"Thời gian kích hoạt"
+		"ArmTime_postfix"								"s"
+
+		"Barrel_ArmTime_label"							"Thời gian kích hoạt"
+
+		"Barrel_ArmTime_postvalue_label"							"Thời gian kích hoạt"
+		"Barrel_ArmTime_postfix"						"s"
+
+		"ExplodeDelay_label"							"Độ trễ vụ nổ"
+
+		"ExplodeDelay_postvalue_label"							"Độ trễ vụ nổ"
+		"ExplodeDelay_postfix"							"s"
+		
+		"BuildUpPercentPerHit_label"					"Tích lũy mỗi lần đánh"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"Tích lũy mỗi lần đánh"
+		"BuildUpPercentPerHit_postfix"					"%"
+
+		//"FreezeBuildUpTime_label"						"Thời gian tích lũy đóng băng"
+		"FreezeBuildUpTime_postfix"						"s"
+
+		//"CritStackInterval_label"						"Độ trễ tích lũy chí mạng"
+		"CritStackInterval_postfix"						"s"
+
+		"TurretLifetime_label"						"Thời gian tồn tại"
+
+		"TurretLifetime_postvalue_label"						"Thời gian tồn tại"
+		"TurretLifetime_postfix"						"s"
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Tăng sát thương chí mạng"
+		"CritCoatingDamagePercent_postfix"				"%"
+
+		//"ExplosionCoatingRadius_label"				"Bán kính phủ vụ nổ"
+		"ExplosionCoatingRadius_postfix"				"m"
+
+		//"SlowCoatingProcChance_label"					"Xác suất làm chậm"
+		"SlowCoatingProcChance_postfix"					"%"
+
+		//"SlowCoatingMoveSpeed_label"					"Mức độ làm chậm của lớp phủ"
+		"SlowCoatingMoveSpeed_postfix"					"%"
+
+		//"SlowCoatingDuration_label"					"Thời gian làm chậm của lớp phủ"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"Thời gian tồn tại"
+
+		"MaxLifetime_postvalue_label"							"Thời gian tồn tại"
+		"MaxLifetime_postfix"							"s"
+
+		//"ZipLineArrowLifetime_label"					"Thời gian bay của mũi tên"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Tăng Sát thương mỗi Cộng dồn"
+		"DamageTakenPercentIncreasePerStack_postfix"	"%"
+
+		//"ShotsFired_label"							"Số phát bắn"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Thời gian giữa các phát bắn"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Sát thương"
+		"DroneDPS_postfix"								"Sát thương mỗi giây"
+
+		"DistanceBuff_postfix"							"%"
+		//"DistanceBuff_label"							"Hiệu ứng tăng ở tầm tối đa"
+
+		//"FullDistance_label"							"Tầm tối đa: "
+		"FullDistance_postfix"							"m"
+
+		"ProcDamage_label"								"Sức mạnh phép thuật"
+
+		"ProcDamage_postvalue_label"								"Sức mạnh phép thuật"
+		"ProcDamage_postfix"							""
+
+		//"BaseDamagePct_label"							"Tăng sức mạnh phép thuật cộng thêm"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							"%"
+
+		"TargetsPerTick_label"						"Số mục tiêu trúng mỗi phát bắn"
+
+		"TargetsPerTick_postvalue_label"						"Số mục tiêu trúng mỗi phát bắn"
+		"TargetsPerTick_postfix"						""
+
+		"HealthToDamage_label"						"Sát thương"
+
+		"HealthToDamage_postvalue_label"						"Sát thương"
+		"HealthToDamage_postfix"						""
+
+		"SelfDamagePct_label"						"Tiêu hao máu"
+
+		"SelfDamagePct_postvalue_label"						"Tiêu hao máu"
+		"SelfDamagePct_postfix"						"%"
+
+		"DamageHealPerTarget_label"						"Sát thương/Hồi máu mỗi mục tiêu"
+
+
+		"DamageHealPerTarget_postvalue_label"						"Sát thương/Hồi máu mỗi mục tiêu"
+
+		//"DeathTaxHeal_label"							"Hồi máu mỗi hạ gục"
+
+		"ChainRadius_label"							"Bán kính nhảy"
+
+		"ChainRadius_postvalue_label"							"Bán kính nhảy"
+		"ChainRadius_postfix"							"m"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Sát thương Hất văng"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Sát thương Đâm xuyên"
+
+		//"ImpaleDuration_label"						"Thời gian Đâm xuyên"
+		"ImpaleDuration_postfix"						"s"
+
+		"ExplosionRadius_label"						"Bán kính nổ"
+
+		"ExplosionRadius_postvalue_label"						"Bán kính nổ"
+		"ExplosionRadius_postfix"						"m"
+
+		"MinExplosionRadius_label"					"Bán kính vụ nổ tối thiểu"
+
+		"MinExplosionRadius_postvalue_label"					"Bán kính vụ nổ tối thiểu"
+		"MinExplosionRadius_postfix"					"m"
+
+		"MaxExplosionRadius_label"					"Bán kính vụ nổ tối đa"
+
+		"MaxExplosionRadius_postvalue_label"					"Bán kính vụ nổ tối đa"
+		"MaxExplosionRadius_postfix"					"m"
+
+		"ExplosionDamage_label"						"Sát thương Nổ"
+
+		"ExplosionDamage_postvalue_label"						"Sát thương Nổ"
+		"ExplosionDamage_postfix"						""
+
+		//"MinExplosionDamage_label"						"Sát thương Nổ Tối thiểu: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Sát thương Nổ Tối thiểu: "
+		"ExplosionMinPercent_postfix"					"%"
+
+		//"ExplosionMaxPercent_label"					"Sát thương Nổ Tối đa: "
+		"ExplosionMaxPercent_postfix"					"%"
+
+		//"EMPBuildupPercentPerShot_label"				"Tích câm lặng mỗi phát bắn"
+		"EMPBuildupPercentPerShot_postfix"				"%"
+
+		"InvisFadeToDuration_label"						"Thời gian ẩn đi"
+
+		"InvisFadeToDuration_postvalue_label"						"Thời gian ẩn đi"
+		"InvisFadeToDuration_postfix"						"s"
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					"m/s"
+		"InvisMoveSpeedMod_label"					"Tốc độ chạy nước rút khi tàng hình"
+
+		"InvisMoveSpeedMod_postvalue_label"					"Tốc độ chạy nước rút khi tàng hình"
+
+		//"MeleeAttackLength_label"						"Tầm cận chiến"
+		"MeleeAttackLength_postfix"						"m"
+
+		"ArmingDuration_label"						"Thời gian kích hoạt"
+
+		"ArmingDuration_postvalue_label"						"Thời gian kích hoạt"
+		"ArmingDuration_postfix"						"s"
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Tốc độ nhảy dọc trên không"
+		"AirJumpVerticalSpeedPercent_postfix"			"%"
+
+		//"InteruptCooldown_label"						"Hồi chiêu Ngắt"
+		//"InteruptCooldown_postfix"						""
+
+		//"ReflectDamage_label"							"Sát thương phản đạn"
+		"ReflectDamage_postfix"							"%"
+
+		"ImmobilizeDuration_label"					"Thời gian tê liệt"
+
+		"ImmobilizeDuration_postvalue_label"					"Thời gian tê liệt"
+		"ImmobilizeDuration_postfix"					"s"
+
+		"AirControlPercent_label"					"Điều khiển trên không"
+
+		"AirControlPercent_postvalue_label"					"Điều khiển trên không"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							"%"
+
+		//"HeadStompBonusDamage_label"					"Thưởng Sát thương Dậm đầu"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Tăng bán kính đạp đầu"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Số lần dậm đầu tối đa"
+
+		"NPCProcChance_label"							"Tỉ lệ kích hoạt Lính"
+
+		"NPCProcChance_postvalue_label"							"Tỉ lệ kích hoạt Lính"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"Tỉ lệ kích hoạt tướng"
+
+		"HeroProcChance_postvalue_label"						"Tỉ lệ kích hoạt tướng"
+		"HeroProcChance_postfix"						"%"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Tăng tốc độ"
+		"AbilityProjectileSpeedPercent_postfix"			"%"
+		
+		"TechCleaveDamagePercent_label"				"Sát thương Chém lan"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"Sát thương Chém lan"
+		"TechCleaveDamagePercent_postfix"				"%"
+		
+		"TechCleaveTargetCap_label"					"Mục tiêu bổ sung"
+		
+		"TechCleaveTargetCap_postvalue_label"					"Mục tiêu bổ sung"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"Bán kính chém ngang"
+		
+		"TechCleaveRadius_postvalue_label"						"Bán kính chém ngang"
+		"TechCleaveRadius_postfix"						"m"
+
+		"InitialRadius_label"							"Bán kính ban đầu"
+
+		"InitialRadius_postvalue_label"							"Bán kính ban đầu"
+		"InitialRadius_postfix"							"m"
+
+		//"BlurVisionRange_label"							"Tầm ảnh hưởng làm mờ tầm nhìn"
+		"BlurVisionRange_postfix"						"m"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Tăng bán kính đạn nổ"
+		"ExplosiveShotRadiusPercent_postfix"			"%"
+				
+		//"TechPowerPerCharge_label"						"Phép thuật mỗi lần nạp"	
+		
+		//"FireRatePerCharge_label"						"Tốc độ bắn mỗi lần nạp"
+		"FireRatePerCharge_postfix"						"%"
+		
+		//"ChargeDuration_label"							"Thời gian sạc"
+		"ChargeDuration_postfix"						"s"
+
+		//"MaxCharges_label"								"Số lượt sử dụng tối đa"
+
+		//"ExtraBladeDamage_label"						"Sát thương Cộng thêm mỗi Nạp"
+
+		//"WaveStunDuration_label"						"Thời gian bị tước vũ khí/EMP"
+		"WaveStunDuration_postfix"						"s"
+
+		"WaveLifetime_label"							"Thời gian tồn tại của đạn"
+
+		"WaveLifetime_postvalue_label"							"Thời gian tồn tại của đạn"
+		"WaveLifetime_postfix"							"s"
+
+		//"LockedRadius_label"							"Chiều dài chuỗi"
+		"LockedRadius_postfix"							"m"
+
+		//"BoostDuration_label"							"Thời gian tăng tốc độ di chuyển của đồng minh"
+		"BoostDuration_postfix"							"s"
+
+		//"ShieldPercentage_label"						"Máu tối đa của khiên %"
+		"ShieldPercentage_postfix"						"% Máu tối đa"
+
+		"ShieldDuration_label"							"Thời gian khiên"
+
+		"ShieldDuration_postvalue_label"							"Thời gian khiên"
+		"ShieldDuration_postfix"						"s"
+
+		"SlowRadius_label"								"Bán kính làm chậm"
+
+		"SlowRadius_postvalue_label"								"Bán kính làm chậm"
+		"SlowRadius_postfix"							"m"
+		
+		//"SmokeDuration_label"							"Thời gian tồn tại khói"
+		"SmokeDuration_postfix"							"s"
+
+		//"SmokeRadius_label"								"Bán kính khói"
+		"SmokeRadius_postfix"							"m"
+
+		"ChainDuration_label"							"Thời gian trói"
+
+		"ChainDuration_postvalue_label"							"Thời gian trói"
+		"ChainDuration_postfix"							"s"
+
+		//"InfectDuration_label"							"Thời gian nhiễm trùng"
+		"InfectDuration_postfix"						"s"
+
+		//"CloudDuration_label"							"Thời gian tồn tại của đám mây"
+		"CloudDuration_postfix"							"s"
+
+		"TimeSlowPercent_label"							"Làm chậm thời gian"
+
+		"TimeSlowPercent_postvalue_label"							"Làm chậm thời gian"
+		"TimeSlowPercent_postfix"						"%"
+
+		//"CombatRegenPercent_label"						"Hồi máu Khi Chiến Đấu"
+		"CombatRegenPercent_postfix"					"%"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Sức mạnh tấn công"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Sức mạnh kỹ năng"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Sức mạnh phòng thủ"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"DPS cộng thêm từ hiệu ứng nhiễm trùng"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							"s"
+		//"DecoyLifetime_label"							"Thời gian tồn tại của decoy"
+
+		"Health_prefix"									""
+		"Health_postfix"								""
+		"Health_label"									"Máu"
+
+		"Health_postvalue_label"									"Máu"
+
+		"Grenades_prefix"					""
+		"Grenades_postfix"					""
+		//"Grenades_label"					"Bom bổ sung"
+
+		//"SearchRadius_label"				"Bán kính tìm kiếm"
+		"SearchRadius_postfix"				"m"
+
+		//"GrenadesPerVolley_label"			"Số bom mỗi loạt"
+
+		//"BulletArmorPenetration_label"		"Kháng đạn của mục tiêu"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Thời gian tích lũy sức mạnh"
+		"RampDuration_postfix"						"s"
+
+		//"EndDuration_label"							"Thời gian tồn tại cuối cùng"
+		"EndDuration_postfix"						"s"
+
+		//"FinalSlow_label"							"Tốc độ chậm nhất"		
+		"FinalSlow_postfix"							"m/s"		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"Sát thương vũ khí mỗi tầng"
+		"WeaponPowerPerStack_postvalue_label"					"Sát thương vũ khí mỗi tầng"
+		"WeaponPowerPerStack_postfix"				"%"
+		"DamageToStack_label"						"Nhận Sát thương để Cộng dồn"
+		"DamageToStack_postvalue_label"						"Nhận Sát thương để Cộng dồn"
+		"DamageDuration_label"						"Thời gian hiệu lực"
+		"DamageDuration_postvalue_label"						"Thời gian hiệu lực"
+		"DamageDuration_postfix"						"s"
+
+		"RegenWhileInvisible_label"				"Hồi máu Khi Vô Hình"
+
+		"RegenWhileInvisible_postvalue_label"				"Hồi máu Khi Vô Hình"
+		"RegenWhileInvisible_prefix"			"+"
+		"RegenWhileInvisible_postfix"			""
+
+		"DamageRadius_label"						"Bán kính Sát thương"
+
+		"DamageRadius_postvalue_label"						"Bán kính Sát thương"
+		"DamageRadius_postfix"						"m"
+
+		//"RestoreDelay_label"							"Độ trễ hồi phục"
+		"RestoreDelay_postfix"							"s"
+
+		//"RegenerationRate_label"					"Độ trễ hồi phục"
+		"RegenerationRate_postfix"					"s"
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"Máu khiên đạn"
+		"BulletShieldMaxHealth_postvalue_label"				"Máu khiên đạn"
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"Giáp phép"
+
+		"TechShieldMaxHealth_postvalue_label"					"Giáp phép"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"Máu khiên đạn"
+
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"Máu khiên đạn"
+
+		"WeaponPowerPerKill_label"			"Sát thương vũ khí mỗi lần hạ gục"
+
+		"WeaponPowerPerKill_postvalue_label"			"Sát thương vũ khí mỗi lần hạ gục"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		"%"
+		//"WeaponPowerPerAssist_label"		"Can đảm mỗi hỗ trợ"
+		//"WeaponPowerPerDeath_label"			"Can đảm mỗi lần chết"
+
+		"FireRatePerKill_label"			"Tốc độ bắn mỗi hạ gục"
+
+		"FireRatePerKill_postvalue_label"			"Tốc độ bắn mỗi hạ gục"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		"%"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"Thu phóng vũ khí"
+		"BonusZoomPercent_postvalue_label"				"Thu phóng vũ khí"
+		"BonusZoomPercent_postfix"				"%"
+
+		"MaxDPS_label"						"Max DPS"
+
+		"MaxDPS_postvalue_label"						"Max DPS"
+		//"DamageOnHit_label"					"Sát thương Khi Đánh Trúng"
+		"ProcCooldown_label"					"Tần suất tối đa"
+		"ProcCooldown_postvalue_label"					"Tần suất tối đa"
+		"ProcCooldown_postfix"				"s"
+
+		//"WeaponPowerPerEnemy_label"			"Can đảm theo mỗi kẻ địch"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Tốc độ bắn theo mỗi kẻ địch"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			"%"
+
+		//"AssaultDuration_label"				"Thời gian tấn công trên không"
+		"AssaultDuration_postfix"				"s"
+
+		//"AssaultFireRate_label"				"Tốc độ bắn khi tấn công trên không"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				"%"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"Hồi máu"
+		"ActiveHealthRegen_postvalue_label"			"Hồi máu"
+		"ActiveHealthRegen_postfix"			"hp/sec"
+
+		"ActiveBonusFireRate_label"			"Tốc độ bắn"
+
+		"ActiveBonusFireRate_postvalue_label"			"Tốc độ bắn"
+		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"Độ trễ"
+		"SurgeDelay_postvalue_label"					"Độ trễ"
+		"SurgeDelay_postfix"				"s"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Cộng dồn Nhiệt Huyết"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Phần thưởng khi bị điên"
+		"FervorMovespeed_label"		"Tốc độ di chuyển"
+		"FervorMovespeed_postvalue_label"		"Tốc độ di chuyển"
+		"FervorMovespeed_postfix"	" m/s"
+		"FervorFireRate_label"		"Tốc độ bắn"
+		"FervorFireRate_postvalue_label"		"Tốc độ bắn"
+		"FervorFireRate_postfix"	"%"
+		//"FervorDebuffResistance_label"		"Kháng debuff khi Cuồng nộ"
+		"FervorDebuffResistance_postfix"	"%"
+		"FervorTechResist_label"			"Kháng phép"
+
+		"FervorTechResist_postvalue_label"			"Kháng phép"
+
+		"PassiveFireRate_label"		"Tốc độ bắn"
+
+		"PassiveFireRate_postvalue_label"		"Tốc độ bắn"
+		"PassiveFireRate_postfix"	"%"
+
+		"TechDamagePercent_Label"	"Sát thương"
+
+		"TechDamagePercent_postvalue_label"	"Sát thương"
+		"TechDamagePercent_Postfix"	"%"
+		"DelayDuration_Label"	"Thời gian chờ"
+		"DelayDuration_postvalue_label"	"Thời gian chờ"
+		"DelayDuration_Postfix"	"s"
+		//"MinimumDamage_Label"	"Sát thương Tối thiểu"
+
+		"EMPDuration_label"				"Thời gian hiệu lực Debuff"
+
+		"EMPDuration_postvalue_label"				"Thời gian hiệu lực Debuff"
+		"EMPDuration_postfix"			"s"
+
+		//"BonusBulletDamageToEMPTargets_label" "Sát thương đạn lên mục tiêu bị câm lặng"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" "%"
+		"modifier_silencer_proc_active"	"SILENCER"
+
+		"BulletDamageReflectedPct_label"					"Sát thương đạn trả lại"
+
+		"BulletDamageReflectedPct_postvalue_label"					"Sát thương đạn trả lại"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"Phản sát thương phép"
+		"SpiritDamageReflectedPct_postvalue_label"					"Phản sát thương phép"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"Tỉ lệ kích hoạt"
+		"DamageReflectedFrequencyPct_postvalue_label"				"Tỉ lệ kích hoạt"
+		"DamageReflectedFrequencyPct_postfix"			"%"
+		"modifier_armor_reactive_armor"					"Bắn trả"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"Kháng đạn"
+		"ReturnFireBulletResist_postvalue_label"					"Kháng đạn"
+		"ReturnFireBulletResist_postfix"					"%"
+
+		//"RespawnBonusHealth_label"							"Máu thưởng khi hồi sinh"
+		//"RespawnBonusHealthDuration_label"					"Thời gian tồn tại máu thưởng khi hồi sinh"
+		"RespawnBonusHealthDuration_postfix"				"s"
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Máu thưởng khi tái sinh"
+
+		//"DeathImmunityDuration_label"				"Thời gian bất tử"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Tốc độ xung"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Miễn nhiễm tử vong"
+
+		"StasisRadius_label"				"Bán kính"
+
+		"StasisRadius_postvalue_label"				"Bán kính"
+		"StasisRadius_postfix"				"m"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Bị cách ly"
+
+		"HealPercentAmount_label"				"Lượng hồi máu"
+
+		"HealPercentAmount_postvalue_label"				"Lượng hồi máu"
+		"HealPercentAmount_postfix"			"%"
+
+		"Stamina_label"							"Thể lực"
+
+		"Stamina_postvalue_label"							"Thể lực"
+		"Stamina_prefix"							"{s:sign}"
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"Hồi phục thể lực"
+		"StaminaCooldownReduction_postvalue_label"				"Hồi phục thể lực"
+		"StaminaCooldownReduction_postfix"			"%"
+
+		//"ActiveHealthChange_label"			"Hút máu"
+		"ActiveHealthChange_postfix"			"HP"
+		//"ActiveWeaponDamageChange_label"		"Cướp sát thương vũ khí"
+		"ActiveWeaponDamageChange_postfix"    "%"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"Máu đã hút"
+		//"SiphonRadius_label"					"Bán kính kích hoạt"
+		"SiphonRadius_postfix"				"m"
+
+		"TechResistDuration_label"			"Thời gian hiệu lực"
+
+		"TechResistDuration_postvalue_label"			"Thời gian hiệu lực"
+		"TechResistDuration_postfix"			"s"
+
+		"BleedTechResist_label"				"Kháng phép"
+
+		"BleedTechResist_postvalue_label"				"Kháng phép"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				"%"
+
+		//"StackProcDamage_label"			"Sát thương dồn"
+		"StackDuration_label"				"Thời gian hiệu lực cộng dồn"
+		"StackDuration_postvalue_label"				"Thời gian hiệu lực cộng dồn"
+		"StackDuration_postfix"			"s"
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"Sát thương cộng thêm khi bắn trúng đầu"
+		"HeadShotBonusDamage_postvalue_label"			"Sát thương cộng thêm khi bắn trúng đầu"
+		"HeadShotDebuffDuration_label"		"Thời gian hiệu lực"
+		"HeadShotDebuffDuration_postvalue_label"		"Thời gian hiệu lực"
+		"HeadShotDebuffDuration_postfix"	"s"
+		"HeadShotCooldown_label"			"Hồi chiêu"
+		"HeadShotCooldown_postvalue_label"			"Hồi chiêu"
+		"HeadShotCooldown_postfix"			"s"
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Thời gian hồi chiêu sát thương cộng thêm khi headshot"
+		//"ActiveChainDuration_label"			"Thời gian trói"
+		"ActiveChainDuration_postfix"		"s"
+		"ActiveBulletArmorReduction_label"	"Giảm kháng đạn"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"Giảm kháng đạn"
+
+		//"modifier_galvanic_storm"				"Bão Điện"
+		//"BuildupPerProc_label"				"Tích lũy khi bị sốc"
+		"BuildupPerProc_postfix"				"%"
+		//"BuildupDamage_label"					"Sát thương khi tích lũy"
+		
+		//"ShockBuildupDuration_label"			"Thời gian tồn tại tích lũy sốc"
+		"ShockBuildupDuration_postfix"		"s"
+
+		"GalvanicProcDuration_label"			"Thời gian làm chậm"
+
+		"GalvanicProcDuration_postvalue_label"			"Thời gian làm chậm"
+		"GalvanicProcDuration_postfix"		"s"
+
+		"FireRateSlow_label"					"Tốc độ bắn"
+
+		"FireRateSlow_postvalue_label"					"Tốc độ bắn"
+		"FireRateSlow_prefix"					"-"
+		"FireRateSlow_postfix"					"%"
+
+		"TechPowerReduction_label"					"Sức mạnh phép thuật"
+
+		"TechPowerReduction_postvalue_label"					"Sức mạnh phép thuật"
+		"TechPowerReduction_prefix"					""
+		"TechPowerReduction_postfix"					""
+
+		//"SlowFireRatePercent_label"			"Tỷ lệ tăng tốc độ bắn"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"Tốc độ bắn tối đa"
+
+		"MaxFireRateSlowPercent_postvalue_label"			"Tốc độ bắn tối đa"
+		"MaxFireRateSlowPercent_postfix"		"%"
+		"MaxFireRateSlowPercent_prefix"		"-"
+
+		//"FireRateScale_label"					"Tỷ lệ tăng tốc độ bắn"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				"%"
+
+		//"ActiveHealAmount_label"				"Tự hồi máu"
+		//"ActiveHealAmount_postfix"			"Máu"
+
+		//"BonusDamagePerHero_label"			"Sát thương tăng thêm theo mỗi tướng"
+		"BonusDamagePerHero_postfix"			"%"
+
+		//"DebuffDelay_label"					"Độ trễ debuff"
+		"DebuffDelay_postfix"					"s"
+
+		//"ArmorLossPerHit_label"				"Kháng cự mất mỗi lần trúng đòn"
+		"ArmorLossPerHit_postfix"				"%"
+
+		//"StackLossFrequency_label"			"Tần suất mất kháng cự"
+		"StackLossFrequency_postfix"			"s"
+
+		"MaxBulletResist_label"				"Kháng đạn tối đa"
+
+		"MaxBulletResist_postvalue_label"				"Kháng đạn tối đa"
+		"MaxBulletResist_postfix"				"%"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"Cuồng chiến"
+		"berserker_stack"							"Cuồng chiến"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"Sát thương vũ khí"
+
+		"WeaponDamageBonus_postvalue_label"			"Sát thương vũ khí"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"Sức mạnh phép thuật"
+		"TechDamageBonusPercent_postvalue_label"		"sức mạnh phép thuật"
+		"TechDamageBonusPercent_postfix"		"%"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Sức mạnh phép thuật sau lần nhảy/lướt thứ hai"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Sức mạnh phép thuật áp dụng cho kỹ năng Echo"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"Sức mạnh phép thuật"
+		"BonusSpirit_postvalue_label"				"Sức mạnh phép thuật"
+		//"modifier_power_shard_bonus"		"Tăng cường vọng âm"
+
+		//"BonusDuration_label"				"Thời gian hiệu lực cộng thêm"
+		"BonusDuration_postfix" 			"s"
+		//"superior_stamina_buff"			"Tăng thêm sức mạnh phép thuật"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Sát thương vũ khí khi ở trên đối thủ"
+		"HighGroundBonusWeaponPower_postfix"	"%"
+				
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"Sát thương vũ khí"
+		"BonusBaseWeaponDamage_postvalue_label"					"Sát thương vũ khí"
+		"BonusBaseWeaponDamage_postfix"					"%"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"Sát thương vũ khí"
+		"BaseAttackDamagePercent_postvalue_label"					"Sát thương vũ khí"
+		"BaseAttackDamagePercent_postfix"					"%"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"Sát thương vũ khí phụ"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"Sát thương vũ khí phụ"
+		"BaseAttackDamagePercentAltFire_postfix"					"%"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"Kỹ năng được truyền phép thuật"
+
+		"ImbuedTechPower_postvalue_label"						"Kỹ năng được truyền phép thuật"
+
+		"MovementSpeedBonusDuration_label"			"Thời gian tốc độ di chuyển"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"Thời gian tốc độ di chuyển"
+		"MovementSpeedBonusDuration_postfix"		"s"
+
+		//"EnemyLifeThreshold_label"					"Ngưỡng"
+		"EnemyLifeThreshold_postfix"					"%"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Sát thương bản sao nhận"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		"%"
+
+		"ability_abort_cast"						"Hủy"
+		"ability_cancel_channel"					"Đóng kênh"
+
+		//"citadel_ability_lightning_dodge"	"Lăn sét"
+		//"citadel_ability_lightning_dodge_passive"	"Lăn sét"
+		//"citadel_ability_basicdamagereflect"	"Phản lại sát thương cơ bản"
+		//"citadel_ability_bullet_damage_amp_wall"	"Tăng sát thương đạn vs tường"
+
+		//"modifier_limit_ability_cooldown"		"Hồi chiêu nhanh"
+
+		//"ability_golden_idol"					"Rơi Bình Hồn"
+		"golden_idol_bonus_01"					"+25% Linh hồn bổ sung"
+		"golden_idol_bonus_02"					"+1 Điểm kỹ năng"
+
+		//"ability_capture_zip_line"				"Chiếm Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Đang chiếm Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Phong tỏa"
+		"modifier_hollow_point_stack"			"Đạn rỗng"
+		//"LifeThreshold_label"					"Ngưỡng sinh mệnh"
+		"LifeThreshold_postfix"					"%"
+		//"Cloaked"								"Tàng hình"
+
+		"zipline_boost"							"Tăng tốc Zipline"
+		"ActiveTechPower_label"					"Sức mạnh phép thuật"
+		"ActiveTechPower_postvalue_label"					"Sức mạnh phép thuật"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Máu lá chắn khi kích hoạt"
+		//"ActiveBulletShieldDuration_label"		"Thời gian hiệu lực của lá chắn"
+		"ActiveBulletShieldDuration_postfix"		"s"
+		"PassiveShieldCooldown_label"			"Hồi chiêu"
+		"PassiveShieldCooldown_postvalue_label"			"Hồi chiêu"
+		"PassiveShieldCooldown_postfix"			"s"
+		"active_bullet_shield"					"Khiên đạn"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				"m"
+
+		"StealDuration_label"					"Thời gian đánh cắp"
+
+		"StealDuration_postvalue_label"					"Thời gian đánh cắp"
+		"StealDuration_postfix"					"s"
+
+		"VeilCross_conditional"					"Băng qua màn che vũ trụ"
+		"modifier_veil_walker_triggered"			"Tốc độ bắn của Veil"
+		"modifier_veil_walker_stealth"			"Tàng hình kẻ đi trong màn che"
+
+		"InvisDuration_label"						"Thời gian tàng hình"
+
+		"InvisDuration_postvalue_label"						"Thời gian tàng hình"
+		"InvisDuration_postfix"					"s"
+
+		"SlideScale_label"						"Khoảng cách trượt"
+
+		"SlideScale_postvalue_label"						"Khoảng cách trượt"
+		"SlideScale_postfix"						"%"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"Nhảy trên không/Khoảng cách lướt"
+
+		"AirMoveIncreasePercent_postvalue_label"				"Nhảy trên không/Khoảng cách lướt"
+		"AirMoveIncreasePercent_postfix"						"%"
+		"AirMoveIncreasePercent_prefix"						"+"
+		
+		"ActiveReloadPercent_label"				"Đạn"
+		
+		"ActiveReloadPercent_postvalue_label"				"Đạn"
+		"ActiveReloadPercent_postfix"				"%"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"RespawnHealthPercent_label"				"Máu hồi sinh"
+
+		"RespawnHealthPercent_postvalue_label"				"Máu hồi sinh"
+		"RespawnHealthPercent_postfix"			"%"
+
+		"ActiveBonusMoveSpeed_label"					"Tốc độ di chuyển"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"Tốc độ di chuyển"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					"m/s"
+		"ActiveItemUse_conditional"					"Khi đang kích hoạt"
+
+		"BuffMoveSpeedBonus_label"						"Tốc độ di chuyển"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"Tốc độ di chuyển"
+		"BuffMoveSpeedBonus_postfix"						"m/s"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Tốc độ di chuyển khi dùng kỹ năng"
+		"ChannelMoveSpeed_postfx"						"m/s"
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"Khiên đạn"
+
+		"BulletShieldOnCast_postvalue_label"						"Khiên đạn"
+		"TechShieldOnCast_label"						"Giáp phép"
+		"TechShieldOnCast_postvalue_label"						"Giáp phép"
+		//"BulletShieldDuration_label"					"Thời gian tồn tại khiên đạn"
+		"BulletShieldDuration_postfix"					"s"
+
+		
+		//"BloodPoolDPS_label"							"DPS vũng máu"
+		//"BloodPoolDuration_label"						"Thời gian hiệu lực vũng máu"
+		"BloodPoolDuration_postfix"						"s"
+		//"BloodPoolRadius_label"							"Bán kính vũng máu"
+		"BloodPoolRadius_postfix"						"m"
+
+		"LowHealthThreshold_label"						"Ngưỡng máu"
+		"LowHealthThreshold_postvalue_label"			"Ngưỡng máu"
+		"LowHealthThreshold_postfix"					"%"
+		"LowHealthTechResist_label"						"Kháng phép"
+		"LowHealthTechResist_postvalue_label"						"Kháng phép"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Can đảm"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			"%"
+		"ExecuteThreshold_label"						"Ngưỡng kết liễu"
+		"ExecuteThreshold_postvalue_label"						"Ngưỡng kết liễu"
+		"ExecuteThreshold_postfix"						"%"
+
+		"BuildupDuration_label"							"Thời gian suy giảm tích lũy"
+
+		"BuildupDuration_postvalue_label"							"Thời gian suy giảm tích lũy"
+		"BuildupDuration_postfix"						"s"
+		//"BuildupExpire_label"							"Hết hiệu lực tích lũy"
+		"BuildupExpire_postfix"							"s"
+		//"BuildupDecayDelay_label"						"Độ trễ suy giảm tích lũy"
+		"BuildupDecayDelay_postfix"						"s"
+		//"BuildupRate_label"							"Tích lũy mỗi phát bắn"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"Tích lũy mỗi phát bắn"
+		"BuildupPerShot_postvalue_label"							"Tích lũy mỗi phát bắn"
+		"BuildupPerShot_postfix"						"%"
+		//"StacksPerShot_label"							"Cộng dồn mỗi phát bắn"
+
+		//"DamageOnApply_label"							"Sát thương khi áp dụng"
+
+		"citadel_modifier_teleport"						"Đang dịch chuyển"
+		"citadel_modifier_hideout_teleport"				"Rời chỗ ẩn"
+		"citadel_trigger_teleport_sandbox"				"Dịch chuyển đến Sandbox"
+		"citadel_trigger_teleport_hideout"				"Dịch chuyển đến Ẩn Thất"
+
+		"MaxHealthLossPercent_label"				"Máu tối đa"
+
+		"MaxHealthLossPercent_postvalue_label"				"Máu tối đa"
+		"MaxHealthLossPercent_postfix"			"%"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"Đạn cộng thêm mỗi khi tiêu diệt"
+
+		"BonusClipPerKill_postvalue_label"				"Đạn cộng thêm mỗi khi tiêu diệt"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Phép cộng thêm mỗi khi tiêu diệt"
+
+		//"MaxClipBonus_label"				"Tăng dung lượng băng đạn tối đa"
+
+		"SummonDuration_label"					"Thời gian tồn tại của sinh vật triệu hồi"
+
+		"SummonDuration_postvalue_label"					"Thời gian tồn tại của sinh vật triệu hồi"
+		"SummonDuration_postfix" 				"s"
+
+		"Reloaded"							"Đã nạp đạn!"
+		"BonusAmmo"							"Đạn cộng thêm!"
+
+		"ExplodeDamage_label"				"Sát thương nổ"
+
+
+		"ExplodeDamage_postvalue_label"				"Sát thương nổ"
+
+		"StaminaRegenPercent_label"			"Hồi phục thể lực"
+
+		"StaminaRegenPercent_postvalue_label"			"Hồi phục thể lực"
+		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Kháng cận chiến"
+		"MeleeResistPercent_postvalue_label"			"Kháng cận chiến"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Thời gian Buff"
+		
+		"BuffDuration_postvalue_label"				"Thời gian Buff"
+		"BuffDuration_postfix"				"s"
+
+		"GroundDashReductionPercent_label"	"Khoảng cách lướt"
+
+		"GroundDashReductionPercent_postvalue_label"	"Khoảng cách lướt"
+		"GroundDashReductionPercent_postfix"	"%"
+		
+		"ActivePlayerStats_Percentage"		"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\">%</span>"
+		"ActivePlayerStats_PercentageNum"	"<span class=\"statNumber\">{d:value}</span><span class=\"statPostfix\">%</span>"
+		"ActivePlayerStats_MoveSpeed"		"<span id=\"speedDisplayMS\" class=\"statNumber\">{s:value}</span><span id=\"speedDisplayPostfix\" class=\"statPostfix\">m/s</span>"
+		"ActivePlayerStats_Regen"			"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\"> /sec</span>"
+
+		"TechDamageReduction_label"			"Giảm sát thương phép"
+
+		"TechDamageReduction_postvalue_label"			"Giảm sát thương phép"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"Giảm tốc độ di chuyển khi kích hoạt"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"Giảm tốc độ di chuyển khi kích hoạt"
+		"ActiveMoveSpeedPenalty_postfix"		"m/s"
+
+		"IncomingDamagePercent_label"		"Sát thương nhận vào"
+
+		"IncomingDamagePercent_postvalue_label"		"Sát thương nhận vào"
+		"IncomingDamagePercent_postfix"		"%"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"Sát thương nhận vào"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"Sát thương nhận vào"
+		"IncomingDamagePercentFromCaster_postfix"	"%"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"Sát thương đạn nhận vào"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"Sát thương đạn nhận vào"
+		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "Kháng làm chậm"
+
+		"SlowResistance_postvalue_label" "Kháng làm chậm"
+		"SlowResistance_postfix" "%"
+
+		"CooldownReductionPerHit_label" "Giảm hồi chiêu mỗi đòn đánh"
+
+		"CooldownReductionPerHit_postvalue_label" "Giảm hồi chiêu mỗi đòn đánh"
+		"CooldownReductionPerHit_postfix" "s"
+
+		"ParryCooldownReduction_label"				"Hồi chiêu đỡ đòn"
+
+		"ParryCooldownReduction_postvalue_label"				"Hồi chiêu đỡ đòn"
+		"ParryCooldownReduction_prefix"			"-"
+		"ParryCooldownReduction_postfix"			"s"
+
+		"ImmunityDuration_label"	"Thời gian miễn nhiễm"
+
+		"ImmunityDuration_postvalue_label"	"Thời gian miễn nhiễm"
+		"ImmunityDuration_postfix"	"s"
+
+		"CombatBarrier_label"	"Lá chắn"
+
+		"CombatBarrier_postvalue_label"	"Lá chắn"
+		"BarrierDuration_label"	"Thời gian lá chắn"
+		"BarrierDuration_postvalue_label"	"Thời gian lá chắn"
+		"BarrierDuration_postfix" "s"
+		
+		"BonusSoulsPct_label"	"Linh hồn cộng thêm"
+		
+		"BonusSoulsPct_postvalue_label"	"Linh hồn cộng thêm"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" "%"
+		
+		"EnemyRange_label"		"Khoảng cách kẻ địch"
+		
+		"EnemyRange_postvalue_label"		"Khoảng cách kẻ địch"
+		"EnemyRange_postfix"	"m"
+
+		"ReduceFootstepSound_label"	"Khoảng cách âm thanh bước chân"
+
+		"ReduceFootstepSound_postvalue_label"	"Khoảng cách âm thanh bước chân"
+		"ReduceFootstepSound_postfix"	"%"
+
+		"WeaponDamagePerStack_label" "Sát thương vũ khí mỗi tầng"
+
+		"WeaponDamagePerStack_postvalue_label" "Sát thương vũ khí mỗi tầng"
+		"WeaponDamagePerStack_postfix" "%"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"Đạn"
+	
+		"LightMeleeAmmo_postvalue_label"			"Đạn"
+		"LightMeleeAmmo_postfix"		"%"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"Tăng sức mạnh đánh cận chiến nặng"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"Tăng sức mạnh đánh cận chiến nặng"
+		"HeavyMeleeMultiplier_postfix"	"x"
+
+		"SpellParryDuration_label"		"Thời gian phản đòn phép"
+
+		"SpellParryDuration_postvalue_label"		"Thời gian phản đòn phép"
+		"SpellParryDuration_postfix"		"s"
+
+		"CooldownOnMissReduction_label"		"Hồi chiêu khi hụt"
+
+		"CooldownOnMissReduction_postvalue_label"		"Hồi chiêu khi hụt"
+		"CooldownOnMissReduction_postfix"	"%"
+
+		"HealOnCounterSpell_label"				"Hồi máu"
+		"HealOnCounterSpell_postvalue_label"	"Hồi máu"
+
+		"ProcMaxRange_label"					"Tầm kích hoạt tối đa"
+		"ProcMaxRange_postvalue_label"			"Tầm kích hoạt tối đa"
+		"ProcMaxRange_postfix"					"m"
+
+		"HealOnHit_postvalue_label" "Hồi máu theo đòn đánh"
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>Sức mạnh phép thuật</b> - Tăng hiệu quả của Kỹ Năng và Vật Phẩm của bạn"
+		"StatDesc_AbilityRangeDesc"				"<b>Tầm kỹ năng</b> - Tăng tầm và phạm vi của Kỹ Năng và Vật Phẩm của bạn"
+		"StatDesc_AbilityDurationDesc"			"<b>Thời gian kỹ năng</b> - Tăng thời gian tồn tại của Kỹ Năng và Vật Phẩm của bạn"
+		"StatDesc_WeaponDamageDesc"				"<b>Sát thương vũ khí</b> - Thay đổi theo phần trăm sát thương của Đạn và Đòn Cận Chiến của bạn"
+		"StatDesc_MoveSpeedDesc"				"<b>Tốc độ di chuyển</b> - Tốc độ di chuyển hiện tại."
+		"StatDesc_SpiritResistDesc"				"<b>Giáp phép</b> - Kháng sát thương phép nhận vào"
+		"StatDesc_WeaponResistDesc"				"<b>Giáp đạn</b> - Kháng sát thương Đạn nhận vào"
+		"StatDesc_HealingBoostDesc"				"<b>Hiệu quả hồi máu</b> - Thay đổi theo phần trăm hiệu quả của Kỹ Năng Hồi máu của bạn"
+		"StatDesc_AmmoDesc"						"<b>Đạn</b> - Số phát đạn trong súng trước khi cần nạp lại"
+		"StatDesc_FireRateDesc"					"<b>Tốc độ bắn</b> - Thay đổi theo phần trăm tốc độ bắn của súng bạn"
+		"StatDesc_SpiritLifestealDesc"			"<b>Hút máu Phép</b> - Lượng máu bạn hồi lại khi gây sát thương phép thuật"
+		"StatDesc_WeaponLifestealDesc"			"<b>Hút máu Vũ Khí</b> - Lượng máu bạn hồi lại khi gây sát thương Vũ Khí"
+		"StatDesc_BulletEvationDesc"			"<b>Né đạn</b> - Tỷ lệ né đạn theo phần trăm"
+		"StatDesc_RegenDesc"					"<b>Hồi máu</b> - Lượng máu bạn hồi mỗi giây"
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"Sức Bền"
+"InlineAttribute_Courage"		"lòng Can Đảm"
+"InlineAttribute_Spirit"		"phép Thuật"
+"InlineAttribute_Slow"			"làm chậm"
+"InlineAttribute_SlowResistance" "kháng làm chậm"
+"InlineAttribute_DamageAmp"		"tăng sát thương"
+"InlineAttribute_SpiritDamage"	"sát thương phép thuật"
+"InlineAttribute_SpiritDPS"	"sát thương phép thuật theo thời gian"
+"InlineAttribute_BonusSpiritDamage"	"sát thương phép thuật cộng thêm"
+"InlineAttribute_Stun"		"choáng"
+"InlineAttribute_Heal"		"hồi máu"
+"InlineAttribute_Heals"		"hồi máu"
+"InlineAttribute_Healing" 	"hồi máu"
+"InlineAttribute_MaxHealth" 	"máu tối đa"
+"InlineAttribute_Regen" 		"tái tạo"
+"InlineAttribute_MeleeDamage"	"sát thương cận chiến"
+"InlineAttribute_BulletDamage"	"sát thương đạn"
+"InlineAttribute_FireRate"	"tốc độ bắn"
+"InlineAttribute_ReducedFireRate"	"giảm tốc độ bắn"
+"InlineAttribute_BonusFireRate"	"tốc độ bắn cộng thêm"
+"InlineAttribute_MoveSpeed"		"tốc độ di chuyển"
+"InlineAttribute_BonusMoveSpeed" "tốc độ di chuyển cộng thêm"
+"InlineAttribute_WeaponDamage"	"sát thương vũ khí"
+"InlineAttribute_BonusWeaponDamage"	"sát thương vũ khí cộng thêm"
+"InlineAttribute_SpiritResist"	"kháng phép thuật"
+"InlineAttribute_BulletResist"	"kháng đạn"
+"InlineAttribute_SpiritIcon"	""
+"InlineAttribute_CombatBarrier" "lá chắn"
+"InlineAttribute_Immobilize" "khóa di chuyển"
+"InlineAttribute_StaminaRegenPerSecond" "hồi thể lực"
+"InlineAttribute_KnockBack" "đẩy lùi"
+"InlineAttribute_KnockUp" "hất tung"
+"InlineAttribute_Pull" "kéo"
+"InlineAttribute_Pulls" "kéo"
+"InlineAttribute_Pulling" "đang kéo"
+"InlineAttribute_PureDamage"	"sát thương thuần"
+"InlineAttribute_Silence"	"câm lặng"
+	}
+}
