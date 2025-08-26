@@ -1,7 +1,7 @@
 # 👋 Xin chào, mình là Hùng!
 
 - Mình lập tài khoản này để chia sẻ dự án việt hoá game DeadLock trên Steam – giúp cộng đồng có thể tiếp cận game bằng tiếng Việt dễ dàng hơn.
-⚙️ Cài đặt & Tải xuống
+- ⚙️ Cài đặt & Tải xuống
 
 Bạn có thể tải trực tiếp file localization ở nút <img width="149" height="55" alt="{E1C1A7EB-9206-4B8D-B9B7-60704DDA1E56}" src="https://github.com/user-attachments/assets/f45721a2-d2ee-4e9a-be9a-080b4705902f" /> xong ấn dowload zip
 
