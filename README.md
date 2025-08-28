@@ -1,5 +1,5 @@
 - Mình lập tài khoản này để chia sẻ dự án việt hoá game DeadLock trên Steam – giúp cộng đồng có thể tiếp cận game bằng tiếng Việt dễ dàng hơn.
-- Tìm thư mục game theo đường dẫn C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\resource rồi copy thư mục resource bạn đã tải về xong ấn Replace the files in the destination là được
+- Tìm thư mục game theo đường dẫn C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\resource rồi copy thư mục tên localization bạn đã tải về xong ấn Replace the files in the destination là được
 - Có thể chuột phải vào game trên steam để tìm nhanh hơn
   <img width="1486" height="720" alt="{F26D3E03-7CAD-4482-85E8-193B38C07CC4}" src="https://github.com/user-attachments/assets/2acbdbf7-9c02-45c4-b467-7e65c667234a" />
 - Nếu game bị lỗi việt hoá thì có thể ấn Kiểm tra lại dữ liệu của trò chơi là sẽ trở về tiếng anh gốc không bị lỗi nữa
