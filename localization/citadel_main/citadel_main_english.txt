@@ -2033,7 +2033,7 @@
 		"Citadel_HeroBuilds_RemoveItem"					"Xóa Khỏi Build"
 
 		"Citadel_HeroBuilds_BrowseBuildTitle"			"Duyệt Build"
-		"Citadel_HeroBuilds_ChangeHero"					"Thay Đổi Anh Hùng"
+		"Citadel_HeroBuilds_ChangeHero"					"Thay Đổi Tướng"
 		"Citadel_HeroBuilds_BrowseBuildSubheader"		"{s:hero_name}"
 
 		"Citadel_HeroBuilds_EditingBuildTitle"			"Chỉnh Sửa Build:"
@@ -3139,7 +3139,7 @@
 		"citadel_bot_name"							"Bot"
 		"menu_watch_live_games"						"{d:live_matches} đang diễn ra"
 		"menu_botmatchmaking"						"Trận Bot"
-		"menu_changehero"							"THAY đổi anh hùng"
+		"menu_changehero"							"Thay đổi tướng"
 		"menu_new_tag"								"Mới!"
 		"HeroesPageTitle"							"Anh hùng"
 
