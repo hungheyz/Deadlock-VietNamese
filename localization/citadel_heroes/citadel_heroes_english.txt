@@ -3748,13 +3748,16 @@
 "ability_vampirebat_lovebites/lovebites_proc" "Cắn Yêu"
 "ability_vampirebat_lovebites_t1_desc" "Khi kích hoạt: <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> tốc độ di chuyển trong {s:MovementSpeedBonusDuration}s"
 "ability_vampirebat_lovebites_t2_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát thương, <span class=\"highlight\">+{s:BonusDamage}</span> Sát thương cộng thêm"
+"ability_vampirebat_lovebites_t3_desc" "Kích hoạt: Giảm <span class=\"highlight\">-{s:StaminaReduction}</span> Thể lực và làm chậm <span class=\"highlight\">{s:SlowPercent}%</span> trong {s:SlowDuration} giây"
 "vampirebat_lovebites" "Cắn Yêu"
 "PerTargetCooldown_postvalue_label" "Thời gian hồi trên từng mục tiêu"
 "PerTargetCooldown_postfix" "s"
+"MaxRecasts_postvalue_label" "Số lần tái sử dụng"
+
 
 "ability_vampirebat_batblink" "Rút lui Huyết Nhị"
 "ability_vampirebat_batblink_t2_desc" "Khi sử dụng: Nhận <span class=\"highlight\">+{s:BonusFireRate}%</span> tốc độ bắn & thêm <span class=\"highlight\">{s:BonusBullets}</span> viên đạn"
-"ability_vampirebat_batblink_desc" "Tạm thời phân tán, trở nên <span class=\"highlight\">không thể chọn làm mục tiêu</span> và bay tới vị trí mục tiêu. <br><br>Có thể <span class=\"highlight\">sử dụng lại</span> một lần thứ hai trong khoảng thời gian ngắn."
+"ability_vampirebat_batblink_desc" "Phân tán trong chốc lát, trở nên <span class=\"highlight\">không thể bị chọn làm mục tiêu</span> và bay tới vị trí chỉ định. <br><br>Có thể <span class=\"highlight\">tái sử dụng</span> trong khoảng thời gian ngắn."
 "RecastWindow_label" "Thời gian sử dụng lại"
 "RecastWindow_postvalue_label" "Thời gian sử dụng lại"
 "RecastWindow_postfix" "s"
