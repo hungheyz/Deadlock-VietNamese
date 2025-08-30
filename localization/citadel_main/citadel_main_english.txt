@@ -88,20 +88,17 @@
 		"GameUI_Disconnect_ServerIncompatible"		"Phiên bản server không tương thích."
 		"Player_DisconnectReason_Idle"				"Ngắt kết nối khỏi server. Bạn đã AFK quá lâu."
 
-
-
 		"GameUI_Disconnect_LocalProblem_ManyRelays"		"Mất kết nối, ngay cả khi thử nhiều relay ở các vị trí địa lý khác nhau. Nguyên nhân có thể là sự cố với kết nối Internet của bạn."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"Máy chủ mất kết nối với relay chính mà client đang sử dụng."
 		"GameUI_Disconnect_LocalProblem_NetworkConfig"	"Kiểm tra kết nối Internet của bạn. Không thể tải cấu hình mạng từ CDN."
 		"GameUI_Disconnect_LocalProblem_Other"		"Đã ngắt kết nối. Có vẻ như có vấn đề với kết nối Internet của bạn."
-
 		"GameUI_Disconnect_RemoteProblem_Timeout"			"Ngừng nhận dữ liệu từ host từ xa."
 		"GameUI_Disconnect_RemoteProblem_TimeoutConnecting"	"Sau nhiều lần cố gắng kết nối, server không phản hồi."
 		"GameUI_Disconnect_RemoteProblem_Other"				"Vấn đề khi giao tiếp với host từ xa."
 		"GameUI_Disconnect_RemoteProblem_BadCrypt"			"Host từ xa cung cấp chứng chỉ, khóa mã hóa hoặc chữ ký không hợp lệ."
 		"GameUI_Disconnect_RemoteProblem_BadCert"			"Chứng chỉ của host từ xa không đủ để xác thực."
 		"GameUI_Disconnect_Unusual"							"Đã ngắt kết nối. Xảy ra điều bất thường. Console có thể cung cấp thêm chi tiết."
-		"GameUI_Disconnect_InternalError"					"Đã ngắt kết nối do lỗi nội bộ. Console có thể cung cấp thêm chi tiết."
+		"GameUI_Disconnect_InternalError"					"Đã ngắt kết nối do lỗi nội bộ. Console có thể cung cấp thêm chi tiết."																						   
 
 		"GameUI_ServerConnectOutOfDate"		"Server chưa cập nhật phiên bản mới nhất.\n"
 		"GameUI_ServerChallengeIncorrect"	"Server không phản hồi đúng challenge.\nCó thể server đã lỗi thời.\n"
@@ -141,15 +138,11 @@
 
 		"citadel_replay_manager_error_chunk_failed"		"Replay chưa sẵn sàng để tải xuống"
 		"citadel_replay_manager_error_write_failure"	"Replay ghi vào ổ đĩa thất bại"
-
 		"citadel_metadata_manager_error_download_failure"	"Không tải được file metadata trận đấu cho match %match_id%"
 		"citadel_metadata_manager_error_decompress_failure"	"Không giải nén được file metadata trận đấu"
 		"citadel_metadata_manager_error_parse_failure"		"Không phân tích được file metadata trận đấu"
 		"citadel_metadata_manager_error_id_mismatch"		"Match ID trong file metadata không khớp với giá trị dự kiến"
 		"citadel_metadata_manager_error_invalid_version"	"File metadata có phiên bản không hợp lệ"
-
-
-		//Game
 		"Citadel_Scoreboard_TeamKills"						"Tiêu diệt"
 		"Citadel_Scoreboard_TeamAP"							"AP"
 		"Citadel_Scoreboard_KDA_Kills"						"T"
@@ -169,7 +162,6 @@
 		"Citadel_ViewMatchID_InFlight_Title"				"Trận đấu vẫn đang diễn ra"
 		"Citadel_ViewMatchID_InFlight_Body"					"Trận đấu này vẫn đang diễn ra. Bạn có muốn theo dõi trận đấu không?"
 
-
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"Vui lòng chờ"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"Đang gửi thông tin người dùng"
@@ -181,7 +173,6 @@
 		"Citadel_PlaytestUser_Result_NotFriendsLongEnough"	"Bạn chưa là bạn bè đủ lâu với người dùng này để có thể gửi lời mời."
 		"Citadel_PlaytestUser_Result_AlreadyHasGame"		"Người chơi này đã có quyền truy cập Deadlock"
 		"Citadel_PlaytestUser_Result_LimitedUser"			"Người chơi này là tài khoản Steam hạn chế, do đó hiện không đủ điều kiện chơi Deadlock."
-
 
 		// Discord Invite
 		"Citadel_DiscordInvite_Title"						"Mời Discord"
@@ -3856,7 +3847,6 @@
 		"ping_stay_together"			"Cùng nhau"
 		"respond_yes"					"Đúng!"
 		"respond_no"						"Không!"
-
 		//"player_wait"											"Wait {s:param_1}"
 		//"hold_up"												"Hold up {s:param_1}"
 		"_missing_"						"{s:param_1} mất tích"
@@ -3918,6 +3908,13 @@
 		"citadel_keybind_hideout_cancel_matchmaking"      "Hủy tìm trận"
 		"citadel_keybind_hideout_accept_request"          "Chấp nhận yêu cầu"
 		"citadel_keybind_hideout_reject_request"          "Từ chối yêu cầu"
+		
+		"citadel_keybind_hideout_survey_option_1"   "Khảo sát - Lựa chọn 1"
+		"citadel_keybind_hideout_survey_option_2"   "Khảo sát - Lựa chọn 2"
+		"citadel_keybind_hideout_survey_option_3"   "Khảo sát - Lựa chọn 3"
+		"citadel_keybind_hideout_survey_option_4"   "Khảo sát - Lựa chọn 4"
+		"citadel_keybind_hideout_survey_option_5"   "Khảo sát - Lựa chọn 5"
+		"citadel_keybind_hideout_survey_skip"       "Bỏ qua khảo sát"
 
 		"Citadel_News_MajorUpdate"                        "Cập nhật lớn"
 		"Citadel_News_RegularUpdate"                      "Cập nhật thường"
