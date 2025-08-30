@@ -3993,7 +3993,83 @@
 		//-----------------------------------------------------------------------------
 		// Frank
 		//-----------------------------------------------------------------------------
+		"hero_frank_lore" "Rất nhiều người dành cả đời để tự hỏi họ thật sự là ai. Với Victor, câu hỏi hiện sinh này càng trở nên phức tạp hơn khi anh ta tỉnh dậy trên bàn xác, không hề biết ai đã tạo ra mình, vì sao mình được tạo ra, và được ghép từ những ai.\n\nGiờ đây, lang thang khắp năm quận để tìm câu trả lời, Victor hy vọng sẽ tìm được một người có thể nhận ra bất kỳ phần nào trong con người anh."
 
+		"Citadel_Frank_HeroTag_1" "Ngươi"
+		"Citadel_Frank_HeroTag_2" "Không Thể"
+		"Citadel_Frank_HeroTag_3" "Giết Được Ta"
+
+		//--Ability 1
+		"ability_frank_shocktarget2" "Ắc Quy Đau Đớn"
+		"ability_frank_shocktarget2_desc" "<span class=\"highlight\">Mỗi khi chịu sát thương</span>, bạn sẽ tích điện cho Ắc Quy Đau Đớn. <br><br>Khi đầy, kích hoạt kỹ năng sẽ phóng điện về phía trước, gây {g:citadel_inline_attribute:'SpiritDamage'}."
+		"ability_frank_shocktarget2_t2_desc" "Khi đánh trúng: Gây <span class=\"highlight\">{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:SlowDuration}s</span>"
+		"BonusShocks_postvalue_label" "Tia Sét Cộng Thêm"
+		"StoredDamageRequired_postvalue_label" "Sát Thương Cần Để Sạc"
+		"ability_frank_shocktarget2_t3_desc" "Khi đánh trúng tướng: Hồi <span class=\"highlight\">{s:MissingHealthPercentHeal}%</span> máu dựa trên lượng máu đã mất"
+		"MissingHealthPercentHeal_postvalue_label" "Máu Mất Chuyển Thành Hồi Phục"
+		"MissingHealthPercentHeal_label" "Máu Mất Chuyển Thành Hồi Phục"
+		"MissingHealthPercentHeal_postfix" "%"
+		"BatteryGenerationPercent_label" "Tốc Độ Tích Điện"
+		"BatteryGenerationPercent_postfix" "%"
+		
+		//--Ability 1 (Old)
+		"ability_frank_shocktarget" "Ắc Quy Đau Đớn"
+		"ability_frank_shocktarget_desc" "Phóng điện vào một mục tiêu trước mặt, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'} ngắn. <br><br><span class=\"highlight\">Sát thương nhận vào</span> sẽ được tích trữ thành {g:citadel_inline_attribute:'BonusSpiritDamage'} cho lần dùng kế tiếp, tối đa đến một giới hạn nhất định."
+		"ability_frank_shocktarget_desc_t3bonus" "Mục tiêu sau đó sẽ phóng điện sang một kẻ địch gần đó, gây {g:citadel_inline_attribute:'SpiritDPS'}."
+		"BonusDamageCap_label" "Sát Thương Tích Trữ Tối Đa"
+		"BonusDamageCap_postvalue_label" "Sát Thương Tích Trữ Tối Đa"
+		"BonusDamageConversionPercent_label" "Sát Thương Nhận Thành Tích Trữ"
+		"BonusDamageConversionPercent_postvalue_label" "Sát Thương Nhận Thành Tích Trữ"
+		"BonusDamageConversionPercent_postfix" "%"
+		"BonusDamagePerBullet_label" "Sát Thương Mỗi Viên Đạn"
+		"BonusDamagePerBullet_postvalue_label" "Sát Thương Mỗi Viên Đạn"
+		"ability_frank_shocktarget_t1_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát thương, <span class=\"highlight\">+{s:BonusDamageCap}</span> Giới Hạn Tích Trữ"
+		"ShockDPS_label" "Sát Thương Điện DPS"
+		"ShockDPS_postvalue_label" "Sát Thương Điện DPS"
+		"ShockRange_label" "Tầm Điện"
+		"ShockRange_postvalue_label" "Tầm Điện"
+		"ShockRange_postfix" "m"
+		"ShockDuration_label" "Thời Gian Điện Giật"
+		"ShockDuration_postvalue_label" "Thời Gian Điện Giật"
+		"ShockDuration_postfix" "s"
+		
+		//Ability 2
+		"ability_frank_selfzap" "Khởi Động Điện"
+		"ability_frank_selfzap_desc" "Gây {g:citadel_inline_attribute:'SpiritDamage'} lên chính bản thân. Sau đó, nhận thêm {g:citadel_inline_attribute:'Regen'} và {g:citadel_inline_attribute:'BonusMoveSpeed'}, giảm dần theo thời gian."
+		"ability_frank_selfzap/selfzap" "Khởi Động Điện"
+		"ability_frank_selfzap_t3_desc" "<span class=\"highlight\">{s:AbilityCooldown}s</span> Hồi chiêu. Khi dùng: Xóa các hiệu ứng bất lợi (trừ chiêu cuối)"
+		
+		//Ability 3
+		"ability_frank_painaura" "Hào Quang Đau Khổ"
+		"ability_frank_painaura_desc" "Giải phóng đau đớn, gây {g:citadel_inline_attribute:'SpiritDPS'} lên cả kẻ địch lẫn bản thân. <br><br>Sát thương <span class=\"highlight\">tiếp tục tăng</span> càng lâu bạn giữ kỹ năng, cho đến một giới hạn tối đa."
+		"ability_frank_painaura_t1_desc" "Kẻ địch nhận <span class=\"highlight\">{s:SlowPercent}%</span> Làm chậm"
+		"ability_frank_painaura_t2_desc" "<span class=\"highlight\">+{s:MinDPS}</span> Sát Thương Tối Thiểu và <span class=\"highlight\">+{s:MaxDPS}</span> Sát Thương Tối Đa"
+		"ability_frank_painaura_t3_desc" "Kẻ địch chịu thêm <span class=\"highlight\">+{s:IncomingDamagePercent}%</span> Sát Thương"
+		"IncomingDamagePercentOnHit_label" "Sát Thương Nhận Vào"
+		"IncomingDamagePercentOnHit_postvalue_label" "Sát Thương Nhận Vào"
+		"IncomingDamagePercentOnHit_postfix" "%"
+		"IncomingDamagePercentOnHit_prefix" "{s:sign}"
+		"ability_frank_painaura/painaura/painauradebuff" "Hào Quang Thống Khổ"
+		"ability_frank_painaura_buttonhint" "Tắt Hào Quang"
+		"SelfDamagePercentage_label" "Sát Thương Tự Nhận"
+		"SelfDamagePercentage_postvalue_label" "Sát Thương Tự Nhận"
+		"SelfDamagePercentage_postfix" "%"
+		
+		//Ability 4
+		"ability_frank_revive" "Tái Sinh Sét Đánh"
+		"ability_frank_revive_desc" "Hồi sinh sau khi nhận sát thương chí mạng, gây {g:citadel_inline_attribute:'SpiritDamage'} và làm {g:citadel_inline_attribute:'Stun'} kẻ địch xung quanh."
+		"CooldownRefreshChancePercent_label" "Tỉ Lệ Hoàn Lại Hồi Chiêu"
+		"CooldownRefreshChancePercent_postvalue_label" "Tỉ Lệ Hoàn Lại Hồi Chiêu"
+		"CooldownRefreshChancePercent_postfix" "%"
+		"ability_frank_revive/reviving" "Tái Sinh Sét Đánh"
+		"ability_frank_revive/slow" "Tái Sinh Sét Đánh"
+		"ability_frank_revive/selfbuff" "Tái Sinh Sét Đánh"
+		"ability_frank_revive_t1_desc" "Khi Hồi Sinh: Nhận <span class=\"highlight\">{s:BonusFireRate}%</span> Tốc Độ Bắn và <span class=\"highlight\">{s:BonusDamagePerBullet}</span> Sát Thương Linh Hồn mỗi viên đạn"
+		"ability_frank_revive_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">{s:Radius}m</span> Phạm Vi"
+		"ability_frank_revive/zombie" "Tái Sinh Tạm Thời"
+		"ZombieLifeDuration_label" "Thời Gian Tái Sinh Tạm Thời"
+		"ZombieLifeDuration_postvalue_label" "Thời Gian Tái Sinh Tạm Thời"
+		"ZombieLifeDuration_postfix" "s"
 
 
 		//-----------------------------------------------------------------------------
