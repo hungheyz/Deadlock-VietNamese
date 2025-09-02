@@ -574,7 +574,7 @@
 		"Citadel_Ability_IsImbued"									"Được cường hóa"
 		"Citadel_Ability_CannotImbue"									"Không thể cường hóa"
 		"Citadel_ComponentRequired"									"Nâng cấp từ:"
-		"Citadel_ComponentOwned"										"đang sở hữu"
+		"Citadel_ComponentOwned"										"Đã sở hữu"
 		"Citadel_ItemOwnedBy"											"Thuộc về:"
 		"Citadel_ItemModifies"										"Thay đổi"
 		"Citadel_ItemViewImpact"										"Xem chi tiết"
