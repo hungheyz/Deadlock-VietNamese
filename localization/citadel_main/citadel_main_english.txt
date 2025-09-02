@@ -1440,6 +1440,8 @@
 		"Citadel_HideoutConnectionFailed_NoServer"				"Không có máy chủ được gán"
 		"Citadel_HideoutConnectionFailed_VersionIncompatible"	"Phiên bản client không tương thích"
 		"Citadel_HideoutConnectionFailed_FailedToConnect"		"Kết nối thất bại"
+		"Citadel_HideoutBallJuggle_Increment"						"{s:value}x"
+		"Citadel_HideoutBallJuggle_Land"							"{s:value}x :)"
 
 		"Citadel_Dashboard_ShowHeroLabHeroes"						"Hiển thị Anh Hùng Thử Nghiệm"
 
