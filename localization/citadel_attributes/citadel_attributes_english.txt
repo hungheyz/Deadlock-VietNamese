@@ -317,8 +317,11 @@
 		"DamageBoosted_postvalue_label"						"Sát thương"
 		"BonusDamage_label"							"Sát thương cộng thêm"
 		"BonusDamage_postvalue_label"							"Sát thương cộng thêm"
+		"BonusDamagePercent_label"                "Sát thương cộng thêm"
+		"BonusDamagePercent_postvalue_label"     "Sát thương cộng thêm"
+		"BonusDamagePercent_prefix"              "{s:sign}"
+		"BonusDamagePercent_postfix"             "%"
 		"DamagePlayer_label"							"Sát thương gây lên tướng"
-
 		"DamagePlayer_postvalue_label"							"Sát thương gây lên tướng"
 
 		"DamageNPC_label"								"Sát thương gây lên đơn vị không phải tướng"
