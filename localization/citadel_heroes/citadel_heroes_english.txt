@@ -1527,6 +1527,7 @@
 		"ability_explosive_barrel"					"Thùng Thuốc Nổ"
 		"ability_explosive_barrel_quip"				"Ném một thùng nổ khi bị bắn"
 		"ability_explosive_barrel_desc"				"Ném một thùng nổ phát nổ sau một khoảng trễ, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'KnockUp'}. <br><br> Thùng có thể kích nổ sớm bằng cách <span class=\"highlight\">bắn</span>, <span class=\"highlight\">đánh cận chiến</span> hoặc <span class=\"highlight\">kích nổ</span> bởi thùng khác."
+		"ability_explosive_barrel_t3_desc"			"<span class=\"highlight\">+{s:TossDuration}s</span> Dời chướng ngại và <span class=\"highlight\">+{s:AbilityCharges}</span> Lượt sử dụng."
 
 		//"BarrelLifetime_label"						"Barrel Life Time"
 		"BarrelLifetime_postfix"						"s"
