@@ -2702,5 +2702,7 @@
 "InlineAttribute_Pulling" "đang kéo"
 "InlineAttribute_PureDamage"	"sát thương thuần"
 "InlineAttribute_Silence"	"câm lặng"
+"InlineAttribute_BonusSprintSpeed""Tốc độ chạy nước rút cộng thêm"
+
 	}
 }
