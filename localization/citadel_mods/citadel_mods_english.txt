@@ -967,10 +967,6 @@
 
 // Rebuttal - upgrade_melee_rebuttal
 "upgrade_melee_rebuttal_desc"				"Khi <span class=\"highlight\">Đỡ đòn</span> thành công một tướng đối phương, <span class=\"highlight\">Hồi máu</span> cho bản thân bằng sát thương đã chặn và phản lại sát thương đó cho mục tiêu, đồng thời tạm thời tăng <span class=\"highlight\">sát thương cận chiến</span>."
-"BuffMeleeDamageBoost_label"					"Sát thương cận chiến"
-"BuffMeleeDamageBoost_postvalue_label"					"Sát thương cận chiến"
-"BuffMeleeDamageBoost_postfix"					"%"
-"BuffMeleeDamageBoost_prefix"					"+"
 
 // Counterspell
 "upgrade_counterspell_desc"				"Lượt  tiếp theo <span class=\"highlight\">bảo vệ bạn khỏi sát thương và hiệu ứng của kỹ năng và vật phẩm đối phương</span>. Khi đỡ đòn thành công, nhận {g:citadel_inline_attribute:'Heal'} và thêm {g:citadel_inline_attribute:'MoveSpeed'} cùng {g:citadel_inline_attribute:'Spirit'}."
