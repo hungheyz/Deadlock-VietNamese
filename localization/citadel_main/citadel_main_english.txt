@@ -3133,7 +3133,7 @@
 		"citadel_bot_name"							"Bot"
 		"menu_watch_live_games"						"{d:live_matches} đang diễn ra"
 		"menu_botmatchmaking"						"Trận Bot"
-		"menu_changehero"							"Thay đổi tướng"
+		"menu_changehero"							"Đổi nhân vật"
 		"menu_new_tag"								"Mới!"
 		"HeroesPageTitle"							"Anh hùng"
 
