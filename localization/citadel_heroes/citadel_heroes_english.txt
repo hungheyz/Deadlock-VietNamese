@@ -4236,6 +4236,9 @@
 		"ability_bookworm_knightcharge_t2_desc" "Tăng chiều rộng thêm <span class=\"highlight\">+{s:KnightCountInFirstWave} Chiến Mã</span>"
 		"ability_bookworm_knightcharge_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">+{s:StunDuration}s</span> Thời Gian Choáng"
 		"KnightCount_postvalue_label" "Hiệp Sĩ & Chiến Mã Được Triệu Hồi"
+		"KnightPositionSpread_postvalue_label"    "Độ lan Hiệp sĩ"
+		"KnightPositionSpread_label"              "Độ lan Hiệp sĩ"
+		"KnightPositionSpread_postfix"            "m"
 
 		//-----------------------------------------------------------------------------
 		// Boho
