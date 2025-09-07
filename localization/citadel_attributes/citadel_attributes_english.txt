@@ -2702,7 +2702,7 @@
 "InlineAttribute_KnockUp" "hất tung"
 "InlineAttribute_Pull" "kéo"
 "InlineAttribute_Pulls" "kéo"
-"InlineAttribute_Pulling" "đang kéo"
+"InlineAttribute_Pulling" "đẩy lùi"
 "InlineAttribute_PureDamage"	"sát thương thuần"
 "InlineAttribute_Silence"	"câm lặng"
 "InlineAttribute_BonusSprintSpeed""Tốc độ chạy nước rút cộng thêm"
