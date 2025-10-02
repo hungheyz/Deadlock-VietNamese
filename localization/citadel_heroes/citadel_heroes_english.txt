@@ -14,7 +14,7 @@
 		"citadel_ability_bull_charge_quip"		"Xông vào trận chiến, kéo theo kẻ địch"
 		"citadel_ability_bull_charge_desc"		"Tiến tới, {g:citadel_inline_attribute:'Pulling'} những kẻ địch bạn chạm phải. Đẩy một anh hùng vào tường sẽ gây {g:citadel_inline_attribute:'Stun'}.<br><span class=\"diminish\">Nếu bạn va chạm với một anh hùng, bạn sẽ di chuyển nhanh hơn trong khi thực hiện đòn Đâm Vai.</span>"
 		//"modifier_citadel_bull_charging"		"Charging"
-		"citadel_ability_bull_charge_t1_desc"	"Va chạm với Anh hùng: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> Sát Thương Vũ Khí trong <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> giây"
+		"citadel_ability_bull_charge_t1_desc" "Khi Va chạm Tướng: <span class="highlight">+{s:WeaponDamageBonus}</span> Sát thương Vũ khí trong <span class="highlight">{s:WeaponPowerIncreaseDuration}</span> giây"
 		"citadel_ability_bull_charge_t2_desc"	"Va chạm với Tường: <span class=\"highlight\">+{s:StunDuration}s</span> Thời gian Choáng"
 		"modifier_shoulder_charge_buff"			"Sát Thương Thêm"
 		"modifier_charge_drag_enemy"			"Đâm Vai"
@@ -2406,7 +2406,7 @@
 		"mirage_sand_phantom_passive_desc" "Bị động: Đòn đánh của bạn <span class=\"highlight\">áp dụng hệ số nhân tăng dần</span> lên mục tiêu. Khi hệ số nhân trên mục tiêu hết hạn hoặc đạt tối đa, nó được tiêu thụ và mục tiêu chịu <span class=\"highlight\">Sát Thương Phép Thuật</span> và bị <span class=\"highlight\">hiện trên bản đồ</span> trong thời gian ngắn. Sát thương cuối cùng = sát thương cơ bản x hệ số nhân."
 		"mirage_sand_phantom_t1_desc" "Áp dụng {s:MovementSpeedSlow}% Làm Chậm trong {s:SlowDuration}s mỗi khi áp dụng hệ số nhân 2x trở lên"
 		"mirage_sand_phantom_t2_desc" "+{s:VictimStackDuration}s Thời gian hệ số nhân và +{s:ProcDamageBase} Sát Thương Cơ Bản"
-		"mirage_sand_phantom_t3_desc" "{s:SandPhantomProcCooldown}s Thời gian hồi giữa các hệ số nhân và +{s:MirageDjinnsMarkMaxStacks} Hệ số nhân tối đa"
+		"mirage_sand_phantom_t3_desc" "Hồi chiêu {s:AbilityCooldown}s giữa các Hệ số nhân và +{s:MirageDjinnsMarkMaxStacks} Hệ số nhân Tối đa"
 		"modifier_mirage_sand_phantom_passive_victim" "Hệ số nhân Dấu Ấn Thần Djinn"
 		"ProcDamageBase_label" "Sát Thương Cơ Bản"
 		"ProcDamageBase_postvalue_label" "Sát Thương Cơ Bản"
@@ -2561,7 +2561,7 @@
 
 		"citadel_ability_tengu_airlift" "Thả Hàng Không"
 		"citadel_ability_tengu_airlift_quip" "Tử thần từ trên cao! Bay và thả đồng minh xuống kẻ địch"
-		"citadel_ability_tengu_airlift_desc" "<span class=\"highlight\">Nắm lấy đồng minh</span> và <span class=\"highlight\">bay cùng họ</span>. Thả đồng minh để gây nổ, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'} và {g:citadel_inline_attribute:'KnockUp'}. Bạn và đồng minh nhận Lá chắn khi kết thúc bay. <br>Trong khi bị nâng, đồng minh nhận kháng đạn nhưng không thể tấn công và gây {s:AllyOutgoingDamagePercent}% sát thương.<br><span class=\"diminish\">{g:citadel_binding:'AltCast'} cho phép bạn bay mà không có đồng minh, mang theo bom thay thế.<br>{g:citadel_binding:'Attack'} để thả đồng minh/bom.<br>{g:citadel_binding:'MoveForward'} để bay nhanh hơn.<br>Giữ {g:citadel_binding:'MoveDown'} trong lúc thi triển để giảm độ cao khi bay"
+		"citadel_ability_tengu_airlift_desc" "<span class="highlight">Bắt lấy một đồng minh</span> và <span class="highlight">cất cánh</span> cùng họ. Thả đồng minh của bạn để gây nổ, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'} cùng {g:citadel_inline_attribute:'KnockUp'}. Bạn và đồng minh sẽ nhận được Lá chắn khi kết thúc bay. <br><br>Khi đang được nâng lên, đồng minh của bạn không thể tấn công và chỉ gây {s:AllyOutgoingDamagePercent}% sát thương.<br><br><span class="diminish">{g:citadel_binding:'AltCast'} cho phép bạn bay mà không cần đồng minh, thay vào đó mang theo một quả bom.<br>{g:citadel_binding:'Attack'} để thả đồng minh/bom.<br>{g:citadel_binding:'MoveForward'} để bay nhanh hơn.<br>Giữ {g:citadel_binding:'MoveDown'} trong khi niệm để giảm độ cao phóng"
 		"citadel_ability_tengu_airlift_t1_desc" "<span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span> Kháng Đạn trên kẻ địch trúng đòn trong <span class=\"highlight\">{s:AirDropDebuff02Duration}s</span>"
 		"citadel_ability_tengu_airlift_t2_desc" "<span class=\"highlight\">+{s:AirDropBulletShield}</span> Lá chắn và <span class=\"highlight\">+{s:AirDropExplodeRadius}m</span> Bán kính Nổ"
 		"citadel_ability_tengu_airlift_t3_desc" "Áp dụng <span class=\"highlight\">Im Lặng</span> lên kẻ địch trúng đòn trong <span class=\"highlight\">+{s:AirDropSilenceDuration}s</span>"
@@ -3494,7 +3494,7 @@
 
 		"ability_viper_snakedash" "Trượt Rắn"
 		"ability_viper_snakedash_desc" "Tăng Khoảng cách Trượt, có thể Trượt lên dốc, và có thể quay nhanh hơn khi Trượt."
-		"ability_viper_snakedash_t3_desc" "<span class=\"highlight\">+{s:SlideResist}% Kháng Phép thuật & Đạn</span> khi Trượt"
+		"ability_viper_snakedash_t3_desc" "Khi Trượt: <span class="highlight">Nhận {s:CombatBarrier}</span> lá chắn trong <span class="highlight">{s:BuffDuration}s</span>"
 		"ability_viper_snakedash_quip" "Tăng khả năng linh hoạt khi Trượt"
 
 		"modifier_snakedash" "Hình Dạng Rắn"
@@ -3548,9 +3548,11 @@
 		"ability_viper_petrifybola_quip" "Ném bola Đá Hóa"
 
 		"ability_viper_debuffdagger" "Dao Chích"
-		"ability_viper_debuffdagger_desc" "Ném một dao, gây <span class=\"highlight_spirit\">Sát thương Phép thuật</span> và áp dụng <span class=\"highlight\">Chậm Dần</span>."
-		"ability_viper_debuffdagger_t3_desc" "+<span class=\"highlight\">{s:SlowDuration}s</span> Thời gian Chậm và giảm <span class=\"highlight\">{s:StaminaReduction} Thể lực</span>"
-		"ability_viper_debuffdagger_quip" "Ném một dao làm chậm"
+		"ability_viper_debuffdagger_desc" "Ném một con dao găm, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'}. <br><br>Mỗi con dao găm tiếp theo trúng cùng mục tiêu sẽ cộng dồn {g:citadel_inline_attribute:'SpiritDamage'} và {g:citadel_inline_attribute:'Slow'}."
+		"ability_viper_debuffdagger_t2_desc" "Khi Trúng: Giảm <span class="highlight">{s:BulletResistReduction}%</span> Kháng Đạn và thêm <span class="highlight">{s:BulletResistReductionPerStack}%</span> Kháng Đạn mỗi Cộng dồn"
+		"ability_viper_debuffdagger_t3_desc" "Khi Trúng: Hoàn lại <span class="highlight">{s:CooldownRefundPercent}%</span> thời gian Hồi chiêu"
+		"ability_viper_debuffdagger_quip" "Ném một con dao găm làm chậm"
+		"ability_viper_debuffdagger/debuff" "Đâm Xoắn"
 
 
 		//-----------------------------------------------------------------------------
@@ -3786,7 +3788,8 @@
 		"BatPerSecond_postvalue_label" "Số dơi mỗi giây"
 
 		"ability_vampirebat_steallife" "Rạch"
-		"ability_vampirebat_steallife_desc" "Vung ô của bạn, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu mất của mục tiêu. <br><br>Nếu Rạch giết mục tiêu, nhận {g:citadel_inline_attribute:'Heal'}."
+		"ability_vampirebat_steallife_desc" "<span class="diminish">Kích hoạt:</span> Chém bằng chiếc ô của bạn, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu đã mất của mục tiêu. Hồi {g:citadel_inline_attribute:'Heal'} cho mỗi kẻ địch bị hạ gục.<br><br><span class="diminish">Bị động:</span> Giữ {g:citadel_binding:'ADS'} sẽ khiến bạn lơ lửng trong chốc lát."
+		"ability_vampirebat_steallife_t2_desc" "+{s:Damage} Sát thương và cải thiện hồi Máu mỗi lần hạ gục"
 		"MissingHealthDamagePercentage_postvalue_label" "Máu mất làm sát thương"
 		"MissingHealthDamagePercentage_postfix" "%"
 		"RakeHealPerKill_postvalue_label" "Hồi máu mỗi khi giết"
@@ -4005,7 +4008,7 @@
 
 		//--Ability 1
 		"ability_frank_shocktarget2" "Ắc Quy Đau Đớn"
-		"ability_frank_shocktarget2_desc" "<span class=\"highlight\">Mỗi khi chịu sát thương</span>, bạn sẽ tích điện cho Ắc Quy Đau Đớn. <br><br>Khi đầy, kích hoạt kỹ năng sẽ phóng điện về phía trước, gây {g:citadel_inline_attribute:'SpiritDamage'}."
+		"ability_frank_shocktarget2_desc" "<span class="highlight">Nhận bất kỳ sát thương nào</span> sẽ tự động tích lũy Pin Đau Đớn của bạn. <br><br>Khi đầy, kích hoạt kỹ năng sẽ phóng nhiều tia sét, gây {g:citadel_inline_attribute:'SpiritDamage'} mỗi mục tiêu một lần."
 		"ability_frank_shocktarget2_t2_desc" "Khi đánh trúng: Gây <span class=\"highlight\">{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:SlowDuration}s</span>"
 		"BonusShocks_postvalue_label" "Tia Sét Cộng Thêm"
 		"StoredDamageRequired_postvalue_label" "Sát Thương Cần Để Sạc"
@@ -4068,8 +4071,8 @@
 		"ability_frank_revive/reviving" "Tái Sinh Sét Đánh"
 		"ability_frank_revive/slow" "Tái Sinh Sét Đánh"
 		"ability_frank_revive/selfbuff" "Tái Sinh Sét Đánh"
-		"ability_frank_revive_t1_desc" "Khi Hồi Sinh: Nhận <span class=\"highlight\">{s:BonusFireRate}%</span> Tốc Độ Bắn và <span class=\"highlight\">{s:BonusDamagePerBullet}</span> Sát Thương Phép Thuật mỗi viên đạn"
-		"ability_frank_revive_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">{s:Radius}m</span> Phạm Vi"
+		"ability_frank_revive_t1_desc" "<span class="highlight">+{s:Radius}m</span> Phạm vi & <span class="highlight">+{s:Damage}</span> Sát thương"
+		"ability_frank_revive_t3_desc" "Khi đang Hồi chiêu: Nhận <span class="highlight">{s:BonusFireRate}%</span> Tốc độ Bắn và <span class="highlight">{s:BonusDamagePerBullet}</span> Sát thương phép thuật mỗi viên đạn"
 		"ability_frank_revive/zombie" "Tái Sinh Tạm Thời"
 		"ZombieLifeDuration_label" "Thời Gian Tái Sinh Tạm Thời"
 		"ZombieLifeDuration_postvalue_label" "Thời Gian Tái Sinh Tạm Thời"
@@ -4231,7 +4234,7 @@
 		"ability_bookworm_aoemagic_t3_desc" "Khi Trúng: Giảm Kháng Phép Thuật <span class=\"highlight\">{s:TechArmorDamageReduction}%</span> trong <span class=\"highlight\">{s:DebuffDuration}s</span>"
 
 		"ability_bookworm_knightcharge" "Tiếng Hô Xung Trận"
-		"ability_bookworm_knightcharge_desc" "Giải phóng một làn sóng hiệp sĩ và chiến mã quỷ ảnh xông pha khắp <span class=\"highlight\">toàn thành phố</span>, {g:citadel_inline_attribute:'Healing'} đồng minh và gây {g:citadel_inline_attribute:'SpiritDamage'} cho kẻ địch."
+		"ability_bookworm_knightcharge_desc" "Giải phóng một làn sóng các hiệp sĩ và chiến mã linh hồn lao qua <span class="highlight">toàn bộ thành phố</span>, {g:citadel_inline_attribute:'Healing'} đồng minh và gây {g:citadel_inline_attribute:'Sát thương Phép'} lên kẻ địch. <br><br>Sức mạnh của {g:citadel_inline_attribute:'Heal'} và {g:citadel_inline_attribute:'Sát thương Phép'} sẽ được khuếch đại khi các hiệp sĩ tiến xa hơn."
 		"ability_bookworm_knightcharge/buff" "Tiếng Hô Xung Trận"
 		"ability_bookworm_knightcharge_t2_desc" "Tăng chiều rộng thêm <span class=\"highlight\">+{s:KnightCountInFirstWave} Chiến Mã</span>"
 		"ability_bookworm_knightcharge_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">+{s:StunDuration}s</span> Thời Gian Choáng"
@@ -4239,6 +4242,11 @@
 		"KnightPositionSpread_postvalue_label"    "Độ lan Hiệp sĩ"
 		"KnightPositionSpread_label"              "Độ lan Hiệp sĩ"
 		"KnightPositionSpread_postfix"            "m"
+		"MaxAmp_postvalue_label" "Khuếch đại Tối đa"
+		"MaxAmp_postfix" "%"
+		"MaxAmp_prefix" "{s:sign}"
+		"MaxAmpDistance_postvalue_label" "Khoảng cách để Khuếch đại Tối đa"
+		"MaxAmpDistance_postfix" "m"
 
 		//-----------------------------------------------------------------------------
 		// Boho
@@ -4286,6 +4294,7 @@
 		"ability_header_on_landing" "Khi Hạ Cánh:"
 		"ability_header_passive" "Thụ Động:"
 		"ability_header_on_proc" "Khi Kích Hoạt:"
+		"ability_header_on_stack" "Khi Cộng dồn:"
 		"ability_header_on_max_stacks" "Khi Đạt Max Cộng Dồn:"
 		"ability_header_on_wall_hit" "Khi Trúng Tường:"
 		"ability_header_when_inactive" "Khi Không Hoạt Động:"
@@ -4296,7 +4305,7 @@
 		"ability_header_on_empowered_cast" "Khi Dùng Kỹ Năng Tăng Cường:"
 		"ability_header_on_barrier_expire" "Khi Lá Chắn Hết:"
 		"ability_header_on_cast" "Khi Sử Dụng Kỹ Năng:"
-
+		"ability_header_on_slide" "Khi Trượt:"
 
 		// Weapon names
 		"citadel_gun_damage"						"Gun Damage"
