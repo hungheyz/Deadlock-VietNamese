@@ -293,6 +293,10 @@
 		"SlowPercent_postfix"						"%"
 		"SlowPercent_prefix"						"-"
 		"movement_slow"								"-Tốc độ di chuyển"
+		"SlowPercentPerStack" 						"Giảm tốc độ Di chuyển mỗi Cộng dồn"
+		"SlowPercentPerStack_postvalue_label" 		"Giảm tốc độ Di chuyển mỗi Cộng dồn"
+		"SlowPercentPerStack_postfix" "%"
+		"SlowPercentPerStack_prefix" "-"
 
 		//"DroneLifetime_label"							"Thời gian sống của Drone"
 
