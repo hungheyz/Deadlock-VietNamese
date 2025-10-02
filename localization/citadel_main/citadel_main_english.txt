@@ -503,7 +503,7 @@
 		"Citadel_Player_Level_PowerIncreases"						"Ân huệ"
 		"Citadel_Player_Level_PowerIncreaseGrants"					"Mỗi Ân huệ nhận:"
 		"Citadel_Player_Level_StatIncreases"						"Tăng chỉ số"
-		"Citadel_Player_Level_StatMax"								"Phần thưởng tối đa tại Ân huệ 32"
+		"Citadel_Player_Level_StatMax" 								"Thưởng tối đa tại Boon 33"
 		"Citadel_Player_Level_Legend"								"Chú giải:"
 		"Citadel_Player_Level_AbilityUnlock"						"Mở kỹ năng"
 		"Citadel_Player_Level_PowerIncrease"						"Ân huệ"
@@ -3386,7 +3386,7 @@
 		"DevMenu_UnstickHero"							"Làm Anh hùng thoát kẹt"
 		"DevMenu_SelfKill"							"Tự sát"
 		"DevMenu_Substitute"							"Thay thế"
-
+		"DevMenu_UnstickHeroTooltip" "Công cụ Phát triển Sớm - Dùng để Giải thoát Tướng nếu bị kẹt trong địa hình thế giới"
 
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
@@ -3570,7 +3570,8 @@
 		"AbilityButtonHint_MeleeRejuvinator"		"Đòn Cận Chiến để nhận Rejuvenator"
 		"AbilityButtonHint_RejuvenatorOwned"		"Đã Có Rejuvenator - Sẽ đến Đồng Minh"
 		"AbilityButtonHint_MeleePowerUp"			"Đòn Cận Chiến để nhận PowerUp"
-		"AbilityButtonHint_MeleeChangeTeam"		"Đòn Cận Chiến để đổi đội"
+		"AbilityButtonHint_MeleeChangeTeam"			"Đòn Cận Chiến để đổi đội"
+		"AbilityButtonHint_MeleePickUp" 			"Cận chiến mạnh để thu thập linh hồn"
 		"AbilityButtonHint_ClimbRope"				"Giữ {g:citadel_binding:'Mantle'} để Leo Dây"
 		"AbilityButtonHint_Swing"					"Đu"
 
