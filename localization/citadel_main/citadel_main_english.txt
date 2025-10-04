@@ -563,7 +563,7 @@
 		"Citadel_Shop_SellMaxItems_Recommended"						"Cấp thấp nhất"
 
 		"Citadel_Shop_AbilityisImbued"								"Được cường hóa với {s:imbuing_ability_name}"
-
+		"Citadel_Shop_InCombat_Alert"    "Cảnh báo Sát thương"
 		"Citadel_Spectate_Connecting_Title"							"Đang kết nối trận"
 		"Citadel_Spectate_Connecting_Buffering"						"Đã kết nối, vui lòng chờ bộ đệm"
 		"Citadel_Spectate_Connecting_Waiting"							"Vui lòng chờ trong khi kết nối trận. Có thể mất đến một phút khi server bắt đầu phát sóng."
@@ -2499,7 +2499,7 @@
 		"citadel_settings_language_change_body"		"Khởi động lại client Deadlock để áp dụng thay đổi ngôn ngữ."
 		"citadel_settings_show_telemtry_settings"		"Hiển thị cài đặt HUD Telemetry"
 		"citadel_settings_telemtry_settings_info_desc"	"Nhấn để mở trang Hỗ trợ HUD Telemetry Source2 để biết thêm thông tin"
-
+		"citadel_settings_show_active_slot_popup"    "Hiện cửa sổ bật lên ô vật phẩm đang dùng"
 
 		"citadel_settings_chat"							"Chat"
 		"citadel_settings_chat_filter_onlyfriends"		"Chỉ hiển thị chat từ bạn bè và nhóm"
