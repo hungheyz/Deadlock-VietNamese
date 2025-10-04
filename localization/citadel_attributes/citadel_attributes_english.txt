@@ -317,6 +317,8 @@
 		"Damage_label"								"Sát thương"
 
 		"Damage_postvalue_label"								"Sát thương"
+		"DamagePerStack_label"               		"Sát thương mỗi cộng dồn"
+		"DamagePerStack_postvalue_label"     		"Sát thương mỗi cộng dồn"
 		"DamageBoosted_label"						"Sát thương"
 		"DamageBoosted_postvalue_label"						"Sát thương"
 		"BonusDamage_label"							"Sát thương cộng thêm"
@@ -540,6 +542,10 @@
 		"BulletArmorDamageReduction_label"				"Kháng đạn"
 
 		"BulletArmorDamageReduction_postvalue_label"				"Kháng đạn"
+		"BulletArmorDamageReductionPerStack_prefix"            "{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"           "%"
+		"BulletArmorDamageReductionPerStack_label"             "Kháng Đạn mỗi cộng dồn"
+		"BulletArmorDamageReductionPerStack_postvalue_label"   "Kháng Đạn mỗi cộng dồn"
 
 		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
 		"TechArmorDamageReduction_prefix"				"{s:sign}"
