@@ -1,4 +1,5 @@
 - Hướng dẫn ở YOUTUBE: https://www.youtube.com/watch?v=9HYuEr49Mck
+- Chiêu của tướng đang được tôi dịch nên tạm thời dùng tiếng anh
 - Mình lập tài khoản này để chia sẻ dự án việt hoá game DeadLock trên Steam – giúp cộng đồng có thể tiếp cận game bằng tiếng Việt dễ dàng hơn.
 - Tìm thư mục game theo đường dẫn C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel\resource rồi copy thư mục tên localization bạn đã tải về xong ấn Replace the files in the destination là được
 - Có thể chuột phải vào game trên steam để tìm nhanh hơn
