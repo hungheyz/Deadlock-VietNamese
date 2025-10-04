@@ -787,7 +787,7 @@
 "upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Knuckles Unsealed!"
 
 //Spirit Burn
-"upgrade_spirit_burn_desc" "Gây lượng <span class=\"highlight\">Sát thương phép</span> lớn lên kẻ địch trong {s:DamageThresholdDuration}s gây nổ và đốt kẻ địch xung quanh. Khi đang cháy, kẻ địch chịu damage theo thời gian và giảm hồi máu.<br><span class=\"diminish\">Chỉ gây nửa sát thương với các đối tượng không phải tướng và không tiêu hao thời gian hồi chiêu nếu không trúng tướng.</span>"
+"upgrade_spirit_burn_desc" "Gây <span class=\"highlight\">Sát thương Tinh Thần</span> đáng kể lên một kẻ địch trong vòng {s:DamageThresholdDuration}s sẽ kích nổ, gây sát thương và hiệu ứng thiêu đốt lên các kẻ địch xung quanh. Khi bị thiêu đốt, kẻ địch sẽ chịu sát thương theo thời gian và nhận giảm hiệu quả hồi máu.<br><span class=\"diminish\">Gây nửa sát thương và có hồi chiêu giảm một nửa lên mục tiêu không phải tướng.</span>"
 "upgrade_spirit_burn/modifier_proc_watcher/modifier_debuff" "Đốt phép"
 "MinDPS_label" "DPS tối thiểu"
 "MinDPS_postvalue_label" "DPS tối thiểu"
