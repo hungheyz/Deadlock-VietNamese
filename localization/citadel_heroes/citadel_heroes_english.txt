@@ -3550,7 +3550,7 @@
 		"ability_viper_debuffdagger" "Dao Chích"
 		"ability_viper_debuffdagger_desc" "Ném một con dao găm, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'}. <br><br>Mỗi con dao găm tiếp theo trúng cùng mục tiêu sẽ cộng dồn {g:citadel_inline_attribute:'SpiritDamage'} và {g:citadel_inline_attribute:'Slow'}."
 		"ability_viper_debuffdagger_t2_desc" "Khi Trúng: Giảm <span class="highlight">{s:BulletResistReduction}%</span> Kháng Đạn và thêm <span class="highlight">{s:BulletResistReductionPerStack}%</span> Kháng Đạn mỗi Cộng dồn"
-		"ability_viper_debuffdagger_t3_desc" "Khi trúng: Hoàn lại <span class=\"highlight\">{s:CooldownRefundPercent}%</span> hồi chiêu tích trữ"
+		"ability_viper_debuffdagger_t3_desc" "Khi Trúng: Hoàn lại <span class="highlight">{s:CooldownRefundPercent}%</span> thời gian Hồi chiêu"
 		"ability_viper_debuffdagger_quip" "Ném một con dao găm làm chậm"
 		"ability_viper_debuffdagger/debuff" "Đâm Xoắn"
 
