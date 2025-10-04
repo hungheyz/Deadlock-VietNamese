@@ -558,6 +558,9 @@
 
 		"BulletResistReduction_postvalue_label"		"Kháng đạn"
 		"BulletResistReduction_postfix"	"%"
+		"BulletResistReductionPerStack_label"		"Giảm Kháng Đạn mỗi Cộng dồn"
+		"BulletResistReductionPerStack_postvalue_label"	"Giảm Kháng Đạn mỗi Cộng dồn"
+		"BulletResistReductionPerStack_postfix"	"%"
 
 		"MagicResistReduction_label"		"Kháng phép"
 
