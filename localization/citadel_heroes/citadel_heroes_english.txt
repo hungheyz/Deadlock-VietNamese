@@ -4234,7 +4234,7 @@
 		"ability_bookworm_aoemagic_t3_desc" "Khi Trúng: Giảm Kháng Phép Thuật <span class=\"highlight\">{s:TechArmorDamageReduction}%</span> trong <span class=\"highlight\">{s:DebuffDuration}s</span>"
 
 		"ability_bookworm_knightcharge" "Tiếng Hô Xung Trận"
-		"ability_bookworm_knightcharge_desc" "Giải phóng một làn sóng các hiệp sĩ và chiến mã linh hồn lao qua <span class="highlight">toàn bộ thành phố</span>, {g:citadel_inline_attribute:'Healing'} đồng minh và gây {g:citadel_inline_attribute:'Sát thương Phép'} lên kẻ địch. <br><br>Sức mạnh của {g:citadel_inline_attribute:'Heal'} và {g:citadel_inline_attribute:'Sát thương Phép'} sẽ được khuếch đại khi các hiệp sĩ tiến xa hơn."
+		"ability_bookworm_knightcharge_desc" "Giải phóng một làn sóng hiệp sĩ và chiến mã huyễn ảnh lao xuyên qua <span class=\"highlight\">toàn thành phố</span>, {g:citadel_inline_attribute:'Hồi Máu'} đồng minh và gây {g:citadel_inline_attribute:'Sát thương Tinh Thần'} lên kẻ địch. <br><br>Sức mạnh của {g:citadel_inline_attribute:'Hồi Máu'} và {g:citadel_inline_attribute:'Sát thương Tinh Thần'} sẽ được khuếch đại khi các hiệp sĩ di chuyển xa hơn."
 		"ability_bookworm_knightcharge/buff" "Tiếng Hô Xung Trận"
 		"ability_bookworm_knightcharge_t2_desc" "Tăng chiều rộng thêm <span class=\"highlight\">+{s:KnightCountInFirstWave} Chiến Mã</span>"
 		"ability_bookworm_knightcharge_t3_desc" "<span class=\"highlight\">+{s:Damage}</span> Sát Thương và <span class=\"highlight\">+{s:StunDuration}s</span> Thời Gian Choáng"
@@ -4242,6 +4242,7 @@
 		"KnightPositionSpread_postvalue_label"    "Độ lan Hiệp sĩ"
 		"KnightPositionSpread_label"              "Độ lan Hiệp sĩ"
 		"KnightPositionSpread_postfix"            "m"
+
 		"MaxAmp_postvalue_label" "Khuếch đại Tối đa"
 		"MaxAmp_postfix" "%"
 		"MaxAmp_prefix" "{s:sign}"
