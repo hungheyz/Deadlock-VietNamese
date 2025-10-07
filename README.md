@@ -1,7 +1,7 @@
 - Hướng dẫn ở YOUTUBE: https://www.youtube.com/watch?v=9HYuEr49Mck
 - Nếu game bị lỗi việt hoá thì có thể ấn Kiểm tra lại dữ liệu của trò chơi là sẽ trở về tiếng anh gốc không bị lỗi nữa
-- 📧 Email:hungheyz@gmail.com
-- 💬 Facebook:https://www.facebook.com/chong.syndra
+- 📧 Email: hungheyz@gmail.com
+- 💬 Facebook: https://www.facebook.com/chong.syndra
 - Mỗi khi game update nhẹ game có thể sẽ reset về tiếng anh nên mn hãy tải lại file của tôi trên này để copy lại nhé, tôi sẽ update hàng ngày lun !!
 - Các bản Việt hoá do mình chia sẻ chỉ phục vụ mục đích phi lợi nhuận cho cộng đồng.
 - Nếu bạn muốn ủng hộ thì đây là stk của mình HUNGNE478 mb bank
