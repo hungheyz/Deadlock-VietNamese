@@ -1273,6 +1273,7 @@
 
 		"Citadel_PostGame_CopyMatchID"								"Sao chép ID Trận"
 		"Citadel_PostGame_CopyMatchIDSuccess"						"Thành công"
+		"Citadel_PostGame_HighSkillRangeParties"	"Nhóm Người Chơi Trình Độ Cao"
 
 		"Citadel_PlayerCard_FavoriteHero"							"Anh hùng Yêu thích"
 
