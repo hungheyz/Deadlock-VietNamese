@@ -3160,7 +3160,8 @@
 
 		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
 		"menu_play_matchmaking"						"Chơi trận tiêu chuẩn với người chơi khác"
-		"menu_play_low_priority_matchmaking"		"Bạn bị đánh dấu ưu tiên thấp. Bạn và nhóm của bạn sẽ chỉ ghép với những người cũng đang ở Ưu tiên thấp."
+		"menu_play_low_priority_matchmaking" "Nhóm của bạn đang trong hàng chờ Ưu Tiên Thấp do bạn hoặc một thành viên trong nhóm đã rời trận hoặc có hành vi không phù hợp bị người chơi khác báo cáo. <br><br>Bạn phải thắng <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> trận trong hàng chờ Ưu Tiên Thấp hoặc loại bỏ thành viên bị phạt để trở lại chế độ ghép trận bình thường."
+
 		"menu_learn_incomplete"						"Chưa hoàn thành"
 		"menu_learn_completed"						"Đã hoàn thành"
 
