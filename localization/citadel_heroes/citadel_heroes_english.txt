@@ -4028,7 +4028,7 @@
 		//--Ability 1
 "ability_frank_shocktarget2" "Pin Đau Đớn"
 "ability_frank_shocktarget2_desc" "<span class=\"highlight\">Nhận bất kỳ sát thương nào</span> sẽ thụ động nạp Pin Đau Đớn của bạn. <br><br>Khi đầy, kích hoạt kỹ năng sẽ bắn nhiều tia điện gây {g:citadel_inline_attribute:'SpiritDamage'} một lần cho mỗi mục tiêu."
-"ability_frank_shocktarget2_t2_desc" "Trúng mục tiêu: Áp dụng <span class=\"highlight\">{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:SlowDuration}s</span>"
+"ability_frank_shocktarget2_t1_desc" "Trúng mục tiêu: Áp dụng <span class=\"highlight\">{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:SlowDuration}s</span>"
 "BonusShocks_postvalue_label" "Tia điện bổ sung"
 "StoredDamageRequired_postvalue_label" "Sát thương để nạp pin"
 "ability_frank_shocktarget2_t3_desc" "Trúng tướng: Hồi phục <span class=\"highlight\">{s:MissingHealthPercentHeal}%</span> máu mất của bạn"
