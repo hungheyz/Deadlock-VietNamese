@@ -2172,6 +2172,7 @@
 		"modifier_knocked_off_zipline_slow"						"Bị đánh rơi khỏi dây"
 		"modifier_citadel_respawn_credit" 						"Hồi sinh tức thì"
 		"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"		"Phản Hồi Bí Ẩn"
+		"modifier_citadel_delayed_catapult_launch" "Bị thương - Bệ phóng đang sạc"
 
 		"modifier_hint_vertical_movement"		"Nhấn {g:citadel_binding:'Mantle'} để hủy. {g:citadel_binding:'Roll'}/ {g:citadel_binding:'Crouch'} để di chuyển Lên/Xuống"
 		"modifier_hint_can_cancel"				"Nhấn {g:citadel_binding:'Mantle'} để hủy"
@@ -3160,7 +3161,7 @@
 
 		//"menu_play_learn_to_play_desc"			"Watch the tutorial then follow it up with some hero sandbox and lane training."
 		"menu_play_matchmaking"						"Chơi trận tiêu chuẩn với người chơi khác"
-		"menu_play_low_priority_matchmaking" "Nhóm của bạn đang trong hàng chờ Ưu Tiên Thấp do bạn hoặc một thành viên trong nhóm đã rời trận hoặc có hành vi không phù hợp bị người chơi khác báo cáo. <br><br>Bạn phải thắng <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> trận trong hàng chờ Ưu Tiên Thấp hoặc loại bỏ thành viên bị phạt để trở lại chế độ ghép trận bình thường."
+		"menu_play_low_priority_matchmaking" "Nhóm của bạn đang trong hàng chờ Ưu Tiên Thấp do bạn hoặc một thành viên trong nhóm đã rời trận hoặc có hành vi không phù hợp bị người chơi khác báo cáo. <br><br>Bạn phải thắng <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> trận trong hàng chờ Ưu Tiên Thấp hoặc loại bỏ thành viên bị phạt để quay lại chế độ ghép trận bình thường."
 
 		"menu_learn_incomplete"						"Chưa hoàn thành"
 		"menu_learn_completed"						"Đã hoàn thành"
