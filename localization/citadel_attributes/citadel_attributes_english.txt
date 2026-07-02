@@ -1,6 +1,6 @@
 "lang"
 {
-	"Language"		"vietnamese"
+	"Language"		"english"
 	"Tokens"
 	{
 
