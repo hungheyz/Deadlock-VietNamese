@@ -4514,12 +4514,12 @@
 		//
 
 		//Ability 4 - Gravestone
-		"ability_necro_gravestone" "Sắc Lệnh Mượn Tạm"
+		"ability_necro_gravestone" "Mộ xum xuê"
 		"ability_necro_gravestone_desc_1" "<span class=\"diminish\">Bẩm sinh: </span>Kỹ năng có thể triệu hồi <span class=\"highlight\">Ghoul</span> lảo đảo tiến về căn cứ địch, gây {g:citadel_inline_attribute:'MeleeDamage'}. Chúng phát nổ khi tiếp cận tướng hoặc mục tiêu, gây {g:citadel_inline_attribute:'SpiritDamage'} trong khu vực và áp dụng {g:citadel_inline_attribute:'Slow'} ngắn"
 		"ability_necro_gravestone_desc_2" "<span class=\"diminish\">Kích hoạt: </span>Tạo một bia mộ tại vị trí mục tiêu, triệu hồi <span class=\"highlight\">Ghoul</span> theo thời gian. Kẻ địch có thể phá hủy bia mộ bằng hai đòn cận chiến nặng."
 		"ability_necro_gravestone_t2_desc" "<span class=\"highlight\">+{s:MoveSpeedPercent}%</span> Tốc độ Ghoul và <span class=\"highlight\">+{s:AbilityDuration}s</span> Thời gian tác dụng"
 		"ability_necro_gravestone_t3_desc" "Khi chết: Gây thêm <span class=\"highlight\">+{s:CurrentHealthDamagePercentage}%</span> máu hiện tại thành sát thương"
-		"ability_necro_gravestone/gravestone/buff" "Sắc Lệnh Mượn Tạm"
+		"ability_necro_gravestone/gravestone/buff" "Mộ xum xuê"
 		"BonusSpiritDamagePercentage_postvalue_label" "Sát thương phép thuật cộng thêm"
 		"BonusSpiritDamagePercentage_label" "Sát thương phép thuật cộng thêm"
 		"BonusSpiritDamagePercentage_postfix" "%"
