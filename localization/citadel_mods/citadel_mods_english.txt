@@ -243,7 +243,7 @@
 		"upgrade_glass_cannon_plus1"		"Pháo Kính +1"
 
 		//Fury Trance
-		"upgrade_fury_trance_active"	"Cho <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Kháng phép thuật</span> nhưng <span class=\"highlight\">Câm lặng</span> chính bạn và <span class=\"highlight\">vô hiệu hóa sử dụng cùng hồi thể lực</span>."
+		"upgrade_fury_trance_active" "Nhận <span class=\"highlight\">Tốc Độ Bắn</span>, <span class=\"highlight\">Kháng Linh Hồn</span> và <span class=\"highlight\">Tốc Độ Di Chuyển</span>, đồng thời loại bỏ hình phạt <span class=\"highlight\">Tốc Độ Di Chuyển</span> khi bắn, nhưng khiến bạn bị <span class=\"highlight\">Câm Lặng</span> và <span class=\"highlight\">không thể sử dụng hoặc hồi Thể Lực</span>."
 
 		//Vampiric Burst
 		"upgrade_surging_power_active"	"Cho <span class=\"highlight\">Hút máu</span>, <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Đạn</span>. Lượng đạn thêm này không bị giới hạn bởi kích thước băng đạn tối đa."
@@ -563,15 +563,16 @@
 		"upgrade_aoe_root_active"		"Ném một lựu đạn <span class=\"highlight\">hút chân không</span>, kéo mọi kẻ địch vào một vùng nhỏ và áp dụng <span class=\"highlight\">Bùa Làm Chậm</span>.  <span class=\"diminish\"><br><br>Dùng Alt Cast để nhắm trực tiếp vào đơn vị.</span>"
 
 		//Curse
-		"upgrade_glitch_desc"					"Nguyền rủa một kẻ địch - <span class=\"highlight\">ngắt, Câm lặng, Tước vũ khí</span> và <span class=\"highlight\">ngăn sử dụng vật phẩm</span>. <span class=\"highlight\">Xóa mọi buff không phải chiêu cuối</span>."
-		"modifier_glitch_debuff"				"Bị nguyền rủa!"
+		"upgrade_glitch_desc" "Yểm lời nguyền lên kẻ địch — <span class=\"highlight\">ngắt kỹ năng, Câm Lặng, Tước Vũ Khí</span> và <span class=\"highlight\">ngăn sử dụng trang bị</span>. <span class=\"highlight\">Loại bỏ toàn bộ hiệu ứng có lợi không phải Tuyệt Kỹ</span>.<br><br><span class=\"highlight\">Sát Thương Gây Ra</span> của chính bạn sẽ bị giảm trong thời gian hiệu lực."
+		"modifier_glitch_debuff" "Bị Nguyền Rủa!"
+		"modifier_glitch_self_penalty" "Phản Tác Dụng Lời Nguyền"
 
 		//Bullet Resist Shredder
 		"upgrade_bullet_resist_shredder_desc"	"Giảm <span class=\"highlight\">Kháng đạn</span> của kẻ địch khi bạn gây {g:citadel_inline_attribute:'SpiritDamage'}."
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Giảm giáp đạn"
 
 		//Echo Shard
-		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Đặt lại hồi chiêu</span> của kỹ năng không phải chiêu cuối đã được cường hóa."
+		"upgrade_ability_power_shard_active" "<span class=\"highlight\">Đặt lại thời gian hồi chiêu</span> của kỹ năng không phải Tuyệt Kỹ đã được cường hóa.<br><br>Thời gian hồi của vật phẩm này sẽ tăng thêm <span class=\"highlight\">bằng thời gian hồi của kỹ năng đã được cường hóa</span>."
 
 		//Duration Extender
 		"upgrade_arcane_extension_desc"	"Cường hóa một kỹ năng để tăng <span class=\"highlight\">Thời gian</span> của nó."
@@ -648,7 +649,8 @@
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Găng tay đã mở phong ấn!"
 
 		//SpiritBurn
-		"upgrade_spirit_burn_desc"	"Gây lượng lớn {g:citadel_inline_attribute:'SpiritDamage'} lên kẻ địch trong {s:DamageThresholdDuration}s sẽ tạo vụ nổ gây sát thương và đốt kẻ địch xung quanh. Khi đang cháy, kẻ địch chịu sát thương theo thời gian và bị giảm hồi máu.<br><span class=\"diminish\">Gây nửa sát thương và có nửa hồi chiêu với mục tiêu không phải tướng.</span>"
+		"upgrade_spirit_burn_desc" "Gây một lượng lớn {g:citadel_inline_attribute:'SpiritDamage'} lên kẻ địch trong vòng {s:DamageThresholdDuration}s sẽ kích hoạt một vụ nổ, gây sát thương và thiêu đốt mục tiêu. Trong khi bị thiêu đốt, kẻ địch sẽ chịu sát thương theo thời gian và nhận ít hồi máu hơn.<br><span class=\"diminish\">Hồi chiêu được tính riêng cho từng kẻ địch, vì vậy mỗi mục tiêu chỉ có thể bị thiêu đốt một lần trong mỗi lần hồi chiêu. Chỉ gây 50% sát thương lên đơn vị không phải anh hùng.</span>"
+		"modifier_spirit_burn_immunity" "Miễn Nhiễm Thiêu Đốt Linh Hồn"
 		"MinDPS_label" "DPS tối thiểu"
 
 		"MinDPS_postvalue_label" "DPS tối thiểu"
@@ -752,7 +754,7 @@
 		"HealReductionDuration_postfix"		"s"
 
 		//Discord | Scourge
-		"upgrade_discord_desc"						"Áp dụng <span class=\"highlight\">Kháng phép thuật</span> và một hào quang lên mục tiêu đồng minh, gây <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}sát thương</span> lên kẻ địch theo tỉ lệ máu tối đa của chúng. <br>Có thể tự dùng lên bản thân."
+		"upgrade_discord_desc" "Ban cho mục tiêu đồng minh <span class=\"highlight\">Kháng Linh Hồn</span>, <span class=\"highlight\">Kháng Hiệu Ứng Xấu</span> và một hào quang gây <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}sát thương</span> lên kẻ địch theo tỷ lệ với Máu Tối Đa của chúng. Các hiệu ứng xấu đang tồn tại trên mục tiêu sẽ bị giảm thời lượng.<br>Có thể tự sử dụng lên bản thân."
 		"MaxHealthPercentAsDPS_label"				"Máu tối đa mỗi giây"
 		"MaxHealthPercentAsDPS_postvalue_label"				"Máu tối đa mỗi giây"
 		"MaxHealthPercentAsDPS_postfix"				"%"
