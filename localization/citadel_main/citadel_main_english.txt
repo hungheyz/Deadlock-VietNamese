@@ -284,6 +284,9 @@
 		"Citadel_CommendPlayer_Teamwork"					"Đồng đội tốt"
 		"Citadel_CommendPlayer_Skilled"						"Người chơi kỹ năng"
 		"Citadel_CommendToast_ReturnCommendTooltip"			"Click To Return Commend"
+		"Citadel_CommendNotification_Nice" "Hay lắm"
+		"Citadel_CommendNotification_NumCommends" "{d:num_commends}"
+		"Citadel_CommendNotification_Label:f" "{num_commends, plural, one{người chơi đã khen ngợi bạn} other{người chơi đã khen ngợi bạn}}"
 
 		"Citadel_SkipTutorial_Title"						"Bỏ qua hướng dẫn"
 		"Citadel_SkipTutorial_Body"							"Are you sure that you want to skip the tutorial? You should really only do this if you have played before."
@@ -301,6 +304,8 @@
 		"Citadel_GenericError_DurationControlBlocked"				"You have exceeded the khả dụng amount of time that you are allowed to play trực tuyến."
 		"Citadel_GenericError_InvalidClientVersion"					"Your client is unable to kết nối to this máy chủ due to version differences. Try updating your client to the latest version."
 
+		"Citadel_ProfileMatchHistory_Failed" "Không thể tải lịch sử trận đấu"
+
 		"Citadel_MatchHistory_NoResponse"							"Không thể liên lạc to the Mạng Deadlock. Vui lòng thử lại sau ít phút"
 		"Citadel_MatchHistory_InternalError"						"An bất ngờ lỗi occurred while getting the match history"
 		"Citadel_MatchHistory_InvalidPermission"					"You do not have permission to xem this user's match history"
@@ -312,6 +317,8 @@
 		"Citadel_MatchHistory_Win" "Thắng"
 		"Citadel_MatchHistory_ServerIssue" ""
 		"Citadel_MatchHistory_Disbanded" "Đã giải tán"
+		"Citadel_MatchHistory_Abandoned" "Bỏ Trận"
+		"Citadel_MatchHistory_NotScored" "Không Tính Điểm"
 
 		"Citadel_MatchDetails_NoResponse"							"Không thể liên lạc to the Mạng Deadlock. Vui lòng thử lại sau ít phút"
 		"Citadel_MatchDetails_InternalError"						"An bất ngờ lỗi occurred while getting the match details"
@@ -685,6 +692,96 @@
 		"Citadel_RankedGames_PlayedQualified"				"Your Hạng will be calculated based on additional games"
 		"Citadel_RankedGames_Qualified1"						"Additional games played will factor into your final xếp hạng"
 		"Citadel_RankedGames_Qualified2"						"Final rank will be awarded {t:s:end_day}"
+		"Citadel_RankedTitle" "Xếp Hạng"
+		"Citadel_Ranked_CalibratingTitle" "Đang Phân Hạng"
+
+		"Citadel_RankedSeason_InvalidSeason" "Không thể tải thông tin mùa giải."
+		"Citadel_RankedSeason_MissingData" "Không thể tải tiến trình mùa giải của bạn. Vui lòng thử lại sau."
+		"Citadel_RankedSeason_Finished" "Đã Kết Thúc"
+		"Citadel_RankedSeason_Active" "Đang Diễn Ra"
+		"Citadel_RankedSeason_Upcoming" "Sắp Diễn Ra"
+
+		"Citadel_RankedSeason_SeasonEnded" "Mùa Giải Đã Kết Thúc"
+		"Citadel_RankedSeason_TimeRemaining" "Còn lại {t:d:t:T:time_remaining}"
+
+		"Citadel_RankedSeason_CurrentRank" "Hạng Hiện Tại"
+		"Citadel_RankedSeason_SeasonRank" "Hạng Mùa Giải"
+		"Citadel_RankedSeason_HighestRank" "Hạng Cao Nhất"
+
+		"Citadel_RankedSeason_ProtectionRemaining" "Còn {d:demotion_protection_remaining}/{d:demotion_protection_total} lượt Bảo Vệ Tụt Hạng"
+		"Citadel_RankedSeason_ProtectionUsed" "Đã Dùng Bảo Vệ Tụt Hạng"
+		"Citadel_RankedSeason_ResultingRank" "Hạng Sau Cùng"
+		"Citadel_RankedSeason_HeroWins:f" "{d:hero_wins} {hero_wins, plural, one{Chiến Thắng} other{Chiến Thắng}}"
+		"Citadel_RankedSeason_HeroWinsRequired:f" "Cần <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{chiến thắng} other{chiến thắng}}</b> để mở điều kiện sử dụng tướng trong Xếp Hạng"
+		"Citadel_Ranked_ViewSeasonHistory" "Xem Lịch Sử Mùa Giải"
+		"Citadel_Ranked_ViewLeaderboards" "Xem Bảng Xếp Hạng"
+
+		"Citadel_RankedSeason_Upcoming_StartsIn" "Mùa giải bắt đầu sau {t:d:t:T:time_until_start}"
+		"Citadel_RankedSeason_Active_NotStarted" "Chơi các trận Xếp Hạng để bắt đầu phân hạng."
+		"Citadel_RankedSeason_Finished_NoMatches" "Chưa tham gia."
+		"Citadel_RankedSeason_Finished_NotCalibrated" "Chưa hoàn tất phân hạng."
+
+		"Citadel_RankedSeason_CurrentStreak" "Chuỗi Hiện Tại"
+		"Citadel_RankedSeason_Wins" "Chiến Thắng"
+		"Citadel_RankedSeason_WinStreak" "Chuỗi Thắng"
+		"Citadel_RankedSeason_WinStreak_Tooltip" "Thắng liên tiếp để nhận Điểm Xếp Hạng nhanh hơn."
+		"Citadel_RankedSeason_WinStreakPoints" "+{d:win_streak_points}đ"
+
+		"Citadel_RankedSeason_EligibilityTitle" "Điều kiện tham gia Xếp Hạng:"
+		"Citadel_RankedSeason_Eligibility_AccountWins:f" "{d:current_account_wins} / {d:required_account_wins} chiến thắng ở Chế Độ Thường"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f" "{d:current_unlocked_heroes} / {d:required_unlocked_heroes} tướng có từ {d:required_hero_win_count} chiến thắng trở lên"
+		"Citadel_RankedSeason_Eligibility_NotEligible" "Chơi Chế Độ Thường để mở khóa Xếp Hạng"
+		"Citadel_RankedSeason_Eligibility_Eligible" "Xếp Hạng hiện đã khả dụng trong menu Chơi"
+
+		"Citadel_RankedMatchHistory_Calibrating" "Đang Phân Hạng {d:calibrating_number}/{d:calibration_matches}"
+		"Citadel_RankedMatchHistory_Calibrated" "Hoàn Tất Phân Hạng"
+		"Citadel_RankedMatchHistory_PointsChange" "{s:rank_points_change}đ"
+
+		"Citadel_RankedHistory_Title" "Các Mùa Giải Xếp Hạng"
+		"Citadel_RankedHistory_SeasonNotJoined" "Chưa Tham Gia"
+		"Citadel_RankedHistory_SeasonNotCalibrated" "Chưa Phân Hạng"
+		"Citadel_RankedHistory_SeasonCalibrating" "Đang Phân Hạng"
+		"Citadel_RankedHistory_SeasonUpcoming" "--"
+
+		"Citadel_Ranked_NoSeasonActive" "Hiện Không Có Mùa Giải Nào Đang Diễn Ra"
+
+		"Citadel_Ranked_Table_Header_Rank" "Hạng"
+		"Citadel_Ranked_Table_Header_Percentile" "Bách Phân Vị"
+		"Citadel_Ranked_Table_Row_Percentile_Value" "{s:percentile}%"
+
+		"Citadel_Ranked_Overview_Tab_Name" "Tổng Quan"
+		"Citadel_Ranked_Matches_Tab_Name" "Trận Đấu"
+		"Citadel_Ranked_Heroes_Tab_Name" "Tướng"
+
+		"Citadel_Ranked_Overview_Header" "Xếp Hạng là gì?"
+
+		"Citadel_Ranked_Overview_Bullet1" "Xếp Hạng là chế độ thi đấu Deadlock cạnh tranh hơn với các quy tắc nghiêm ngặt hơn."
+		"Citadel_Ranked_Overview_Bullet2" "Có 11 bậc hạng khác nhau. Mỗi bậc được chia thành 6 bậc phụ (I - VI)."
+
+		"Citadel_Ranked_Overview_Eligibility" "Điều Kiện"
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f" "Bạn phải có ít nhất {d:required_account_wins} {d:required_account_wins, plural, one{chiến thắng} other{chiến thắng}} trên tài khoản. Ngoài ra, bạn cần có ít nhất 			{d:required_hero_unlocks} {d:required_hero_unlocks, plural, one{tướng} other{tướng}} với tối thiểu {d:required_hero_wins} {d:required_hero_wins, plural, one{chiến thắng} other{chiến thắng}} mỗi tướng ở Chế Độ 			Thường."
+		"Citadel_Ranked_Overview_Eligibility_Bullet2" "Người chơi chỉ có thể xếp hàng Xếp Hạng theo Solo hoặc Duo. Tổ đội Duo phải chênh lệch không quá 1 bậc hạng. Người chơi Eternus chỉ có thể ghép với người chơi 				Eternus khác trong phạm vi 3 bậc phụ."
+		"Citadel_Ranked_Overview_Eligibility_Bullet3" "Bạn phải hoàn thành {d:required_solo_calibration_games} trận phân hạng Solo. Hạng cao nhất có thể đạt sau phân hạng là 	{g:citadel_packed_rank_name:max_calibration_rank}."
+
+		"Citadel_Ranked_Overview_PlayingMatches" "Thăng Hạng"
+		"Citadel_Ranked_Overview_Playing_Bullet1" "Mỗi trận thắng/thua sẽ cho hoặc trừ trung bình khoảng 250 điểm. Con số này có thể thay đổi tùy theo đánh giá của hệ thống ghép trận hoặc chuỗi thắng. Sau mỗi trận, bạn sẽ thấy Điểm Xếp Hạng được cập nhật trên thanh tiến trình."
+		"Citadel_Ranked_Overview_Playing_Bullet2" "Khi thăng lên bậc hoặc bậc phụ mới, bạn sẽ nhận các lượt Bảo Vệ Tụt Hạng. Thăng một bậc lớn nhận 5 lượt, còn mỗi bậc phụ nhận 2 lượt. Nếu thua khi còn Bảo Vệ Tụt Hạng và đáng lẽ bị tụt hạng, bạn sẽ giữ nguyên hạng và tiêu hao 1 lượt bảo vệ."
+		"Citadel_Ranked_Overview_Playing_Bullet3" "Để lên bậc phụ tiếp theo, bạn cần tích lũy 1.000 Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Để lên bậc hạng tiếp theo, bạn cần 2.000 Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet4" "Ở bậc hạng cao nhất, quy tắc sẽ thay đổi. Bạn vẫn nhận hoặc mất Điểm Xếp Hạng như bình thường, nhưng các bậc phụ không còn yêu cầu số điểm cố định. Thay vào đó, mỗi ngày hệ thống sẽ phân bậc phụ dựa trên bách phân vị của người chơi trong hạng {g:citadel_packed_rank_rank_name:'111'}."
+
+		"Citadel_Ranked_Overview_HeroSelection" "Khu Vực Chờ Trước Trận"
+		"Citadel_Ranked_Overview_Hero_Bullet1" "Khi vào một trận Xếp Hạng mới, bạn sẽ thấy thông tin hạng của tất cả người chơi trong trận trước khi vào khu vực chờ."
+		"Citadel_Ranked_Overview_Hero_Bullet2" "Bạn có thể đổi tướng để cải thiện đội hình hoặc đổi đường với đồng đội."
+
+		"Citadel_LeaderboardRankDesc" "Từ hạng {g:citadel_packed_rank_name:leaderboard_packed_rank} trở lên, huy hiệu sẽ không còn được nhận bằng số điểm cố định. Thay vào đó, tất cả người chơi đủ điều kiện sẽ được xếp theo Điểm Xếp Hạng và nhận huy hiệu dựa trên bách phân vị của mình."
+
+		"Citadel_RankedSeasonName_BetaSeason1" "Mùa Beta 1"
+
+		"Citadel_RankedProgress_CalibratedRank" "Hoàn Tất Phân Hạng"
+		"Citadel_RankedProgress_GainedRank" "Thăng Hạng"
+		"Citadel_RankedProgress_LostRank" "Tụt Xuống Hạng"
+		"Citadel_RankedProgress_RankPoints" "Điểm"
+		"Citadel_RankedProgress_RankPointsChange" "{s:rank_change_prefix}{d:rank_change}đ"
 
 		"Citadel_Play_BotsOfflineTitle"				"Bots Temporarily Ngoại tuyến"
 		"Citadel_Play_BotsOfflineText"				"Bots are tạm thời bị tắt, please check back later."
@@ -871,8 +968,6 @@
 		// Party
 		"Citadel_Party_InviteFriend"								""
 		"Citadel_Party_PrivateMatch"								"Trận riêng"
-		"Citadel_Party_MatchMaking"									"Trận thường"
-		"Citadel_Party_MatchMakingRanked"							"Trận xếp hạng"
 		"Citadel_Party_PartyPlayer"									"Người chơi"
 		"Citadel_Party_PartySpectator"								"Khán giả"
 		"Citadel_Party_JoinParty"									"Tham gia tổ đội"
@@ -973,14 +1068,6 @@
 		"Citadel_Party_OutOfDateClientTooltip"						"Game is out of date"
 		"Citadel_Party_InviteSent"									"Đã gửi lời mời"
 
-		"Citadel_QueueOptions_Button"								"Tùy chọn tìm trận"
-		"Citadel_QueueOptions_Modal_Title"							"Tìm trận"
-		"Citadel_QueueOptions_Modal_Title_confirm_reset"			"Are you sure you want to reset your tìm trận cài đặt to the default?"
-		"Citadel_QueueOptions_Modal_Title_reset_tooltip"			"Restore default tìm trận cài đặt."
-		"Citadel_TeamOptions_Modal_Title"							"Đội"
-		"citadel_settings_mm_preference_text"						"Extra competitive"
-		"citadel_settings_mm_preference_serious_desc"				"You prefer to play with others who are looking for higher levels of coordination, communication, and competitiveness.<br><br>Note: If you are hiện tại in a tổ đội, changing this cài đặt will only affect tìm trận for your hiện tại tổ đội. Upon leaving the tổ đội, this cài đặt will revert to its previous value."
-
 		"Citadel_RosterMode_Party_Matchmaking"						"Chơi Deadlock"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"Chơi xếp hạng"
 		"Citadel_RosterMode_Party_HeroLabsMatchmake"				"Play Tướng Labs"
@@ -1013,7 +1100,7 @@
 		"Citadel_RosterMode_ChangeHero"								"Đổi tướng"
 		"Citadel_RosterMode_ChangeOpponent"							"Change Opponent"
 		"Citadel_RosterMode_EditRoster"								"Sửa danh sách tướng"
-
+		"Citadel_RosterMode_PreGameHeroDraft" "Đổi Tướng"
 		"Citadel_Roster_HeroCount"									"Tướng in roster: "
 		"Citadel_Roster_PreferredCount_Singular"					"Ưu tiên tướng: "
 		"Citadel_Roster_PreferredCount"								"Ưu tiên tướng: "
@@ -1049,9 +1136,23 @@
 		"Citadel_RosterUpdate_NotInMatchmaking"						"Not in the tìm trận hàng chờ."
 		"Citadel_RosterUpdate_InvalidMode"							"Game chế độ doesn't support roster edits."
 
+		"Citadel_PreGameHeroDraft_ChangeHero" "Đổi Tướng"
+		"Citadel_PreGameHeroDraft_Confirm" "Khóa Tướng"
+		"Citadel_PreGameHeroDraft_ErrorHeroLocked" "Tướng này đã có người chọn"
+		"Citadel_PreGameHeroDraft_ErrorTimeLocked:f" "Không thể đổi tướng trong {d:lockout_seconds} {lockout_seconds, plural, one{giây} other{giây}}"
+		"Citadel_PreGameHeroDraft_ErrorMisc" "Không thể chọn tướng do lỗi không xác định"
+		"Citadel_PreGameHeroDraft_ButtonLabel" "Nhấn {g:citadel_binding:'Interact'} để Đổi Tướng"
+		"Citadel_PreGameHeroDraft_ButtonLabelDisabled" "Không Thể Đổi Tướng Nữa"
+
+		"Citadel_HeroChangeNotification_Text" "{s:player_name} đã đổi tướng"
+
 		"Citadel_BannedHeroes"										"Banned Tướng"
 		"Citadel_BannedWarning_Title"								"Avoided Tướng"
 		"Citadel_BannedWarning_Desc"								"You will be less likely to see tướng này in this match."
+
+		"Citadel_RankedMatchStatus_Counts" "{d:count_current} / {d:count_required}"
+		"Citadel_RankedMatchStatus_Wins" "Chiến Thắng"
+
 
 		"Citadel_ViewMatchID_Title"									"Xem Match ID"
 		"Citadel_ViewMatchID_Desc"									"Enter a match ID to xem the match details"
@@ -1472,14 +1573,14 @@
 		"Citadel_StartMatchmaking_PermanentBan"						"You have been permanently banned from this chế độ"
 		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Xếp hạng tìm trận is not hiện tại được bật for your selected schedule"
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"You have not yet đã mở khóa ranked tìm trận"
+		"Citadel_PlayMenu_LowPriorityDisable" "Không khả dụng khi đang ở Hàng Đợi Ưu Tiên Thấp"
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Xếp hạng tìm trận is not allowed while in low priority"
+		"Citadel_StartMatchmaking_NoBrawlWhileInLowPri" "Không thể ghép trận Đấu Đường Phố khi đang ở Hàng Đợi Ưu Tiên Thấp"
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Xếp hạng tìm trận is not allowed while you are liên lạc banned"
 		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Xếp hạng tìm trận is not allowed while you are report banned"
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Too many người chơi are on the same đội"
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Không thể tạo valid teams based upon the hiện tại người chơi teams"
 		"Citadel_StartMatchmaking_InvalidTeam"						"A user has an không hợp lệ đội selected for this game chế độ"
-		"Citadel_StartMatchmaking_RankedLocked1"					"Play {i:games_needed_to_unlock_ranked} more casual multiplayer game to unlock ranked multiplayer."
-		"Citadel_StartMatchmaking_RankedLockedPlural"				"Play {i:games_needed_to_unlock_ranked} more casual multiplayer games to unlock ranked multiplayer."
 		"Citadel_StartMatchmaking_InParty"							"You không thể enter tìm trận by yourself since you're in a tổ đội."
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"You have not selected valid tướng to enter tìm trận."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"Your tướng roster doesn't contain any tướng that aren't already in use"
@@ -1721,6 +1822,12 @@
 		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"A member of your tổ đội {g:citadel_persona:nl:account_id} is in low priority and therefore not hiện tại able to hàng chờ for Tướng Labs tìm trận."
 		"Citadel_PartySetMode_NoHighRangeFiveStack"				"Your tổ đội has a high skill tầm with 5 người chơi. When your tổ đội members have a wider tầm of skill than what would normally be allowed into a match, we match them with other similar wide tầm parties. As a result of your tổ đội having 5 members, there are no valid other tổ đội combinations to match you with. Adjust your tổ đội composition or size to matchmake."
 		"Citadel_PartySetMode_AccountLocked"					"A member of your tổ đội {g:citadel_persona:nl:account_id} hiện tại has their Steam account bị khóa and is unable to play in this chế độ"
+		"Citadel_PartySetMode_BrawlMemberInLowPri" "Thành viên trong tổ đội {g:citadel_persona:nl:account_id} đang ở Hàng Đợi Ưu Tiên Thấp nên không thể chơi Đấu Đường Phố"
+		"Citadel_PartySetMode_RankedInCalibration" "Thành viên trong tổ đội {g:citadel_persona:nl:account_id} vẫn đang trong quá trình phân hạng nên không thể chơi Xếp Hạng theo tổ đội"
+		"Citadel_PartySetMode_RankedInvalidPartySize" "Kích thước tổ đội không được hỗ trợ trong Xếp Hạng. Chỉ được phép lập tổ đội tối đa 2 người."
+		"Citadel_PartySetMode_RankedPartySkillRangeInvalid" "Chênh lệch bậc hạng trong tổ đội quá lớn nên không thể cùng chơi Xếp Hạng."
+		"Citadel_PartySetMode_RankedMemberInLowPri" "Thành viên trong tổ đội {g:citadel_persona:nl:account_id} đang ở Hàng Đợi Ưu Tiên Thấp hoặc bị hạn chế hành vi khác nên không thể chơi Xếp Hạng."
+		"Citadel_PartySetMode_RankedMemberCurrentlyBanned" "Thành viên trong tổ đội {g:citadel_persona:nl:account_id} hiện đang bị cấm ghép trận nên không thể chơi Xếp Hạng."
 
 		"Citadel_PartyInvite_ErrorTitle"						"Không thể Send Lời mời"
 		"Citadel_PartyInvite_FailedToGetResponse"				"Không thể liên lạc to the Mạng Deadlock ngay bây giờ and lời mời the specified user. Vui lòng thử lại trong vài phút nữa."
