@@ -968,6 +968,8 @@
 		// Party
 		"Citadel_Party_InviteFriend"								""
 		"Citadel_Party_PrivateMatch"								"Trận riêng"
+		"Citadel_Party_MatchMaking"            						"Đấu Thường"
+		"Citadel_Party_MatchMakingRanked"      						"Đấu Xếp Hạng"
 		"Citadel_Party_PartyPlayer"									"Người chơi"
 		"Citadel_Party_PartySpectator"								"Khán giả"
 		"Citadel_Party_JoinParty"									"Tham gia tổ đội"
