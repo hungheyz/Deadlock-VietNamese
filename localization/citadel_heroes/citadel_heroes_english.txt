@@ -907,8 +907,8 @@
 		"ability_sleep_dagger_desc"		"Ném một dao găm <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">ru ngủ</span> mục tiêu. Mục tiêu đang ngủ sẽ tỉnh dậy ngay sau khi bị gây sát thương. Ném Dao Găm không làm mất tàng hình của bạn. Dao Găm Ru Ngủ không ngắt kỹ năng đang vận của kẻ địch."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"Đang ngủ"
 		"ability_sleep_dagger_t1_desc"	"<span class=\"highlight\">{s:BulletResistReduction}%</span> Giảm kháng đạn trong {s:BulletResistReductionDuration}s khi tỉnh dậy"
-		"ability_sleep_dagger_t2_desc" "<span class=\"highlight\">-{s:AbilityCooldown} giây</span> Thời gian hồi chiêu<br>Áp dụng <span class=\"highlight\">{s:FixationStacks}</span> cộng dồn Ám Ảnh"
-		"ability_sleep_dagger_t3_desc"	"<span class=\"highlight\">+{s:SleepDuration}s</span> Thời gian ngủ <br><span class=\"highlight\">-{s:SlowPercent}%</span> Tốc độ di chuyển và lướt trong <span class=\"highlight\">{s:DebuffDuration}s</span> khi tỉnh dậy"
+		"ability_sleep_dagger_t2_desc"	"<span class=\"highlight\">+{s:SleepDuration}s</span> Thời Gian Ngủ<br>Áp dụng <span class=\"highlight\">{s:FixationStacks}</span> cộng dồn Ám Ảnh"
+		"ability_sleep_dagger_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Hồi Chiêu<br><span class=\"highlight\">-{s:SlowPercent}%</span> Tốc Độ Di Chuyển và Lướt trong <span class=\"highlight\">{s:DebuffDuration}s</span> sau khi thức dậy"
 		"SleepMoveSpeed_label"			"Tốc độ di chuyển khi ngủ"
 		"SleepMoveSpeed_postvalue_label"			"Tốc độ di chuyển khi ngủ"
 		"SleepMoveSpeed_postfix"			"m"
@@ -935,7 +935,8 @@
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"Bị ám ảnh"
 
 		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> Sát thương phép thuật và <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm trong {s:SlowDuration}s lên mục tiêu sau mỗi <span class=\"highlight\">{s:ProcDamageStackCount}</span> stack"
-		"ability_stacking_damage_t2_desc" "<span class=\"highlight\">+{s:MaxStacks}</span> Stack tối đa và <span class=\"highlight\">+{s:AbilityDuration}s</span> Thời gian tác dụng"
+		"ability_stacking_damage_t2_desc"	"<span class=\"highlight\">+{s:MaxStacks}</span> Cộng Dồn Tối Đa và <span class=\"highlight\">+{s:AbilityDuration}s</span> Thời Gian Hiệu Lực"
+		"ability_stacking_damage_t3_desc"	"<span class=\"highlight\">+{s:DamageBonusFixedPerStack}</span> sát thương mỗi cộng dồn<br>Tăng theo Sát Thương Vũ Khí"
 
 		"DamageBonusFixedPerStack_label"					"Sát thương vũ khí"
 		"DamageBonusFixedPerStack_postvalue_label"					"Sát thương vũ khí"
@@ -2433,7 +2434,7 @@
 		"mirage_tornado_desc"				"Biến bản thân thành một cơn lốc xoáy lao về phía trước, <span class=\"highlight\">gây sát thương kẻ địch</span>, làm chậm <span class=\"highlight\">tốc độ di chuyển</span> và <span class=\"highlight\">nâng chúng lên</span> không trung. Sau khi thoát khỏi lốc xoáy, bạn nhận <span class=\"highlight\">né đạn</span>."
 		"mirage_tornado_t1_desc"			"<span class=\"highlight\">+{s:Damage}</span> Sát thương"
 		"mirage_tornado_t2_desc"			"<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Hồi chiêu<br><span class=\"highlight\">+{s:WhirlwindEvasionChance}%</span> Né tránh"
-		"mirage_tornado_t3_desc"			"Có thể dùng lại trong <span class=\"highlight\">{s:RecastWindow}s</span>.<br><span class=\"highlight\">+{s:HoldInPlaceDuration}s</span> Thời gian nâng <br>Tăng tỉ lệ phép thuật."
+		"mirage_tornado_t3_desc"	"Có thể tái kích hoạt trong <span class=\"highlight\">{s:RecastWindow}s</span>.<br>Tăng hệ số cộng theo Sức Mạnh Linh Hồn."
 
 		"WhirlwindEvasionChance_label"	"Tỉ lệ né đạn"
 		"WhirlwindEvasionChance_postvalue_label"	"Tỉ lệ né đạn"
@@ -2457,7 +2458,8 @@
 		"mirage_fire_beetles_quip"		"Thả bọ hung hút sinh lực từ kẻ địch"
 		"mirage_fire_beetles_desc"		"Cho bọ hung lửa ký sinh lên kẻ địch, hút sinh lực từ chúng và khiến chúng gây ít sát thương hơn."
 		
-		"mirage_fire_beetles_t2_desc"	"+{s:AbilityCharges} lượt dùng"				"mirage_fire_beetles_t3_desc"	"{s:OutgoingDamagePenaltyPercent}% Giảm sát thương <br>Tăng tỉ lệ phép thuật"
+		"mirage_fire_beetles_t2_desc"	"<span class=\"highlight\">+{s:AbilityCharges}</span> Điểm Tích Trữ<br><span class=\"highlight\">+{s:StealDuration}s</span> Thời Gian Hiệu Lực"
+		"mirage_fire_beetles_t3_desc"	"<span class=\"highlight\">{s:OutgoingDamagePenaltyPercent}%</span> Giảm Sát Thương Gây Ra<br>Tăng hệ số cộng theo Sức Mạnh Linh Hồn"
 
 		"StatStealDuration_label"		"Thời gian hút máu"
 		"StatStealDuration_postvalue_label"		"Thời gian hút máu"
@@ -3131,7 +3133,7 @@
 		"citadel_ability_flying_strike/slow" "Làm chậm Phi Trảm"
 		//"citadel_ability_flying_strike/weapon_buff" "+Sát thương vũ khí"				
 		"citadel_ability_flying_strike_t2_desc" "Nhận <span class=\"highlight\">+{s:SpiritBonus}</span> Sức mạnh phép thuật trong <span class=\"highlight\">{s:BuffDuration}s</span>"
-		"citadel_ability_flying_strike_t3_desc" "Niệm Phép Phụ để móc đồng minh<br><span class=\"highlight\">+{s:AbilityCastRange}m</span> Tầm thi triển<br>Nhận <span class=\"highlight\">2 lượt tích trữ</span> bổ sung"
+		"citadel_ability_flying_strike_t3_desc"		"Dùng Thi Triển Thay Thế để móc đồng minh<br><span class=\"highlight\">+{s:AbilityCastRange}m</span> Tầm Thi Triển<br>Nhận <span class=\"highlight\">1 điểm tích trữ</span>"
 		"yamato_flying_strike_t3_header"			"Khi tới mục tiêu:"
 
 		"citadel_ability_infinity_slash"		"Biến Hình Bóng Tối"
@@ -4654,7 +4656,7 @@
 		"MarkDuration_label" "Thời gian đánh dấu"
 		"MarkDuration_postfix" "s"
 		"ability_werewolf_unloadgun" "Bắn Dồn Dập"
-		"ability_werewolf_unloadgun_desc" "Nạp lại súng ngay lập tức. Bạn nhận {g:citadel_inline_attribute:'BonusFireRate'} và gây thêm {g:citadel_inline_attribute:'WeaponDamage'} dựa trên máu của mục tiêu trong một số phát bắn giới hạn, nhưng bị giảm độ chính xác."
+		"ability_werewolf_unloadgun_desc"		"Lập tức nạp lại vũ khí. Nhận {g:citadel_inline_attribute:'BonusFireRate'} và gây thêm {g:citadel_inline_attribute:'WeaponDamage'} dựa trên lượng máu của mục tiêu trong một số phát bắn nhất định, nhưng độ chính xác sẽ bị giảm.<br><br>Gây thêm Sát Thương Vũ Khí lên lính và quái trung lập."
 		"ability_werewolf_unloadgun_t3_desc" "Nếu bạn bắn trúng tất cả phát, gây thêm <span class=\"highlight\">+{s:BonusCurrentHealthDamagePercentage}%</span> máu hiện tại thành sát thương"
 		"BulletSpread_postvalue_label" "Độ tản súng"
 		"BulletSpread_label" "Độ tản súng"
@@ -4916,6 +4918,14 @@
 		"MeleeResistReductionDuration_label"			"Thời gian giảm Kháng cận chiến"
 		"MeleeResistReductionDuration_postvalue_label"	"Thời gian Debuff"
 		"MeleeResistReductionDuration_postfix"			"s"
+		"ability_fencer_riposte_t3_desc"				"Nhận <span class=\"highlight\">{s:TargetLifesteal}%</span> Hút Máu Đạn, Linh Hồn &amp; Cận Chiến lên mục tiêu bị Phản Đòn trong <span class=\"highlight\">{s:TargetLifestealDuration}s</span>"
+		"modifier_fencer_riposte_target_lifesteal"		"Đánh Dấu Hút Máu"
+		"TargetLifesteal_label"							"Hút Máu Đạn &amp; Linh Hồn Lên Mục Tiêu"
+		"TargetLifesteal_postvalue_label"				"Hút Máu Lên Mục Tiêu"
+		"TargetLifesteal_postfix"						"%"
+		"TargetLifestealDuration_label"					"Thời Gian Hút Máu"
+		"TargetLifestealDuration_postvalue_label"		"Thời Gian Hút Máu"
+		"TargetLifestealDuration_postfix"				"giây"
 
 		"ability_fencer_ultimate"		"Itani Lo Sahn"
 		"ability_fencer_ultimate_desc"	"Tụ lực và thực hiện một nhát chém tầm xa. Kẻ địch bị chém <span class=\"highlight\">không thể hành động hoặc hồi máu</span> và bị kẹt trong chuyển động chậm. Khi hiệu ứng này kết thúc, chúng chịu <span class=\"highlight\">sát thương hủy diệt</span>, gây sát thương cộng thêm lên kẻ địch còn nửa máu.<br><br><span class=\"diminish\">Khi ở trạng thái chuyển động chậm, Apollo bất khả xâm phạm và kẻ địch nhận giảm sát thương.<br><br>Giữ {g:citadel_binding:'Ability4'} hoặc {g:citadel_binding:'Attack'} để trì hoãn lần dùng.</span>"
