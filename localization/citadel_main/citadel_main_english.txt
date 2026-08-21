@@ -483,6 +483,8 @@
 		"Citadel_MatchInfo_Mode_CoopBotBrawl"						"Street Brawl (Bot)"
 		"Citadel_MatchInfo_Mode_PrivateBrawl"						"Street Brawl (Sảnh)"
 
+		"Citadel_MatchInfo_LowPriorityMatch"						"Trận Ưu Tiên Thấp"
+
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Phiên bản không tương thích"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"Your client is no longer a valid version to kết nối to this máy chủ"
 
