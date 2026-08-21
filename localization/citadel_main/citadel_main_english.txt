@@ -726,6 +726,9 @@
 		"Citadel_RankedSeason_WinStreak" "Chuỗi Thắng"
 		"Citadel_RankedSeason_WinStreak_Tooltip" "Thắng liên tiếp để nhận Điểm Xếp Hạng nhanh hơn."
 		"Citadel_RankedSeason_WinStreakPoints" "+{d:win_streak_points}đ"
+		"Citadel_RankedSeason_WinStreakBonus_TierWins:f"        "{d:win_streak_tier_wins} Thắng"
+		"Citadel_RankedSeason_WinStreakBonus_TierWinsMax:f"     "{d:win_streak_tier_wins}+ Thắng"
+		"Citadel_RankedSeason_WinStreakBonus_TierPoints:f"      "+{d:win_streak_tier_points} điểm"
 
 		"Citadel_RankedSeason_EligibilityTitle" "Điều kiện tham gia Xếp Hạng:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f" "{d:current_account_wins} / {d:required_account_wins} chiến thắng ở Chế Độ Thường"
@@ -764,9 +767,9 @@
 		"Citadel_Ranked_Overview_Eligibility_Bullet3" "Bạn phải hoàn thành {d:required_solo_calibration_games} trận phân hạng Solo. Hạng cao nhất có thể đạt sau phân hạng là 	{g:citadel_packed_rank_name:max_calibration_rank}."
 
 		"Citadel_Ranked_Overview_PlayingMatches" "Thăng Hạng"
-		"Citadel_Ranked_Overview_Playing_Bullet1" "Mỗi trận thắng/thua sẽ cho hoặc trừ trung bình khoảng 250 điểm. Con số này có thể thay đổi tùy theo đánh giá của hệ thống ghép trận hoặc chuỗi thắng. Sau mỗi trận, bạn sẽ thấy Điểm Xếp Hạng được cập nhật trên thanh tiến trình."
+		"Citadel_Ranked_Overview_Playing_Bullet1"		"Mỗi trận thắng/thua sẽ cộng/trừ trung bình {d:ranked_point_gain} điểm. Con số này có thể thay đổi đôi chút tùy thuộc vào kỳ vọng của hệ thống ghép trận đối với trận đấu đó hoặc chuỗi thắng. Sau mỗi trận, bạn sẽ thấy Điểm Xếp Hạng của mình được cập nhật bằng thanh tiến trình hiển thị."
 		"Citadel_Ranked_Overview_Playing_Bullet2" "Khi thăng lên bậc hoặc bậc phụ mới, bạn sẽ nhận các lượt Bảo Vệ Tụt Hạng. Thăng một bậc lớn nhận 5 lượt, còn mỗi bậc phụ nhận 2 lượt. Nếu thua khi còn Bảo Vệ Tụt Hạng và đáng lẽ bị tụt hạng, bạn sẽ giữ nguyên hạng và tiêu hao 1 lượt bảo vệ."
-		"Citadel_Ranked_Overview_Playing_Bullet3" "Để lên bậc phụ tiếp theo, bạn cần tích lũy 1.000 Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Để lên bậc hạng tiếp theo, bạn cần 2.000 Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Để thăng từ một Bậc Phụ lên Bậc Phụ tiếp theo, bạn cần kiếm 1.000 Điểm Xếp Hạng (VD: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Để thăng từ một Hạng Huy Hiệu đầy đủ lên Hạng tiếp theo, bạn cần kiếm 2.000 Điểm Xếp Hạng (VD: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4" "Ở bậc hạng cao nhất, quy tắc sẽ thay đổi. Bạn vẫn nhận hoặc mất Điểm Xếp Hạng như bình thường, nhưng các bậc phụ không còn yêu cầu số điểm cố định. Thay vào đó, mỗi ngày hệ thống sẽ phân bậc phụ dựa trên bách phân vị của người chơi trong hạng {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection" "Khu Vực Chờ Trước Trận"
@@ -968,8 +971,7 @@
 		// Party
 		"Citadel_Party_InviteFriend"								""
 		"Citadel_Party_PrivateMatch"								"Trận riêng"
-		"Citadel_Party_MatchMaking"            						"Đấu Thường"
-		"Citadel_Party_MatchMakingRanked"      						"Đấu Xếp Hạng"
+		
 		"Citadel_Party_PartyPlayer"									"Người chơi"
 		"Citadel_Party_PartySpectator"								"Khán giả"
 		"Citadel_Party_JoinParty"									"Tham gia tổ đội"
@@ -2130,12 +2132,15 @@
 		"Citadel_Post_Game_HeroDamage"					"Tướng Sát thương"
 		"Citadel_Post_Game_Retry"						"Retry"
 		"Citadel_Post_Game_Personal"					"Personal"
+		"Citadel_Post_Game_Ranked"						"Xếp Hạng"
 		"Citadel_Post_Game_Scoreboard"					"Scoreboard"
 		"Citadel_Post_Game_Graphs"						"Personal"
 		"Citadel_Post_Game_Graphs_New"					"Graphs"
 		"Citadel_Post_Game_PlayedBy"					"played by"
 		"Citadel_Post_Game_You"							"You"
-
+		"Citadel_Post_Game_HeroXPReward_Win"			"Thắng Trận"
+		"Citadel_Post_Game_HeroXPReward_Loss"			"Thua Trận"
+		"Citadel_Post_Game_HeroXPReward_Amount"		"{d:reward_amount} XP"
 		"Citadel_Post_Game_Requeue"						"Play Again"
 		"Citadel_Post_View_Other_Team"					"Xem Other Đội"
 
@@ -3683,6 +3688,16 @@
 		"menu_learn_incomplete"						"Incomplete"
 		"menu_learn_completed"						"Completed"
 
+		"Citadel_RankedNotAllowed_MissingData"					"Không thể xác định điều kiện tham gia. Vui lòng thử lại sau."
+		"Citadel_RankedNotAllowed_NotEnoughMatches:f"			"Phải chơi các trận Tiêu Chuẩn trước khi có thể chơi Xếp Hạng. Đã hoàn thành {d:matches_played}/{d:matches_required} trận."
+		"Citadel_RankedNotAllowed_LowPri:f"					"Không thể chơi khi đang ở Hàng Chờ Ưu Tiên Thấp. Còn {d:low_pri_matches} {low_pri_matches, plural, one{trận} other{trận}}."
+		"Citadel_RankedNotAllowed_CommsBan"					"Không thể chơi khi đang bị cấm giao tiếp. Lệnh cấm hết hạn vào {t:ban_expire_time}"
+		"Citadel_RankedNotAllowed_ReportBan"					"Không thể chơi khi đang bị cấm do báo cáo. Lệnh cấm hết hạn vào {t:ban_expire_time}"
+		"Citadel_RankedNotAllowed_PartyMemberMissingData"	"Không thể xác định điều kiện tham gia của thành viên nhóm {g:citadel_persona:member_account_id}."
+		"Citadel_RankedNotAllowed_PartyMemberInCalibration"	"Thành viên nhóm {g:citadel_persona:member_account_id} chưa hoàn thành hiệu chỉnh Xếp Hạng."
+		"Citadel_RankedNotAllowed_PartyInvalidSize"			"Quy mô nhóm không hợp lệ: {d:party_size}"
+		"Citadel_RankedNotAllowed_PartySkillRange"			"Hạng của các thành viên trong nhóm chênh lệch quá xa."
+
 		"Citadel_RankedNotAllowed_MissingData"						"Không thể xác định điều kiện tham gia. Vui lòng thử lại sau."
 		"Citadel_RankedNotAllowed_NotEnoughMatches:f"				"Bạn phải chơi các trận Thường trước khi mở khóa Xếp Hạng. Đã hoàn thành {d:matches_played}/{d:matches_required} trận."
 		"Citadel_RankedNotAllowed_LowPri:f"							"Không thể chơi khi đang ở hàng chờ Ưu Tiên Thấp. Còn {d:low_pri_matches} {low_pri_matches, plural, one{trận} other{trận}}."
@@ -3810,6 +3825,8 @@
 		"Citadel_subranks_6"						"VI"
 
 		"Citadel_rank_phase_example"				"{t:s:popup_start_day} - {t:s:popup_end_day}"
+		"Citadel_ranked_no_matches"					"Chưa Chơi Trận Xếp Hạng Nào Trong Mùa Này"
+		"Citadel_ranked_load_more"					"Xem Thêm"
 
 		"Citadel_ranked_no_matches"		"Chưa Chơi Trận Xếp Hạng Nào Trong Mùa Này"
 		"Citadel_ranked_load_more"		"Tải Thêm"
