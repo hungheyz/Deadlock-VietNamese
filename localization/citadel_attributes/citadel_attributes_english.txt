@@ -1000,6 +1000,10 @@
 		"CooldownReduction_postfix"						"%"
 		"CooldownReduction_label"						"Giảm hồi chiêu kỹ năng"
 		"CooldownReduction_postvalue_label"						"Giảm hồi chiêu kỹ năng"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						"%"
+		"UltimateCooldownReduction_label"						"Giảm thời gian hồi chiêu Chiêu cuối"
+		"UltimateCooldownReduction_postvalue_label"						"Giảm thời gian hồi chiêu Chiêu cuối"
 		
 		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
