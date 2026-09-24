@@ -932,7 +932,7 @@
 
 		"ability_stacking_damage"		"Ám Ảnh"
 		"ability_stacking_damage_quip"	"Gây sát thương đạn tăng dần lên một mục tiêu"
-		"ability_stacking_damage_desc"	"Bắn một mục tiêu sẽ <span class=\"highlight\">tăng sát thương đạn của bạn lên mục tiêu đó</span>. Nhận một <span class=\"highlight\">stack</span> mỗi viên đạn trúng, hai stack nếu là bắn đầu."
+		"ability_stacking_damage_desc"	"Bắn vào một mục tiêu <span class=\"highlight\">tăng sát thương đạn của bạn lên mục tiêu đó</span>. Nhận một <span class=\"highlight\">tầng</span> với mỗi phát đạn trúng, ba tầng nếu phát bắn trúng đầu."
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"Bị ám ảnh"
 
 		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamage}</span> Sát thương phép thuật và <span class=\"highlight\">{s:SlowPercent}%</span> làm chậm trong {s:SlowDuration}s lên mục tiêu sau mỗi <span class=\"highlight\">{s:ProcDamageStackCount}</span> stack"
@@ -1331,7 +1331,7 @@
 		"StompDamagePerMeterPrimary_label"					"Sát thương mỗi mét"
 		"StompDamagePerMeterPrimary_postvalue_label"					"Sát thương mỗi mét"
 		"citadel_ability_lash_down_strike_t2_desc"	"Kẻ địch trúng chiêu bị <span class=\"highlight\">hất tung</span> và làm chậm <span class=\"highlight\">{s:EnemySlowPct}%</span> trong <span class=\"highlight\">{s:SlowDuration}s</span>"
-		"citadel_ability_lash_down_strike_t3_desc"	"<span class=\"highlight\">Sát thương mỗi mét</span> +110% và tăng tỉ lệ"
+		""citadel_ability_lash_down_strike_t3_desc"	"<span class=\"highlight\">Sát thương mỗi mét</span> +120% và tăng khả năng cộng thêm""	"<span class=\"highlight\">Sát thương mỗi mét</span> +110% và tăng tỉ lệ"
 
 
 		// Custom Tool Tip +(8.75/7)% damage
@@ -1479,7 +1479,7 @@
 		"ability_ice_dome_trigger"		"Mái Vòm Băng Giá"
 		"ability_ice_dome_quip"			"Tạo một mái vòm hồi máu không thể xuyên thủng"
 		"ability_ice_dome_desc"			"Chọn bản thân hoặc một tướng để đóng băng không khí và tạo một <span class=\"highlight\">mái vòm không thể xuyên thủng</span> quanh họ. Khi ở trong mái vòm, đồng minh nhận {g:citadel_inline_attribute:'Regen'} nhanh và kẻ địch bị <span class=\"highlight\">làm chậm</span>. <br><br><span class=\"diminish\">Mục tiêu trở nên Bất khả xâm phạm và Đóng băng khi ở dưới Mái Vòm Băng Giá</span>"
-		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">Thanh tẩy</span> Debuff không phải chiêu cuối cho bạn và đồng minh. <br><span class=\"highlight\">+{s:BonusHealthRegen}</span> Hồi máu, giờ tăng theo phép thuật"
+		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">Loại bỏ</span> các hiệu ứng tiêu cực không phải chiêu cuối cho bạn và đồng minh. <br><span class=\"highlight\">+{s:BonusHealthRegen}</span> Hồi phục Máu và tăng khả năng cộng thêm từ Sức mạnh phép thuật"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Mái Vòm Băng Giá"
 		"frozen_shelter_modifier_buff"		"Mái Vòm Băng Giá"
 		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"Mái Vòm Băng Giá"
@@ -1645,7 +1645,9 @@
 		"AbilityCooldownPerHeadshotNPC_postvalue_label" "Hồi chiêu mỗi phát bắn đầu NPC"
 		"AbilityCooldownPerHeadshotNPC_postfix" "s"
 		"ability_crackshot_t1_desc"				"<span class=\"highlight\">-{s:FadingSlowPercent}%</span> Tốc độ di chuyển mờ dần"
-		"ability_crackshot_t3_desc"				"<span class=\"highlight\">{s:AbilityCooldownPerHeadshot}s</span> Hồi chiêu khi bắn đầu tướng. {s:AbilityCooldownPerHeadshotNPC}s khi bắn đầu NPC"
+		"ability_crackshot_t2_desc"				"<span class=\"highlight\">+{s:Damage}</span> Sát thương và <span class=\"highlight\">{s:BulletResistReduction}%</span> Giảm Kháng đạn trong <span class=\"highlight\">{s:BulletResistReductionDuration}s</span>"
+		"ability_crackshot_t3_desc"				"<span class=\"highlight\">{s:AbilityCooldownPerHeadshot}s</span> Giảm thời gian hồi chiêu khi Bắn trúng đầu tướng. <span class=\"highlight\">{s:AbilityCooldownPerHeadshotNPC}s</span> khi Bắn trúng đầu NPC"
+		"modifier_crackshot_bullet_resist_reduction"	"-Kháng đạn"
 
 		//"citadel_ability_running_decoy"					"Mồi Nhử"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} tạo một mồi nhử tạm thời chạy về phía vị trí mục tiêu và bắn bất kỳ kẻ địch nào gần đó."
@@ -2253,7 +2255,7 @@
 		"citadel_ability_shiv_dagger_dot"		"Sát thương chảy máu Dao Răng Cưa"
 		"citadel_ability_shiv_dagger_quip"		"Áp dụng chảy máu cộng stack lên mục tiêu"
 		"citadel_ability_shiv_dagger_desc"		"Ném một con dao khiến kẻ địch <span class=\"highlight\">chảy máu</span>. Mỗi lần trúng thêm sẽ thêm một <span class=\"highlight\">stack</span> và làm mới thời gian chảy máu, khiến chảy máu tăng theo mỗi stack."
-		"citadel_ability_shiv_dagger_max_rage_desc" "<br>Mở khóa chiêu cuối: <span class=\"highlight\">Khi cuồng nộ đầy</span>, dao sẽ nảy sang một kẻ địch khác và gây làm chậm lên kẻ địch bị chảy máu."
+		"citadel_ability_shiv_dagger_max_rage_desc" "<br>Mở khóa Chiêu cuối: <span class=\"highlight\"> Khi cơn thịnh nộ đầy</span>, dao gây <span class=\"highlight\">{s:FullRageCurrentHealthDamagePct}%</span> máu hiện tại của mục tiêu thành sát thương khi trúng đích và gây hiệu ứng làm chậm lên kẻ địch bị chảy máu."
 		"modifier_shiv_bleed_thrown_shiv"			"Dao Răng Cưa"
 		"modifier_citadel_shiv_dagger"			"Dao Răng Cưa"
 		"modifier_shiv_thrown_shiv_slow_debuff"		"Dao Răng Cưa"
@@ -2369,6 +2371,9 @@
 		"MovementSlow_label"		"Làm chậm di chuyển"
 		"MovementSlow_postvalue_label"		"Làm chậm di chuyển"
 		"MovementSlow_postfix"	"%"
+		"FullRageCurrentHealthDamagePct_label"		"Sát thương theo Máu hiện tại"
+		"FullRageCurrentHealthDamagePct_postvalue_label"		"Sát thương theo Máu hiện tại"
+		"FullRageCurrentHealthDamagePct_postfix"	"%"
 		
 		//-----------------------------------------------------------------------------
 		// Pocket // synth
@@ -3284,7 +3289,7 @@
 		"viscous_goo_bowling_ball_desc"					"Biến thành một quả bóng chất nhầy lớn <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm choáng</span> kẻ địch khi va chạm. Quả bóng cho lượng lớn <span class=\"highlight\">Kháng đạn</span> và <span class=\"highlight\">Kháng phép thuật</span>, nảy khỏi tường và có thể <span class=\"highlight\">nhảy đôi</span>."
 		"viscous_goo_bowling_ball_quip"					"Lăn quanh và gây hỗn loạn"
 		"viscous_goo_bowling_ball_t2_desc"				"+{s:Damage} Sát thương và +{s:BulletResist}% Kháng"
-		"viscous_goo_bowling_ball_t3_desc"				"+{s:AbilityDuration}s Thời gian tác dụng và +{s:StunDuration}s	 Thời gian choáng"
+		"viscous_goo_bowling_ball_t3_desc"				"+{s:AbilityDuration}s Thời gian hiệu lực, +{s:StunDuration}s Thời gian choáng và +{s:Damage_scale} Cộng thêm từ Sức mạnh phép thuật"
 		"BallRadius_label"								"Bán kính bóng"
 		"BallRadius_postvalue_label"								"Bán kính bóng"
 		"BallRadius_postfix"								"m"
