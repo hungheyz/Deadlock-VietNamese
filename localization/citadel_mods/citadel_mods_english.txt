@@ -99,7 +99,7 @@
 		"upgrade_tech_bleed_desc" "Cường hóa một kỹ năng với <span class=\"highlight\">Hút máu</span>, áp dụng <span class=\"highlight\">làm chậm</span> lên mục tiêu trúng đòn và sau một khoảng trễ ngắn gây <span class=\"highlight\">thêm một phần trăm sát thương đã gây</span> lên kẻ địch quanh mục tiêu."
 	
 		//Toxic Bullets
-		"upgrade_toxic_bullets_desc"	"Đạn của bạn tích lũy hiệu ứng <span class=\"highlight\">Chảy máu</span> lên kẻ địch, khiến chúng mất một <span class=\"highlight\">phần trăm</span> <span class=\"highlight\">Máu tối đa</span> theo thời gian. Đồng thời áp dụng <span class=\"highlight\">Giảm hồi máu</span> lên mục tiêu đang chảy máu."
+		"upgrade_toxic_bullets_desc"	"Đạn của bạn tích lũy <span class=\"highlight\">Chảy máu</span> lên kẻ địch, khiến chúng mất <span class=\"highlight\">phần trăm</span> <span class=\"highlight\">Máu tối đa</span> theo thời gian. Đồng thời giảm <span class=\"highlight\">Hồi phục nhận vào</span> của mục tiêu đang chảy máu."
 		"upgrade_toxic_bullets_buildup"					"Đang tích Độc..."
 		"upgrade_bleeding_bullets_buildup"				"Đang tích Răng cưa..."
 		"modifier_item_burning_bullets_damageovertime" 	"Chảy máu"
@@ -202,7 +202,7 @@
 		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
 
 		//Crippling Headshot
-		"upgrade_banshee_slugs_headshots_desc"	"Bắn trúng <span class=\"highlight\">đầu</span> sẽ giảm <span class=\"highlight\">Kháng đạn và Kháng phép thuật</span> của chúng, đồng thời áp dụng <span class=\"highlight\">Giảm hồi máu</span>."
+		"upgrade_banshee_slugs_headshots_desc"	"Đánh trúng <span class=\"highlight\">đầu</span> sẽ giảm <span class=\"highlight\">Kháng đạn, Kháng phép thuật và Hồi phục nhận vào</span> của mục tiêu."
 
 		//Berserker
 		"upgrade_berserker_desc"		"<span class=\"highlight\">Sát thương vũ khí</span> của bạn tăng khi bạn liên tục chịu sát thương."
@@ -403,6 +403,12 @@
 		// "upgrade_crushing_fists"				"Crushing Fists"
 		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> của bạn sẽ <span class=\"highlight\">hồi đạn</span> và áp dụng <span class=\"highlight\">debuff kháng đạn cộng dồn</span> lên kẻ địch. Cận chiến nặng áp dụng 2 cộng dồn. <br><br>Nếu mục tiêu đạt cộng dồn tối đa, chúng sẽ bị <span class=\"highlight\">Choáng</span>."
 		"notification_crushing_fists_stun"		"Nắm Đấm Nghiền Nát - Choáng!"
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"Gây sát thương lên tướng <span class=\"highlight\">có ít máu</span> sẽ gây {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>Hiệu ứng này cộng dồn mỗi khi kích hoạt, vĩnh viễn tăng {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"Ném một cụm thuốc nổ dính, phát nổ sau một khoảng thời gian dài và gây {g:citadel_inline_attribute:'WeaponDamage'}. <br><br>Nếu trúng <span class=\"highlight\">trùm</span>, nó gây {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label" "Sát thương lên Trùm"
 
 		//-----------------------------------------------------------------------------
 		// Upgrades: Tech
@@ -418,7 +424,7 @@
 		"upgrade_magic_vulnerability_desc"	"Khi kẻ địch nhận {g:citadel_inline_attribute:'SpiritDamage'}, {g:citadel_inline_attribute:'SpiritResist'} của chúng bị giảm."		
 
 		//Healbane
-		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} của bạn áp dụng <span class=\"highlight\">Giảm hồi máu</span>. Nếu tướng địch chết khi chịu hiệu ứng này, bạn nhận một lượng hồi máu lớn."
+		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} của bạn làm giảm <span class=\"highlight\">Hồi phục nhận vào</span> của kẻ địch. Nếu một tướng địch chết khi đang chịu hiệu ứng này, bạn nhận được một lượng hồi phục lớn."
 		"HealOnKill_label"		"Hồi máu khi hạ tướng"
 
 		"HealOnKill_postvalue_label"		"Hồi máu khi hạ tướng"
@@ -520,7 +526,8 @@
 		"upgrade_greater_withering_whip_debuff"		"Bị tước vũ khí"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Bạn bước vào trạng thái hư vô và trở nên <span class=\"highlight\">không thể bị chọn làm mục tiêu và bất tử</span> trong thời gian ngắn, trong lúc đó bạn trôi chậm và không thể hành động. Sau đó bạn nhận <span class=\"highlight\">Sức mạnh phép thuật, Tốc độ di chuyển và Kháng phép thuật</span>.<br>Có thể hủy sớm.<br><span class=\"diminish\">Kích hoạt sẽ hủy mọi kỹ năng đang hoạt động.</span>"
+		"upgrade_self_bubble_desc"			"Lập tức tiến vào trạng thái hư không và trở nên Bất khả xâm phạm trong một khoảng thời gian ngắn."
+		"upgrade_self_bubble_desc2"		"Sau đó, nhận được nhiều hiệu ứng tăng cường tạm thời:"
 		"ShiftingVeil_channel_desc"			"Bất khả xâm phạm"
 		"ShiftingVeilDuration_label"			"Thời gian"
 		"ShiftingVeilDuration_postvalue_label"			"Thời gian"
@@ -1007,8 +1014,8 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_item_snowball"		"Bóng tuyết"
-		"cosmetic_item_snowball_desc"		"Ném bóng tuyết vào bạn bè và kẻ địch. Khoảng cách và các thuộc tính khác cải thiện khi bạn tiến bộ trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném Bóng Tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại hồi chiêu của nó.</span>"
+		"cosmetic_ability_snowball"		"Cầu tuyết"
+		"cosmetic_ability_snowball_desc"		"Ném cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném Cầu tuyết vào đồng minh sẽ không gây sát thương và đặt lại thời gian hồi chiêu.</span>"
 		"SnowballSpeed_label"			"Tốc độ ném"
 		"SnowballSpeed_postvalue_label"		"Vận tốc"
 		"SnowballSpeed_postfix"			"m/s"
