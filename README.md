@@ -2,7 +2,7 @@
 - Nếu game bị lỗi việt hoá thì có thể ấn Kiểm tra lại dữ liệu của trò chơi là sẽ trở về tiếng anh gốc không bị lỗi nữa
 - 📧 Email: hungheyz@gmail.com
 - 💬 Facebook: https://www.facebook.com/chong.syndra
-- Mỗi khi game update nhẹ game có thể sẽ reset về tiếng anh nên mn hãy tải lại file của tôi trên này để copy lại nhé, tôi sẽ update hàng ngày lun !!
+- Mỗi khi game update nhẹ game có thể sẽ reset về tiếng anh 
 - Các bản Việt hoá do mình chia sẻ chỉ phục vụ mục đích phi lợi nhuận cho cộng đồng.
 - Nếu bạn muốn ủng hộ thì đây là stk của mình HUNGNE478 mb bank
 - Có chỗ nào sai sót hay chưa hợp lý, liên hệ với mình nhé!
