@@ -206,52 +206,51 @@
 		"GlassCannon_SlowPercent_postfix"	"%"
 		"GlassCannon_SlowPercent_prefix"	"+"
 		"upgrade_glass_cannon_plus1"		"Pháo kính +1"
-
-		//Fury Trance
-		"upgrade_fury_trance_active"	"Grants <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Spirit Resistance</span> and <span class=\"highlight\">Move Speed</span>, and removes the <span class=\"highlight\">Move Speed</span> penalty while shooting, but <span class=\"highlight\">Silences</span> you and <span class=\"highlight\">disables stamina usage and regeneration</span>."
+				//Fury Trance
+		"upgrade_fury_trance_active"	"Cung cấp <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Kháng phép thuật</span> và <span class=\"highlight\">Tốc độ di chuyển</span>, đồng thời loại bỏ hình phạt <span class=\"highlight\">Tốc độ di chuyển</span> khi bắn, nhưng <span class=\"highlight\">Câm lặng</span> bạn và <span class=\"highlight\">vô hiệu hóa việc dùng và hồi phục thể lực</span>."
 
 		//Vampiric Burst
-		"upgrade_surging_power_active"	"Grants <span class=\"highlight\">Lifesteal</span>, <span class=\"highlight\">Fire Rate</span>, and <span class=\"highlight\">Ammo</span>. This added Ammo is not limited by your max magazine size."
-		"ActiveBonusLifesteal_label"		"Bullet Lifesteal"
-		"ActiveBonusLifesteal_postvalue_label"		"Bullet Lifesteal"
+		"upgrade_surging_power_active"	"Cung cấp <span class=\"highlight\">Hút máu</span>, <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Đạn</span>. Lượng đạn cộng thêm này không bị giới hạn bởi cỡ băng đạn tối đa của bạn."
+		"ActiveBonusLifesteal_label"		"Hút máu đạn"
+		"ActiveBonusLifesteal_postvalue_label"		"Hút máu đạn"
 		"ActiveBonusLifesteal_postfix"	"%"
 
 		//Siphon Bullets
-		"upgrade_siphon_bullets_desc_passive2"	"Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires."
-		"HealthSteal_label"						"Max HP Steal Per Bullet"
-		"HealthSteal_postvalue_label"			"Max HP Steal Per Bullet"
-		"SiphonBullets_HealthStealPctHero_label"			"Max HP Steal"
-		"SiphonBullets_HealthStealPctHero_postvalue_label"	"Max HP Steal"
+		"upgrade_siphon_bullets_desc_passive2"	"Đạn của bạn tạm thời <span class=\"highlight\">đánh cắp Máu tối đa</span> của kẻ địch. Kẻ địch lấy lại lượng máu bị đánh cắp khi hiệu ứng tiêu cực hết hạn."
+		"HealthSteal_label"						"Máu tối đa bị đánh cắp mỗi viên đạn"
+		"HealthSteal_postvalue_label"			"Máu tối đa bị đánh cắp mỗi viên đạn"
+		"SiphonBullets_HealthStealPctHero_label"			"Máu tối đa bị đánh cắp"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"Máu tối đa bị đánh cắp"
 		"SiphonBullets_HealthStealPctHero_postfix"			"%"
 
 		//Overdrive Clip
-		"BonusReloadSpeed_label"						"Reload Time"
-		"BonusReloadSpeed_postvalue_label"						"Reload Time"
+		"BonusReloadSpeed_label"						"Thời gian nạp đạn"
+		"BonusReloadSpeed_postvalue_label"						"Thời gian nạp đạn"
 		"BonusReloadSpeed_Postfix"						"%"
 		"OverdriveClipDuration_Postfix"					"s"
 
 		//Burst Fire Actuator
 		"BurstFireShotsFromClipPercent_Postfix"			"%"
-		"BonusHeadshotDamage_label"						"Bonus Headshot Damage"
-		"BonusHeadshotDamage_postvalue_label"						"Bonus Headshot Damage"
+		"BonusHeadshotDamage_label"						"Sát thương bắn trúng đầu cộng thêm"
+		"BonusHeadshotDamage_postvalue_label"						"Sát thương bắn trúng đầu cộng thêm"
 		"BonusHeadshotDamage_postfix"					"%"
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		//Lifestrike
-		"upgrade_boxing_glove_desc"						"Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for a percentage of the <span class=\"highlight\">Melee Damage</span> dealt plus a fixed amount. <span class=\"diminish\"><br><br>This heal is {s:NonHeroHealPct}% effective vs non-heroes. <br>Cooldown is {s:LightMeleeCooldownMult}x as long for Light Melee hits.</span>"
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">Đòn cận chiến</span> của bạn gây <span class=\"highlight\">Giảm tốc độ di chuyển</span> và <span class=\"highlight\">hồi máu cho bạn</span> bằng một phần trăm <span class=\"highlight\">Sát thương cận chiến</span> gây ra cộng với một lượng cố định. <span class=\"diminish\"><br><br>Lượng hồi máu này chỉ có hiệu quả {s:NonHeroHealPct}% khi đánh trúng mục tiêu không phải tướng. <br>Thời gian hồi chiêu dài gấp {s:LightMeleeCooldownMult} lần đối với đòn cận chiến nhẹ.</span>"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
-		"DisarmDuration_label"							"Disarm Duration"
-		"DisarmDuration_postvalue_label"							"Disarm Duration"
+		"DisarmDuration_label"							"Thời gian tước vũ khí"
+		"DisarmDuration_postvalue_label"							"Thời gian tước vũ khí"
 		"DisarmDuration_postfix"						"s"
-		"LifestealHeal_label"				"Heal on Melee Hit"
-		"LifestealHeal_postvalue_label"				"Heal on Melee Hit"
-		"LifestealHealPercent_label"				"Melee Hit Heal"
-		"LifestealHealPercent_postvalue_label"				"Melee Hit Heal"
+		"LifestealHeal_label"				"Hồi máu khi đánh cận chiến trúng"
+		"LifestealHeal_postvalue_label"				"Hồi máu khi đánh cận chiến trúng"
+		"LifestealHealPercent_label"				"Hồi máu khi cận chiến trúng"
+		"LifestealHealPercent_postvalue_label"				"Hồi máu khi cận chiến trúng"
 		"LifestealHealPercent_postfix"				"%"
 
-		"MeleeLifesteal_label"				"Melee Lifesteal"
-		"MeleeLifesteal_postvalue_label"				"Melee Lifesteal"
+		"MeleeLifesteal_label"				"Hút máu cận chiến"
+		"MeleeLifesteal_postvalue_label"				"Hút máu cận chiến"
 		"MeleeLifesteal_postfix"				"%"
 
 
@@ -270,111 +269,111 @@
 		"CasterHealthPercent_postfix"					"%"
 
 		//Burst Fire
-		"upgrade_burst_fire_desc"						"Briefly gain <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Move Speed</span> when one of your bullets hits an enemy hero."
+		"upgrade_burst_fire_desc"						"Tạm thời nhận <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Tốc độ di chuyển</span> khi một viên đạn của bạn trúng một tướng địch."
 
 		//Intensifying Magazine
-		"upgrade_intensifying_clip_desc"				"Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon."
-		"BaseAttackDamagePercentAtMaxDuration_label"	"Max Weapon Damage"
-		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"Max Weapon Damage"
+		"upgrade_intensifying_clip_desc"				"Tăng <span class=\"highlight\">Sát thương vũ khí</span> khi bạn bắn liên tục."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"Sát thương vũ khí tối đa"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"Sát thương vũ khí tối đa"
 		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
-		"ShootDurationForMax_label"						"Time for Max Damage"
-		"ShootDurationForMax_postvalue_label"						"Time for Max Damage"
+		"ShootDurationForMax_label"						"Thời gian đạt sát thương tối đa"
+		"ShootDurationForMax_postvalue_label"						"Thời gian đạt sát thương tối đa"
 		"ShootDurationForMax_postfix"							"s"
 		
 		//Escalating Resilience
-		"upgrade_reinforcing_casings_desc"    "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit an enemy hero. <span class=\"highlight\">Each shot can only grant one stack.</span>"
-		"MaxArmorStacks_label"				"Max Bullet Resist"
-		"MaxArmorStacks_postvalue_label"				"Max Bullet Resist"
+		"upgrade_reinforcing_casings_desc"    "Cung cấp <span class=\"highlight\">Kháng đạn</span> khi đạn của bạn trúng một tướng địch. <span class=\"highlight\">Mỗi phát bắn chỉ có thể cho một tầng.</span>"
+		"MaxArmorStacks_label"				"Kháng đạn tối đa"
+		"MaxArmorStacks_postvalue_label"				"Kháng đạn tối đa"
 		"MaxArmorStacks_postfix"				"%"
-		"BulletResistPerStack_label"				"Bullet Resist per Stack"
-		"BulletResistPerStack_postvalue_label"				"Bullet Resist per Stack"
+		"BulletResistPerStack_label"				"Kháng đạn mỗi tầng"
+		"BulletResistPerStack_postvalue_label"				"Kháng đạn mỗi tầng"
 		"BulletResistPerStack_postfix"			"%"
-		"BulletResistDuration_label"				"Stack Duration"
-		"BulletResistDuration_postvalue_label"				"Stack Duration"
+		"BulletResistDuration_label"				"Thời gian tầng"
+		"BulletResistDuration_postvalue_label"				"Thời gian tầng"
 		"BulletResistDuration_postfix"			"s"
 
 		//Lucky Shot
-		"upgrade_critshot_desc"				"Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus weapon damage</span> on hit.<br><span class=\"diminish\">Bonus damage cannot Crit.</span>"
+		"upgrade_critshot_desc"				"Đạn của bạn có khả năng được tăng cường, khiến chúng gây <span class=\"highlight\">sát thương vũ khí cộng thêm</span> khi trúng.<br><span class=\"diminish\">Sát thương cộng thêm không thể Chí mạng.</span>"
 		"CritDamagePercent_prefix"			"+"
-		"CritDamagePercent_label"			"Bonus Weapon Damage"
-		"CritDamagePercent_postvalue_label"			"Bonus Weapon Damage"
+		"CritDamagePercent_label"			"Sát thương vũ khí cộng thêm"
+		"CritDamagePercent_postvalue_label"			"Sát thương vũ khí cộng thêm"
 		"CritDamagePercent_postfix"			"%"
 
 		//Veil Walker
-		"upgrade_veil_walker_desc"			"Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, <span class=\"highlight\">Heal</span> and increased <span class=\"highlight\">Move Speed</span>."
-		"VeilWalker_MoveSpeed_label"			"Invis Move Speed"
-		"VeilWalker_MoveSpeed_postvalue_label"			"Invis Move Speed"
+		"upgrade_veil_walker_desc"			"Đi xuyên qua một <span class=\"highlight\">màn che vũ trụ</span> giúp bạn nhận <span class=\"highlight\">Tàng hình</span>, <span class=\"highlight\">Hồi máu</span> và tăng <span class=\"highlight\">Tốc độ di chuyển</span>."
+		"VeilWalker_MoveSpeed_label"			"Tốc độ di chuyển khi tàng hình"
+		"VeilWalker_MoveSpeed_postvalue_label"			"Tốc độ di chuyển khi tàng hình"
 		"VeilWalker_MoveSpeed_postfix"		"m"
-		"VeilWalker_Heal_label"			"Heal"
-		"VeilWalker_Heal_postvalue_label"			"Heal"
+		"VeilWalker_Heal_label"			"Hồi máu"
+		"VeilWalker_Heal_postvalue_label"			"Hồi máu"
 		"VeilWalker_Heal_postfix"		""
 
 		//Glass Cannon2
-		"upgrade_glass_cannon2_desc"		"Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times). Death results in the loss of 1 stack."
+		"upgrade_glass_cannon2_desc"		"Mỗi lần hạ gục một tướng sẽ nhận <span class=\"highlight\">Sát thương vũ khí vĩnh viễn</span> (tối đa {s:MaxStacks} lần). Chết sẽ mất 1 tầng."
 
 		//"upgrade_split_shot"					"Split Shot"
-		"upgrade_split_shot_desc"			"Make your weapon fire <span class=\"highlight\">multishot</span>. <br><br> Hitting more than one Hero per attack will grant a <span class=\"highlight\">stacking weapon damage bonus</span>. <br><br><span class=\"diminish\">Targets can only be hit once per multishot.</span>"
-		"upgrade_split_shot_desc_02"		"Splitshot Multi-Hit Bonus"
-		"SpecialShotsBonusFireRate_label"	"Fire Rate During Multishots"
-		"SpecialShotsBonusFireRate_postvalue_label"	"Fire Rate During Multishots"
+		"upgrade_split_shot_desc"			"Khiến vũ khí của bạn bắn <span class=\"highlight\">nhiều viên cùng lúc</span>. <br><br> Bắn trúng nhiều hơn một tướng trong mỗi lượt tấn công sẽ nhận <span class=\"highlight\">thưởng sát thương vũ khí cộng dồn</span>. <br><br><span class=\"diminish\">Mỗi mục tiêu chỉ bị trúng một lần trong mỗi loạt bắn nhiều viên.</span>"
+		"upgrade_split_shot_desc_02"		"Thưởng trúng nhiều mục tiêu của Bắn tách"
+		"SpecialShotsBonusFireRate_label"	"Tốc độ bắn trong loạt bắn nhiều viên"
+		"SpecialShotsBonusFireRate_postvalue_label"	"Tốc độ bắn trong loạt bắn nhiều viên"
 		"SpecialShotsBonusFireRate_postfix"	"%"
 		"SpecialShotsBonusFireRate_prefix"	"+"
-		"SplitShotWeaponDuration_label"		"Stack Duration"
-		"SplitShotWeaponDuration_postvalue_label"		"Stack Duration"
+		"SplitShotWeaponDuration_label"		"Thời gian tầng"
+		"SplitShotWeaponDuration_postvalue_label"		"Thời gian tầng"
 		"SplitShotWeaponDuration_prefix"		""
 		"SplitShotWeaponDuration_postfix"		"s"
 		
 		// upgrade_blood_tribute			// Blood Tribute
-		"upgrade_blood_tribute_desc"		"Toggle: Continually sacrifice Health to improve {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">Debuff Resistance</span> and <span class=\"highlight\">Move Speed</span>. "
+		"upgrade_blood_tribute_desc"		"Bật/tắt: Liên tục hy sinh máu để cải thiện {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">Kháng hiệu ứng tiêu cực</span> và <span class=\"highlight\">Tốc độ di chuyển</span>. "
 
 		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
-		"upgrade_non_player_bonus_sacrifice_desc"	"Target an enemy NPC and consume it for <span class=\"highlight\">{s:BonusSoulsPct}% Bonus Souls</span> and grants a powerful long lasting buff."
+		"upgrade_non_player_bonus_sacrifice_desc"	"Chọn một NPC địch và tiêu thụ nó để nhận <span class=\"highlight\">{s:BonusSoulsPct}% Linh hồn thưởng</span> và một hiệu ứng tích cực mạnh kéo dài."
 
 		//"upgrade_capacitor"						"Capacitor"
-		"upgrade_capacitor_desc"					"Launch a projectile that deals <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}damage</span>, applies a strong slow that recovers over time, <span class=\"highlight\">prevents Stamina usage</span> and <span class=\"highlight\">Silences</span> their <span class=\"highlight\">movement-based items and abilities</span>."
+		"upgrade_capacitor_desc"					"Phóng ra một đạn phép gây <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}sát thương</span>, gây làm chậm mạnh sẽ hồi phục dần theo thời gian, <span class=\"highlight\">ngăn dùng thể lực</span> và <span class=\"highlight\">Câm lặng</span> các <span class=\"highlight\">vật phẩm và kỹ năng di chuyển</span> của chúng."
 		
 		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
-		"upgrade_enchanted_holsters_desc"		"While in-combat whenever you cast an ability or item, gain a stacking buff that improves fire rate and reload speed. <br><span class=\"diminish\">Each stack refreshes the duration.</span>"
+		"upgrade_enchanted_holsters_desc"		"Khi đang giao chiến, mỗi lần bạn thi triển kỹ năng hoặc dùng vật phẩm, nhận một hiệu ứng tích cực cộng dồn giúp cải thiện tốc độ bắn và tốc độ nạp đạn. <br><span class=\"diminish\">Mỗi tầng làm mới thời gian hiệu lực.</span>"
 		
 		// "upgrade_weapon_backstabber"			"Stalker"
-		"upgrade_weapon_backstabber_desc"		"Dealing {g:citadel_inline_attribute:'WeaponDamage'} at close range opens a wound and grants you {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>Wounded enemies take {g:citadel_inline_attribute:'SpiritDPS'}, have reduced {g:citadel_inline_attribute:'BulletResist'}, and are revealed <span class=\"highlight\">through walls</span>."
-		"BackstabberRadius_label"		"Bonus Radius"
-		"BackstabberRadius_postvalue_label"		"Bonus Radius"
+		"upgrade_weapon_backstabber_desc"		"Gây {g:citadel_inline_attribute:'WeaponDamage'} ở tầm gần sẽ mở một vết thương và giúp bạn nhận {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>Kẻ địch bị thương chịu {g:citadel_inline_attribute:'SpiritDPS'}, bị giảm {g:citadel_inline_attribute:'BulletResist'}, và bị lộ diện <span class=\"highlight\">xuyên tường</span>."
+		"BackstabberRadius_label"		"Bán kính cộng thêm"
+		"BackstabberRadius_postvalue_label"		"Bán kính cộng thêm"
 		"BackstabberRadius_prefix"		""
 		"BackstabberRadius_postfix"		"m"
-		"ProcRadius_label"				"Close Range"
-		"ProcRadius_postvalue_label"	"Close Range"
+		"ProcRadius_label"				"Tầm gần"
+		"ProcRadius_postvalue_label"	"Tầm gần"
 		"ProcRadius_postfix"			"m"
 		
 
 		//"upgrade_express_shot"				"Express Shot"
-		"upgrade_express_shot_desc"				"Your next attack will <span class=\"highlight\">fire twice</span> in quick succession with <span class=\"highlight\">increased damage</span> and velocity. This attack consumes extra ammo."
-		"ProcAmmoConsumed_label"				"Extra Ammo Consumed"
-		"ProcAmmoConsumed_postvalue_label"				"Extra Ammo Consumed"
+		"upgrade_express_shot_desc"				"Đòn tấn công tiếp theo của bạn sẽ <span class=\"highlight\">bắn hai lần</span> liên tiếp nhanh với <span class=\"highlight\">sát thương tăng thêm</span> và tốc độ đạn lớn hơn. Đòn tấn công này tiêu hao thêm đạn."
+		"ProcAmmoConsumed_label"				"Đạn tiêu hao thêm"
+		"ProcAmmoConsumed_postvalue_label"				"Đạn tiêu hao thêm"
 		"ProcAmmoConsumed_postfix"				""
 
 		
 		//Melee Charge
-		"upgrade_melee_charge_desc"				"Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span>."
-		"MeleeDistanceScale_label"				"Heavy Melee Distance"
-		"MeleeDistanceScale_postvalue_label"				"Heavy Melee Distance"
+		"upgrade_melee_charge_desc"				"Đòn <span class=\"highlight\">Cận chiến nặng</span> tiếp theo của bạn vào kẻ địch <span class=\"highlight\">gây sát thương tăng thêm</span>."
+		"MeleeDistanceScale_label"				"Khoảng cách cận chiến nặng"
+		"MeleeDistanceScale_postvalue_label"				"Khoảng cách cận chiến nặng"
 		"MeleeDistanceScale_prefix"				"+"
 		"MeleeDistanceScale_postfix"			"%"
 		"BonusHeavyMeleeDamage_prefix"			"+"
-		"BonusHeavyMeleeDamage_label"			"Bonus Heavy Damage"
-		"BonusHeavyMeleeDamage_postvalue_label"			"Bonus Heavy Damage"
+		"BonusHeavyMeleeDamage_label"			"Sát thương nặng cộng thêm"
+		"BonusHeavyMeleeDamage_postvalue_label"			"Sát thương nặng cộng thêm"
 		"BonusHeavyMeleeDamage_postfix"			"%"
 
 		// "upgrade_crushing_fists"				"Crushing Fists"
-		"upgrade_crushing_fists_desc"			"Your <span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> will <span class=\"highlight\">restore ammo</span> and apply a <span class=\"highlight\">stacking bullet resist debuff</span> on enemies. Heavy melee applies 2 stacks. <br><br>If the target reaches max stacks, they will be <span class=\"highlight\">stunned</span>."
-		"notification_crushing_fists_stun"		"Crushing Fists - Stun!"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> của bạn sẽ <span class=\"highlight\">hồi lại đạn</span> và gây <span class=\"highlight\">hiệu ứng tiêu cực giảm kháng đạn cộng dồn</span> lên kẻ địch. Cận chiến nặng gây 2 tầng. <br><br>Nếu mục tiêu đạt số tầng tối đa, chúng sẽ bị <span class=\"highlight\">choáng</span>."
+		"notification_crushing_fists_stun"		"Nắm đấm nghiền nát - Choáng!"
 
 		//"upgrade_stackingdamageproc"		"Hungering Blade"
-		"upgrade_stackingdamageproc_desc"	"Dealing damage to <span class=\"highlight\">low health</span> heroes deals {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>This effect stacks every time it procs, permanently increasing the {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"upgrade_stackingdamageproc_desc"	"Gây sát thương cho các tướng <span class=\"highlight\">máu thấp</span> sẽ gây {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>Hiệu ứng này cộng dồn mỗi khi kích hoạt, tăng vĩnh viễn {g:citadel_inline_attribute:'BonusWeaponDamage'}."
 
 		//"upgrade_building_buster"				"Explosive Demolition"
-		"upgrade_building_buster_desc"		"Throw a cluster of sticky explosives that explode for {g:citadel_inline_attribute:'WeaponDamage'} after a long delay. <br><br>If it hits a <span class=\"highlight\">boss</span>, it deals {g:citadel_inline_attribute:'BonusWeaponDamage'}."
-		"BossDamage_postvalue_label" "Boss Damage"
+		"upgrade_building_buster_desc"		"Ném một cụm chất nổ dính, phát nổ gây {g:citadel_inline_attribute:'WeaponDamage'} sau một khoảng trễ dài. <br><br>Nếu trúng <span class=\"highlight\">trùm</span>, nó gây {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label" "Sát thương lên trùm"
 
 
 		//-----------------------------------------------------------------------------
@@ -382,292 +381,292 @@
 		//-----------------------------------------------------------------------------
 		
 		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
-		"upgrade_mystic_regeneration_desc"		"Dealing {g:citadel_inline_attribute:'SpiritDamage'} to enemy Heroes grants you Bonus {g:citadel_inline_attribute:'Regen'}. Stacks when dealing damage to different heroes."
+		"upgrade_mystic_regeneration_desc"		"Gây {g:citadel_inline_attribute:'SpiritDamage'} cho tướng địch giúp bạn nhận thêm {g:citadel_inline_attribute:'Regen'}. Cộng dồn khi gây sát thương cho các tướng khác nhau."
 
 		//Spirit Lifesteal
 		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
 		
 		//Mystic Vulnerability
-		"upgrade_magic_vulnerability_desc"	"When an enemy takes {g:citadel_inline_attribute:'SpiritDamage'}, they have their {g:citadel_inline_attribute:'SpiritResist'} reduced."		
+		"upgrade_magic_vulnerability_desc"	"Khi một kẻ địch chịu {g:citadel_inline_attribute:'SpiritDamage'}, {g:citadel_inline_attribute:'SpiritResist'} của chúng bị giảm."		
 
 		//Healbane
-		"upgrade_healbane_desc"	"Your {g:citadel_inline_attribute:'SpiritDamage'} reduces the enemy's <span class=\"highlight\">Incoming Healing</span>. If an enemy hero dies under this effect, you receive a large heal."
-		"HealOnKill_label"		"Heal On Hero Kill"
+		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} của bạn làm giảm <span class=\"highlight\">Lượng hồi máu nhận vào</span> của kẻ địch. Nếu một tướng địch chết khi đang chịu hiệu ứng này, bạn được hồi một lượng máu lớn."
+		"HealOnKill_label"		"Hồi máu khi hạ gục tướng"
 
-		"HealOnKill_postvalue_label"		"Heal On Hero Kill"
+		"HealOnKill_postvalue_label"		"Hồi máu khi hạ gục tướng"
 
 		//Mystic Slow
-		"upgrade_magic_slow_desc"	"When the target takes {g:citadel_inline_attribute:'SpiritDamage'}, they have their <span class=\"highlight\">Move Speed</span> reduced."
+		"upgrade_magic_slow_desc"	"Khi mục tiêu chịu {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">Tốc độ di chuyển</span> của chúng bị giảm."
 
 		//Escalating Exposure
-		"upgrade_escalating_exposure_desc"	"Dealing {g:citadel_inline_attribute:'SpiritDamage'} applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your {g:citadel_inline_attribute:'SpiritDamage'} to the target."
-		"EscalatingExposureProcCooldown_label"	"Max Frequency Per Target"
-		"EscalatingExposureProcCooldown_postvalue_label"	"Max Frequency Per Target"
+		"upgrade_escalating_exposure_desc"	"Gây {g:citadel_inline_attribute:'SpiritDamage'} sẽ gây <span class=\"highlight\">Khuếch đại phép thuật</span> cộng dồn, làm tăng {g:citadel_inline_attribute:'SpiritDamage'} của bạn lên mục tiêu."
+		"EscalatingExposureProcCooldown_label"	"Tần suất tối đa mỗi mục tiêu"
+		"EscalatingExposureProcCooldown_postvalue_label"	"Tần suất tối đa mỗi mục tiêu"
 		"EscalatingExposureProcCooldown_postfix"	"s"
-		"EscalatingExposureTechArmorDamageReduction_label"	"Spirit Resist On Spirit Damage"
-		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"Spirit Resist On Spirit Damage"
+		"EscalatingExposureTechArmorDamageReduction_label"	"Kháng phép thuật khi gây sát thương phép thuật"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"Kháng phép thuật khi gây sát thương phép thuật"
 		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
 
 		//Mystic Reach
-		"upgrade_magic_reach_desc"			"Imbue an ability to increase its <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span>."
+		"upgrade_magic_reach_desc"			"Cường hóa một kỹ năng để tăng <span class=\"highlight\">tầm</span> và <span class=\"highlight\">bán kính hiệu ứng</span> của nó."
 
 		//Improved Reach
-		"upgrade_tech_range_desc"			"Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items."
+		"upgrade_tech_range_desc"			"Tăng <span class=\"highlight\">tầm</span> và <span class=\"highlight\">bán kính hiệu ứng</span> của các kỹ năng và vật phẩm của bạn."
 
 		//Omni Spirit
-		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Slowed"
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Bị làm chậm"
 
 		//Improved Cooldown
-		"upgrade_magic_tempo_desc"	"Imbue an ability to reduce its <span class=\"highlight\">Cooldown</span>."
+		"upgrade_magic_tempo_desc"	"Cường hóa một kỹ năng để giảm <span class=\"highlight\">Thời gian hồi chiêu</span> của nó."
 
 		//Superior Cooldown
-		"upgrade_cooldown_reduction_desc"	"Reduces the <span class=\"highlight\">Cooldown</span> of your abilities."
+		"upgrade_cooldown_reduction_desc"	"Giảm <span class=\"highlight\">Thời gian hồi chiêu</span> của các kỹ năng của bạn."
 
 		//Transcendent Cooldown
-		"upgrade_transcendent_cooldown_desc"	"Reduces the <span class=\"highlight\">Cooldown</span> of your abilities and items."
+		"upgrade_transcendent_cooldown_desc"	"Giảm <span class=\"highlight\">Thời gian hồi chiêu</span> của các kỹ năng và vật phẩm của bạn."
 
 		//Extra Charge
 		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
 		"BonusSpiritForChargedAbilities_prefix"						"+"
-		"BonusSpiritForChargedAbilities_label"						"Bonus Spirit Power for Charged Abilities"
-		"BonusSpiritForChargedAbilities_postvalue_label"						"Bonus Spirit Power for Charged Abilities"
+		"BonusSpiritForChargedAbilities_label"						"Sức mạnh phép thuật cộng thêm cho kỹ năng nhiều lượt dùng"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"Sức mạnh phép thuật cộng thêm cho kỹ năng nhiều lượt dùng"
 
 		//Rapid Recharge
-		"CooldownReductionOnChargedAbilities_label"	"Cooldown Reduction For Charged Abilities"
-		"CooldownReductionOnChargedAbilities_postvalue_label"	"Cooldown Reduction For Charged Abilities"
+		"CooldownReductionOnChargedAbilities_label"	"Giảm thời gian hồi chiêu cho kỹ năng nhiều lượt dùng"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"Giảm thời gian hồi chiêu cho kỹ năng nhiều lượt dùng"
 		"CooldownReductionOnChargedAbilities_postfix" "%"
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		//Alchemical Fire
-		"upgrade_thermal_detonator_desc"		"Throw a flask that explodes on contact, creating an area that does increasing {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\">per second</span> and reduces enemy <span class=\"highlight\">Bullet Resist</span>.<br><br>{s:NonHeroReductionPercent}% less effective vs non-heroes."
+		"upgrade_thermal_detonator_desc"		"Ném một bình phát nổ khi chạm, tạo ra một vùng gây {g:citadel_inline_attribute:'SpiritDamage'} tăng dần <span class=\"highlight\">mỗi giây</span> và làm giảm <span class=\"highlight\">Kháng đạn</span> của kẻ địch.<br><br>Kém hiệu quả {s:NonHeroReductionPercent}% đối với mục tiêu không phải tướng."
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
-		"BonusBaseWeaponDamageTaken_label"		"Weapon Damage"
-		"BonusBaseWeaponDamageTaken_postvalue_label"		"Weapon Damage"
+		"BonusBaseWeaponDamageTaken_label"		"Sát thương vũ khí"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"Sát thương vũ khí"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
 
 		//Fleetfoot
-		"upgrade_fleetfoot_boots_active_desc"	"Gain bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Slow Resistance</span>."
-		"upgrade_fleetfoot_boots_passive_desc"	"Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting."
+		"upgrade_fleetfoot_boots_active_desc"	"Nhận thêm <span class=\"highlight\">Tốc độ di chuyển</span> và <span class=\"highlight\">Kháng làm chậm</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Loại bỏ hình phạt <span class=\"highlight\">Tốc độ di chuyển</span> khi bắn."
 
 		//Kinetic Dash
-		"upgrade_kinetic_sash_desc"		"When you <span class=\"highlight\">Dash-Jump</span> you gain <span class=\"highlight\">Fire Rate</span> and bonus <span class=\"highlight\">Ammo</span> until your next reload. Lasts up to {s:AbilityDuration}s."
+		"upgrade_kinetic_sash_desc"		"Khi bạn <span class=\"highlight\">Nhảy lướt</span>, bạn nhận <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Đạn</span> cộng thêm cho đến lần nạp đạn tiếp theo. Kéo dài tối đa {s:AbilityDuration}s."
 
 		//Arcane Surge
-		"upgrade_arcane_surge_desc"			"After you <span class=\"highlight\">Dash-Jump</span>, the <span class=\"highlight\">next ability you use</span> within {s:ArcaneSurgeWindow}s will have bonus <span class=\"highlight\">Range, Duration,</span> and <span class=\"highlight\">Spirit Power</span>."
-		"modifier_arcane_surge_triggered"	"Arcane Surge!"
-		"modifier_arcane_surge_ability"		"Ability Surged!"
-		"ArcaneSurgeWindow_label"				"Cast Window"
-		"ArcaneSurgeWindow_postvalue_label"		"Cast Window"
+		"upgrade_arcane_surge_desc"			"Sau khi bạn <span class=\"highlight\">Nhảy lướt</span>, <span class=\"highlight\">kỹ năng tiếp theo bạn dùng</span> trong vòng {s:ArcaneSurgeWindow}s sẽ nhận thêm <span class=\"highlight\">Tầm, Thời lượng,</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
+		"modifier_arcane_surge_triggered"	"Dâng trào huyền bí!"
+		"modifier_arcane_surge_ability"		"Kỹ năng được tăng cường!"
+		"ArcaneSurgeWindow_label"				"Thời gian thi triển"
+		"ArcaneSurgeWindow_postvalue_label"		"Thời gian thi triển"
 		"ArcaneSurgeWindow_postfix"				"s"
 
 		//Active Reload
-		"upgrade_active_reload_desc"	"While reloading, pressing {g:citadel_binding:'Reload'} during the highlighted portion will <span class=\"highlight\">instantly finish your reload</span> and grant you <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Bullet Lifesteal</span> and <span class=\"highlight\">Move Speed</span>."
+		"upgrade_active_reload_desc"	"Khi đang nạp đạn, nhấn {g:citadel_binding:'Reload'} đúng đoạn được tô sáng sẽ <span class=\"highlight\">hoàn tất nạp đạn ngay lập tức</span> và giúp bạn nhận <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Hút máu đạn</span> và <span class=\"highlight\">Tốc độ di chuyển</span>."
 
 		//Slowing Hex
-		"upgrade_containment_desc"			"<span class=\"highlight\">Slows movement</span> of enemy target. Also <span class=\"highlight\">Silences</span> their <span class=\"highlight\">movement-based items and abilities</span>.<br><span class=\"diminish\">Increases the target's gravity.<br>Does not affect target's stamina usage.</span>"
+		"upgrade_containment_desc"			"<span class=\"highlight\">Làm chậm di chuyển</span> của mục tiêu địch. Đồng thời <span class=\"highlight\">Câm lặng</span> các <span class=\"highlight\">vật phẩm và kỹ năng di chuyển</span> của chúng.<br><span class=\"diminish\">Tăng trọng lực của mục tiêu.<br>Không ảnh hưởng đến việc dùng thể lực của mục tiêu.</span>"
 
 		//Spirit Sap
-		"upgrade_spirit_sap_desc"			"Target an enemy to <span class=\"highlight\">reduce their Spirit Resist</span> and <span class=\"highlight\">Spirit Power</span>."
+		"upgrade_spirit_sap_desc"			"Chọn một kẻ địch để <span class=\"highlight\">giảm Kháng phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span> của chúng."
 
 		//Focus Lens
-		"upgrade_focus_lens_desc"			"Target an enemy to <span class=\"highlight\">Silence</span> them. A portion of <span class=\"highlight\">all damage dealt</span> during the silence gets applied to the target when the silence wears off."
-		"PercentDamage_label"				"Damage On Expire"
-		"PercentDamage_postvalue_label"				"Damage On Expire"
+		"upgrade_focus_lens_desc"			"Chọn một kẻ địch để <span class=\"highlight\">Câm lặng</span> chúng. Một phần <span class=\"highlight\">toàn bộ sát thương gây ra</span> trong thời gian câm lặng sẽ được áp lên mục tiêu khi câm lặng kết thúc."
+		"PercentDamage_label"				"Sát thương khi hết hạn"
+		"PercentDamage_postvalue_label"				"Sát thương khi hết hạn"
 		"PercentDamage_postfix"				"%"
 
 		//Withering Whip , Rusted Barrel
-		"upgrade_withering_whip_desc"		"Target an enemy to reduce their <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Bullet Resistance</span>."
-		"modifier_withering_whip_debuff"	"-Fire Rate"
-		"MagicAmp_label"					"Spirit Amp"
-		"MagicAmp_postvalue_label"					"Spirit Amp"
+		"upgrade_withering_whip_desc"		"Chọn một kẻ địch để giảm <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Kháng đạn</span> của chúng."
+		"modifier_withering_whip_debuff"	"-Tốc độ bắn"
+		"MagicAmp_label"					"Khuếch đại phép thuật"
+		"MagicAmp_postvalue_label"					"Khuếch đại phép thuật"
 		"MagicAmp_postfix"					"%"
-		"WitheringWhipDisarmDuration_label"	"Duration"
-		"WitheringWhipDisarmDuration_postvalue_label"	"Duration"
+		"WitheringWhipDisarmDuration_label"	"Thời gian"
+		"WitheringWhipDisarmDuration_postvalue_label"	"Thời gian"
 		"WitheringWhipDisarmDuration_postfix"	"s"
-		"SpiritPower_label"					"Spirit Power"
-		"SpiritPower_postvalue_label"					"Spirit Power"
+		"SpiritPower_label"					"Sức mạnh phép thuật"
+		"SpiritPower_postvalue_label"					"Sức mạnh phép thuật"
 		"SpiritPower_prefix"					"+"
 
 		// Disarming Hex
-		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">Disarms</span> enemy target and reduces their <span class=\"highlight\">Bullet Resist</span>."
-		"upgrade_greater_withering_whip_debuff"		"Disarmed"
+		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">Tước vũ khí</span> mục tiêu địch và giảm <span class=\"highlight\">Kháng đạn</span> của chúng."
+		"upgrade_greater_withering_whip_debuff"		"Bị tước vũ khí"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"Instantly enter a void state and become Invulnerable for a short duration."
-		"upgrade_self_bubble_desc2"			"Afterwards, gain a variety of temporary buffs:"
-		"ShiftingVeil_channel_desc"			"Invulnerable"
-		"ShiftingVeilDuration_label"			"Duration"
-		"ShiftingVeilDuration_postvalue_label"			"Duration"
+		"upgrade_self_bubble_desc"			"Lập tức bước vào trạng thái hư không và trở nên Bất khả xâm phạm trong thời gian ngắn."
+		"upgrade_self_bubble_desc2"			"Sau đó, nhận nhiều hiệu ứng tích cực tạm thời:"
+		"ShiftingVeil_channel_desc"			"Bất khả xâm phạm"
+		"ShiftingVeilDuration_label"			"Thời gian"
+		"ShiftingVeilDuration_postvalue_label"			"Thời gian"
 		"ShiftingVeilDuration_postfix"		"s"
-		"BonusSpiritDuration_label"			"Bonus Spirit Duration"
-		"BonusSpiritDuration_postvalue_label"			"Bonus Spirit Duration"
+		"BonusSpiritDuration_label"			"Thời gian phép thuật cộng thêm"
+		"BonusSpiritDuration_postvalue_label"			"Thời gian phép thuật cộng thêm"
 		"BonusSpiritDuration_postfix"			"s"
 		"BonusTechPower_prefix"				"{s:sign}"
-		"BonusTechPower_label"				"Spirit Power"
-		"BonusTechPower_postvalue_label"				"Spirit Power"
-		"shifting_veil_bonus"			"Spirit Power, Speed, and Spirit Resist"
+		"BonusTechPower_label"				"Sức mạnh phép thuật"
+		"BonusTechPower_postvalue_label"				"Sức mạnh phép thuật"
+		"shifting_veil_bonus"			"Sức mạnh phép thuật, Tốc độ và Kháng phép thuật"
 
 		//Rescue Beam
-		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Heals</span> a target allied hero and yourself for a percentage of <span class=\"highlight\">Max Health</span>. Once while healing, you can <span class=\"highlight\">Pull</span> the target towards you. Can be self-cast."
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Hồi máu</span> cho một đồng minh được chọn và bản thân theo một phần trăm <span class=\"highlight\">Máu tối đa</span>. Một lần khi đang hồi máu, bạn có thể <span class=\"highlight\">Kéo</span> mục tiêu về phía mình. Có thể tự dùng."
 		"SelfModifier_postfix"			"%"
-		"upgrade_rescue_beam_pull"		"Pull Target"
+		"upgrade_rescue_beam_pull"		"Kéo mục tiêu"
 
 		//Slowing Spirit
-		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Slowed"
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Bị làm chậm"
 
 		//Refresher
-		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Reset the cooldown</span> of all your abilities and <span class=\"highlight\">restore all your charges</span>."
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Đặt lại thời gian hồi chiêu</span> của toàn bộ kỹ năng và <span class=\"highlight\">khôi phục toàn bộ lượt dùng</span> của bạn."
 
 		//Cold Front
-		"upgrade_cold_front_desc"			"Release an expanding ice blast that deals {g:citadel_inline_attribute:'SpiritDamage'} and <span class=\"highlight\">Slows</span> targets it hits."
+		"upgrade_cold_front_desc"			"Phóng ra một đợt nổ băng mở rộng gây {g:citadel_inline_attribute:'SpiritDamage'} và <span class=\"highlight\">Làm chậm</span> các mục tiêu bị trúng."
 
 		//Arctic Blast
-		"upgrade_arctic_blast_desc"			"Release an expanding ice blast that deals {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">Freezing</span> and then <span class=\"highlight\">Slowing</span> targets it hits.<br><br>Slowed targets have their <span class=\"highlight\">stamina regen frozen</span>"
-		"ArcticBlastSlowDuration_label"		"Slow Duration"
-		"ArcticBlastSlowDuration_postvalue_label"		"Slow Duration"
+		"upgrade_arctic_blast_desc"			"Phóng ra một đợt nổ băng mở rộng gây {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">Đóng băng</span> rồi <span class=\"highlight\">Làm chậm</span> các mục tiêu bị trúng.<br><br>Mục tiêu bị làm chậm sẽ bị <span class=\"highlight\">đóng băng hồi phục thể lực</span>"
+		"ArcticBlastSlowDuration_label"		"Thời gian làm chậm"
+		"ArcticBlastSlowDuration_postvalue_label"		"Thời gian làm chậm"
 		"ArcticBlastSlowDuration_postfix"	"s"
-		"ArcticBlastPercentDamage_label"	"Frozen Bonus Damage"
-		"ArcticBlastPercentDamage_postvalue_label"	"Frozen Bonus Damage"
+		"ArcticBlastPercentDamage_label"	"Sát thương cộng thêm khi bị đóng băng"
+		"ArcticBlastPercentDamage_postvalue_label"	"Sát thương cộng thêm khi bị đóng băng"
 		"ArcticBlastPercentDamage_postfix"	"%"
 
 		//Knockdown
-		"upgrade_target_stun_desc"			"Apply a <span class=\"highlight\">Stun</span> after <span class=\"highlight\">{s:StunDelay}s</span>. Stun duration is increased against <span class=\"highlight\">airborne</span> targets.<br><br><span class=\"diminish\">Increases the target's gravity for the duration of the stun.</span>"
+		"upgrade_target_stun_desc"			"Gây <span class=\"highlight\">Choáng</span> sau <span class=\"highlight\">{s:StunDelay}s</span>. Thời gian choáng tăng lên đối với mục tiêu <span class=\"highlight\">đang ở trên không</span>.<br><br><span class=\"diminish\">Tăng trọng lực của mục tiêu trong suốt thời gian choáng.</span>"
 		
 		//Vortex Web
-		"upgrade_aoe_root_active"		"Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area and applying <span class=\"highlight\">Slowing Hex</span>.  <span class=\"diminish\"><br><br>Alt Cast to Target Unit Directly.</span>"
+		"upgrade_aoe_root_active"		"Ném một quả lựu đạn <span class=\"highlight\">chân không</span>, hút tất cả kẻ địch vào một vùng nhỏ và gây <span class=\"highlight\">Phù chú làm chậm</span>.  <span class=\"diminish\"><br><br>Dùng phím phụ để nhắm trực tiếp một mục tiêu.</span>"
 
 		//Curse
-		"upgrade_glitch_desc"					"Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>. <span class=\"highlight\">Removes all non-ultimate buffs</span>.<br><br>Your own <span class=\"highlight\">Damage Output</span> is reduced for the duration."
-		"modifier_glitch_debuff"				"Cursed!"
-		"modifier_glitch_self_penalty"			"Curse Backlash"
+		"upgrade_glitch_desc"					"Nguyền rủa một kẻ địch - <span class=\"highlight\">ngắt chiêu, Câm lặng, Tước vũ khí</span>, và <span class=\"highlight\">ngăn dùng vật phẩm</span>. <span class=\"highlight\">Xóa toàn bộ hiệu ứng tích cực không phải tuyệt chiêu</span>.<br><br><span class=\"highlight\">Sát thương gây ra</span> của chính bạn bị giảm trong suốt thời gian đó."
+		"modifier_glitch_debuff"				"Bị nguyền rủa!"
+		"modifier_glitch_self_penalty"			"Phản phệ nguyền rủa"
 
 		//Bullet Resist Shredder
-		"upgrade_bullet_resist_shredder_desc"	"Reduces <span class=\"highlight\">Bullet Resist</span> on enemies when you deal {g:citadel_inline_attribute:'SpiritDamage'}."
-		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Reduced bullet armor"
+		"upgrade_bullet_resist_shredder_desc"	"Giảm <span class=\"highlight\">Kháng đạn</span> của kẻ địch khi bạn gây {g:citadel_inline_attribute:'SpiritDamage'}."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Giảm giáp đạn"
 
 		//Echo Shard
-		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Reset the cooldown</span> of the imbued non-ultimate ability.<br><br>This item's cooldown is increased by <span class=\"highlight\">the cooldown of the imbued ability</span>."
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Đặt lại thời gian hồi chiêu</span> của kỹ năng thường được cường hóa.<br><br>Thời gian hồi chiêu của vật phẩm này tăng thêm <span class=\"highlight\">bằng thời gian hồi chiêu của kỹ năng được cường hóa</span>."
 
 		//Duration Extender
-		"upgrade_arcane_extension_desc"	"Imbue an ability to increase its <span class=\"highlight\">Duration</span>."
+		"upgrade_arcane_extension_desc"	"Cường hóa một kỹ năng để tăng <span class=\"highlight\">Thời lượng</span> của nó."
 
 		//Superior Duration
-		"upgrade_imbued_duration_extender_desc"	"Increases the <span class=\"highlight\">duration</span> of your abilities and items."
+		"upgrade_imbued_duration_extender_desc"	"Tăng <span class=\"highlight\">thời lượng</span> của các kỹ năng và vật phẩm của bạn."
 
 		//Diviner's Kevlar
-		"upgrade_diviners_kevlar_desc"			"Upon casting an <span class=\"highlight\">ultimate ability</span> gain a <span class=\"highlight\">Barrier</span> and temporary <span class=\"highlight\">Spirit Power</span>."
+		"upgrade_diviners_kevlar_desc"			"Khi thi triển một <span class=\"highlight\">tuyệt chiêu</span>, nhận một <span class=\"highlight\">Lá chắn</span> và <span class=\"highlight\">Sức mạnh phép thuật</span> tạm thời."
 		"BonusChannelTechPower_prefix"			"+"
 		
-		"BonusChannelTimePercentage_label"		"Channel Duration"
-		"BonusChannelTimePercentage_postvalue_label"		"Channel Duration"
+		"BonusChannelTimePercentage_label"		"Thời gian niệm chiêu"
+		"BonusChannelTimePercentage_postvalue_label"		"Thời gian niệm chiêu"
 		"BonusChannelTimePercentage_prefix"		"+"
 		"BonusChannelTimePercentage_postfix"	"%"
 
-		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Channel Duration"
-		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"Channel Duration"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Thời gian niệm chiêu"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"Thời gian niệm chiêu"
 		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
 		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
 
 		//Infuser
-		"upgrade_infuser_desc"			"Gain <span class=\"highlight\">Spirit Lifesteal</span> and <span class=\"highlight\">Spirit Power</span>."
+		"upgrade_infuser_desc"			"Nhận <span class=\"highlight\">Hút máu phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
 
 		//Spirit Strike
-		"upgrade_acolytes_glove_desc"			"When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, deal extra {g:citadel_inline_attribute:'SpiritDamage'} with the attack and reduce the target's <span class=\"highlight\">Spirit Resist</span>.<span class=\"diminish\"><br><br>Cooldown is {s:LightMeleeCooldownMult}x longer for Light Melee hits.</span>"
-		"SpiritDamage_label"					"Spirit Damage"
-		"SpiritDamage_postvalue_label"					"Spirit Damage"
+		"upgrade_acolytes_glove_desc"			"Khi bạn thực hiện đòn <span class=\"highlight\">Cận chiến nhẹ hoặc nặng</span> vào một tướng, gây thêm {g:citadel_inline_attribute:'SpiritDamage'} cùng đòn đánh và giảm <span class=\"highlight\">Kháng phép thuật</span> của mục tiêu.<span class=\"diminish\"><br><br>Thời gian hồi chiêu dài gấp {s:LightMeleeCooldownMult} lần đối với đòn cận chiến nhẹ.</span>"
+		"SpiritDamage_label"					"Sát thương phép thuật"
+		"SpiritDamage_postvalue_label"					"Sát thương phép thuật"
 
 		//Spirit Snatch
-		"upgrade_spirit_snatch_desc"			"When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, the attack deals extra {g:citadel_inline_attribute:'SpiritDamage'} and steals <span class=\"highlight\">Spirit Resist</span> and <span class=\"highlight\">Spirit Power</span>.<span class=\"diminish\"><br><br>Effects are reduced by {s:LightMeleeReduction}% for Light Melee hits.</span>"
-		"SpiritSnatch_TechArmorSteal_label"		"Spirit Resist Steal"
-		"SpiritSnatch_TechArmorSteal_postvalue_label"		"Spirit Resist Steal"
+		"upgrade_spirit_snatch_desc"			"Khi bạn thực hiện đòn <span class=\"highlight\">Cận chiến nhẹ hoặc nặng</span> vào một tướng, đòn đánh gây thêm {g:citadel_inline_attribute:'SpiritDamage'} và đánh cắp <span class=\"highlight\">Kháng phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>.<span class=\"diminish\"><br><br>Hiệu ứng giảm {s:LightMeleeReduction}% đối với đòn cận chiến nhẹ.</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"Đánh cắp Kháng phép thuật"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"Đánh cắp Kháng phép thuật"
 		"SpiritSnatch_TechArmorSteal_postfix"	"%"
-		"SpiritSnatch_TechPowerSteal_label"		"Spirit Power Steal"
-		"SpiritSnatch_TechPowerSteal_postvalue_label"		"Spirit Power Steal"
+		"SpiritSnatch_TechPowerSteal_label"		"Đánh cắp Sức mạnh phép thuật"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"Đánh cắp Sức mạnh phép thuật"
 
 		//Clarity
 		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
 		"ClarityBonusSpirit_prefix"				"{s:sign}"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Move Speed</span> and maintain full speed while attacking."
+		"upgrade_magic_storm_desc"				"Cường hóa một kỹ năng với <span class=\"highlight\">Sức mạnh phép thuật vĩnh viễn</span>. Khi dùng kỹ năng đó, nhận thêm <span class=\"highlight\">Tốc độ di chuyển</span> và giữ nguyên tốc độ tối đa khi tấn công."
 
 		//Suppressor
-		"upgrade_suppressor_desc"					"When you deal {g:citadel_inline_attribute:'SpiritDamage'} to enemies, you also reduce their <span class=\"highlight\">Fire Rate</span>."
-		"suppressor_debuff"						"-Fire Rate"
+		"upgrade_suppressor_desc"					"Khi bạn gây {g:citadel_inline_attribute:'SpiritDamage'} cho kẻ địch, bạn cũng giảm <span class=\"highlight\">Tốc độ bắn</span> của chúng."
+		"suppressor_debuff"						"-Tốc độ bắn"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc"				"Your imbued ability charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, and <span class=\"highlight\">reloads bullets</span> on use."
+		"upgrade_quick_silver_desc"				"Kỹ năng được cường hóa của bạn tích năng lượng theo thời gian với {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, và <span class=\"highlight\">nạp lại đạn</span> khi sử dụng."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Heal</span> and gain bonus <span class=\"highlight\">Movement Speed</span> for a short duration when you cast an ability."
-		"HealingPerCast_Label"					"Healing on Ability Cast"
+		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Hồi máu</span> và nhận thêm <span class=\"highlight\">Tốc độ di chuyển</span> trong thời gian ngắn khi bạn thi triển một kỹ năng."
+		"HealingPerCast_Label"					"Hồi máu khi thi triển kỹ năng"
 
-		"HealingPerCast_postvalue_label"					"Healing on Ability Cast"
+		"HealingPerCast_postvalue_label"					"Hồi máu khi thi triển kỹ năng"
 
 		// Magic carpet
-		"upgrade_magic_carpet_desc"				"Summon a Magic Carpet that will <span class=\"highlight\">fly</span> you away. While flying you are immune to slows and doing any action will dismiss the carpet. <span class=\"diminish\"><br>Cannot use abilities while the carpet is being summoned.</span>"
-		"modifier_summon_magiccarpet"			"Summoning Magic Carpet"
+		"upgrade_magic_carpet_desc"				"Triệu hồi một Tấm thảm thần kỳ sẽ <span class=\"highlight\">bay</span> đưa bạn đi. Khi đang bay bạn miễn nhiễm làm chậm và thực hiện bất kỳ hành động nào cũng sẽ làm tấm thảm biến mất. <span class=\"diminish\"><br>Không thể dùng kỹ năng khi tấm thảm đang được triệu hồi.</span>"
+		"modifier_summon_magiccarpet"			"Đang triệu hồi Thảm thần kỳ"
 		"MagicCarpetMoveSpeed_prefix"			"+"
-		"MagicCarpetMoveSpeed_label"			"Bonus Fly Speed"
-		"MagicCarpetMoveSpeed_postvalue_label"			"Bonus Fly Speed"
+		"MagicCarpetMoveSpeed_label"			"Tốc độ bay cộng thêm"
+		"MagicCarpetMoveSpeed_postvalue_label"			"Tốc độ bay cộng thêm"
 		"MagicCarpetMoveSpeed_postfix"			"m"
-		"MagicCarpetShieldDuration_label"		"Shield Duration"
-		"MagicCarpetShieldDuration_postvalue_label"		"Shield Duration"
+		"MagicCarpetShieldDuration_label"		"Thời gian lá chắn"
+		"MagicCarpetShieldDuration_postvalue_label"		"Thời gian lá chắn"
 		"MagicCarpetShieldDuration_postfix"		"s"
-		"MagicCarpetSummoning_channel"			"Summoning"
+		"MagicCarpetSummoning_channel"			"Đang triệu hồi"
 
 		// Hex-Sealed Knuckles
-		"upgrade_superacolytes_glove_desc"			"After dealing an accumulated <span class=\"highlight\">{s:StoredSpiritDamage}</span> spirit damage, your next <span class=\"highlight\">Heavy Melee Attack</span> deals an additional <span class=\"highlight\">{s:StoredSpiritDamage} spirit damage</span>."
-		"StoredSpiritDamage_label"			"Stored Spirit Damage"
-		"StoredSpiritDamage_postvalue_label"			"Stored Spirit Damage"
-		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Knuckles Unsealed!"
+		"upgrade_superacolytes_glove_desc"			"Sau khi gây tích lũy <span class=\"highlight\">{s:StoredSpiritDamage}</span> sát thương phép thuật, <span class=\"highlight\">Đòn cận chiến nặng</span> tiếp theo của bạn gây thêm <span class=\"highlight\">{s:StoredSpiritDamage} sát thương phép thuật</span>."
+		"StoredSpiritDamage_label"			"Sát thương phép thuật tích trữ"
+		"StoredSpiritDamage_postvalue_label"			"Sát thương phép thuật tích trữ"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Nắm đấm đã được mở phong ấn!"
 
 		//SpiritBurn
-		"upgrade_spirit_burn_desc"	"Dealing significant {g:citadel_inline_attribute:'SpiritDamage'} to an enemy within {s:DamageThresholdDuration}s causes an explosion dealing damage and a burn to that enemy. While burning, enemies take damage over time and receive reduced healing.<br><span class=\"diminish\">The cooldown is per enemy, so each target can only be burned once per cooldown. Deals half-damage on non-heroes.</span>"
-		"modifier_spirit_burn_immunity"	"Spirit Burn Immune"
-		"MinDPS_label" "Minimum DPS"
+		"upgrade_spirit_burn_desc"	"Gây {g:citadel_inline_attribute:'SpiritDamage'} đáng kể lên một kẻ địch trong vòng {s:DamageThresholdDuration}s sẽ gây một vụ nổ gây sát thương và thiêu đốt kẻ địch đó. Khi đang bị thiêu, kẻ địch chịu sát thương theo thời gian và nhận lượng hồi máu giảm.<br><span class=\"diminish\">Thời gian hồi chiêu tính riêng cho từng kẻ địch, nên mỗi mục tiêu chỉ bị thiêu một lần trong mỗi thời gian hồi chiêu. Gây một nửa sát thương lên mục tiêu không phải tướng.</span>"
+		"modifier_spirit_burn_immunity"	"Miễn nhiễm Thiêu đốt phép thuật"
+		"MinDPS_label" "DPS tối thiểu"
 
-		"MinDPS_postvalue_label" "Minimum DPS"
+		"MinDPS_postvalue_label" "DPS tối thiểu"
 
 		//Lightning Scroll
-		"upgrade_ultimate_burst_desc"			"Damage from your ultimate applies a {g:citadel_inline_attribute:'Stun'} and deals {g:citadel_inline_attribute:'BonusSpiritDamage'} after a short delay.</span>"
-		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Mystic Slow effects</span>"
-		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">This effect can only trigger once per target per ultimate.</span>"
-		"LightningScrollMysticSlow_label"		"Move Speed on Spirit Damage"
-		"LightningScrollMysticSlow_postvalue_label"		"Move Speed on Spirit Damage"
+		"upgrade_ultimate_burst_desc"			"Sát thương từ tuyệt chiêu của bạn gây {g:citadel_inline_attribute:'Stun'} và gây {g:citadel_inline_attribute:'BonusSpiritDamage'} sau một khoảng trễ ngắn.</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Hiệu ứng Làm chậm huyền bí</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Hiệu ứng này chỉ có thể kích hoạt một lần cho mỗi mục tiêu trong mỗi tuyệt chiêu.</span>"
+		"LightningScrollMysticSlow_label"		"Tốc độ di chuyển khi nhận sát thương phép thuật"
+		"LightningScrollMysticSlow_postvalue_label"		"Tốc độ di chuyển khi nhận sát thương phép thuật"
 		"LightningScrollMysticSlow_prefix"		"-"
 		"LightningScrollMysticSlow_postfix"		"%"
-		"DelayBeforeStun_label"					"Delay Before Effect"
-		"DelayBeforeStun_postvalue_label"					"Delay Before Effect"
+		"DelayBeforeStun_label"					"Trễ trước khi có hiệu ứng"
+		"DelayBeforeStun_postvalue_label"					"Trễ trước khi có hiệu ứng"
 		"DelayBeforeStun_postfix"				"s"
 
-		"MaxHealthDamage_label" "Max Health Damage"
-		"MaxHealthDamage_postvalue_label" "Max Health Damage"
+		"MaxHealthDamage_label" "Sát thương theo máu tối đa"
+		"MaxHealthDamage_postvalue_label" "Sát thương theo máu tối đa"
 		"MaxHealthDamage_postfix" "%"
 
-		"CurrentHealthDamage_label" "Current Health Damage"
-		"CurrentHealthDamage_postvalue_label" "Current Health Damage"
+		"CurrentHealthDamage_label" "Sát thương theo máu hiện tại"
+		"CurrentHealthDamage_postvalue_label" "Sát thương theo máu hiện tại"
 		"CurrentHealthDamage_postfix" "%"
 
-		"UltimateTechPower_label" "Ultimate Spirit Power"
+		"UltimateTechPower_label" "Sức mạnh phép thuật của tuyệt chiêu"
 
-		"UltimateTechPower_postvalue_label" "Ultimate Spirit Power"
+		"UltimateTechPower_postvalue_label" "Sức mạnh phép thuật của tuyệt chiêu"
 
 		//Corpse Explosion
-		"upgrade_corpse_explosion_desc"			"Kills or assists cause an <span class=\"highlight\">explosion</span> where the victim dies. Kills against heroes have greater radius and damage."
-		"HeroMultiplier_label" "Hero Explosion Multiplier"
-		"HeroMultiplier_postvalue_label" "Hero Explosion Multiplier"
+		"upgrade_corpse_explosion_desc"			"Hạ gục hoặc hỗ trợ sẽ gây <span class=\"highlight\">vụ nổ</span> tại nơi nạn nhân chết. Hạ gục tướng có bán kính và sát thương lớn hơn."
+		"HeroMultiplier_label" "Hệ số vụ nổ của tướng"
+		"HeroMultiplier_postvalue_label" "Hệ số vụ nổ của tướng"
 		"HeroMultiplier_postfix" "%"
 
 		//Golden Goose Egg
-		"upgrade_goose_egg_desc"	"Gain <span class=\"highlight\">souls over time</span>, as long as you are alive."
-		"upgrade_goose_egg_active_desc"	"Hatch the egg, gaining <span class=\"highlight\">souls</span> and <span class=\"highlight\">permanent buffs</span>.<br><br>The value of the egg grows the longer you hold onto it.<br><br><span class=\"diminish\">Gain a permanent buff per {s:BonusBuffsPerGold} Souls accrued when hatched."
-		"upgrade_goose_egg_stacklabel" "Souls To Gain"
-		"GoldPerMinute_postvalue_label" "Souls per Minute"
+		"upgrade_goose_egg_desc"	"Nhận <span class=\"highlight\">Linh hồn theo thời gian</span>, miễn là bạn còn sống."
+		"upgrade_goose_egg_active_desc"	"Ấp trứng, nhận <span class=\"highlight\">Linh hồn</span> và <span class=\"highlight\">hiệu ứng tích cực vĩnh viễn</span>.<br><br>Giá trị của quả trứng tăng dần càng lâu bạn giữ nó.<br><br><span class=\"diminish\">Nhận một hiệu ứng tích cực vĩnh viễn cho mỗi {s:BonusBuffsPerGold} Linh hồn tích lũy khi ấp."
+		"upgrade_goose_egg_stacklabel" "Linh hồn sẽ nhận"
+		"GoldPerMinute_postvalue_label" "Linh hồn mỗi phút"
 		"GoldPerMinute_prefix" "{s:sign}"
-		"BonusGoldPerMinute_postvalue_label" "Soul Value per Minute"
+		"BonusGoldPerMinute_postvalue_label" "Giá trị Linh hồn mỗi phút"
 
-		"SellBonusSouls_label"	"Sell Bonus Souls:"
+		"SellBonusSouls_label"	"Linh hồn thưởng khi bán:"
 
 		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
 		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
@@ -678,268 +677,268 @@
 		//-----------------------------------------------------------------------------
 		
 		//Healing Rite
-		"upgrade_health_stimpak_desc"					"Grant <span class=\"highlight\">Regen</span> and <span class=\"highlight\">Sprint Speed</span> to the target. Gets dispelled if you take damage from enemy players or objectives. Can be self-cast."
+		"upgrade_health_stimpak_desc"					"Cấp <span class=\"highlight\">Hồi phục</span> và <span class=\"highlight\">Tốc độ chạy nước rút</span> cho mục tiêu. Bị xua tan nếu bạn nhận sát thương từ người chơi địch hoặc mục tiêu chính. Có thể tự dùng."
 
 		//Shrink Ray
-		"upgrade_shrink_ray_desc"					"Reduces <span class=\"highlight\">Model Size</span> and grants <span class=\"highlight\">Move Speed</span> to the target. Allows <span class=\"highlight\">usage of tunnels</span> in this mode. Can be self-cast."
+		"upgrade_shrink_ray_desc"					"Giảm <span class=\"highlight\">Kích thước mô hình</span> và cấp <span class=\"highlight\">Tốc độ di chuyển</span> cho mục tiêu. Cho phép <span class=\"highlight\">sử dụng đường hầm</span> ở trạng thái này. Có thể tự dùng."
 		
 		//Guardian Ward
-		"upgrade_guardian_ward_desc"		"Provide the target with a <span class=\"highlight\">Barrier</span> and temporary <span class=\"highlight\">Move Speed</span>. <span class=\"diminish\"><br>Can be self-cast.<br>Cooldown is reduced by half when cast on someone else.</span>"
+		"upgrade_guardian_ward_desc"		"Cấp cho mục tiêu một <span class=\"highlight\">Lá chắn</span> và <span class=\"highlight\">Tốc độ di chuyển</span> tạm thời. <span class=\"diminish\"><br>Có thể tự dùng.<br>Thời gian hồi chiêu giảm một nửa khi dùng cho người khác.</span>"
 
 		//Divine Barrier
-		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Remove all non-stun debuffs</span> from the target and provide them with a <span class=\"highlight\">Barrier</span> and <span class=\"highlight\">Move Speed</span>. <span class=\"diminish\"><br>Can be self-cast. Cooldown is reduced by half when cast on someone else.</span>"
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Xóa toàn bộ hiệu ứng tiêu cực không phải choáng</span> khỏi mục tiêu và cấp cho họ một <span class=\"highlight\">Lá chắn</span> và <span class=\"highlight\">Tốc độ di chuyển</span>. <span class=\"diminish\"><br>Có thể tự dùng. Thời gian hồi chiêu giảm một nửa khi dùng cho người khác.</span>"
 
 		//Restorative Locket
-		"upgrade_restorative_locket_active_desc"		"When an enemy uses an ability within {s:Radius}m range from you, store one <span class=\"highlight\">Restoration Stack</span>. <br><br>Consume all stacks to <span class=\"highlight\">heal yourself</span> and replenish <span class=\"highlight\">up to {s:MaxStaminaRestore} stamina</span> based on how many stacks you have."
-		"HealPerStack_label"								"Heal Per Stack"	
-		"MinStaminaRestore_label"							"Min Stamina Restore"
-		"MinStaminaRestore_postvalue_label"							"Min Stamina Restore"
-		"MaxStaminaRestore_label"							"Max Stamina Restore"
-		"MaxStaminaRestore_postvalue_label"							"Max Stamina Restore"
+		"upgrade_restorative_locket_active_desc"		"Khi kẻ địch dùng kỹ năng trong phạm vi {s:Radius}m quanh bạn, lưu một <span class=\"highlight\">Tầng hồi phục</span>. <br><br>Tiêu thụ toàn bộ tầng để <span class=\"highlight\">hồi máu cho bản thân</span> và khôi phục <span class=\"highlight\">tối đa {s:MaxStaminaRestore} thể lực</span> tùy theo số tầng bạn có."
+		"HealPerStack_label"								"Hồi máu mỗi tầng"	
+		"MinStaminaRestore_label"							"Thể lực khôi phục tối thiểu"
+		"MinStaminaRestore_postvalue_label"							"Thể lực khôi phục tối thiểu"
+		"MaxStaminaRestore_label"							"Thể lực khôi phục tối đa"
+		"MaxStaminaRestore_postvalue_label"							"Thể lực khôi phục tối đa"
 
-		"HealPerStack_postvalue_label"								"Heal Per Stack"
+		"HealPerStack_postvalue_label"								"Hồi máu mỗi tầng"
 
 		//Cheat Death
-		"upgrade_cheat_death_unkillable_passive"	"When you would take lethal damage, instead become <span class=\"highlight\">temporarily death immune</span> and <span class=\"highlight\">remove all non-stun debuffs</span>. <br><br>While death immune, you deal <span class=\"highlight\">reduced damage</span> and have <span class=\"highlight\">reduced healing</span>."
-		"DeathImmunityDuration_label"	"Death Immunity Duration"
-		"DeathImmunityDuration_postvalue_label"	"Death Immunity Duration"
+		"upgrade_cheat_death_unkillable_passive"	"Khi bạn sắp nhận sát thương chí tử, thay vào đó bạn sẽ <span class=\"highlight\">tạm thời miễn nhiễm cái chết</span> và <span class=\"highlight\">xóa toàn bộ hiệu ứng tiêu cực không phải choáng</span>. <br><br>Khi đang miễn nhiễm cái chết, bạn gây <span class=\"highlight\">sát thương giảm</span> và nhận <span class=\"highlight\">lượng hồi máu giảm</span>."
+		"DeathImmunityDuration_label"	"Thời gian miễn nhiễm cái chết"
+		"DeathImmunityDuration_postvalue_label"	"Thời gian miễn nhiễm cái chết"
 		"DeathImmunityDuration_postfix"	"s"
-		"DeathImmunityDamageReduction_label"		"Damage Reduction"
-		"DeathImmunityDamageReduction_postvalue_label"		"Damage Reduction"
+		"DeathImmunityDamageReduction_label"		"Giảm sát thương"
+		"DeathImmunityDamageReduction_postvalue_label"		"Giảm sát thương"
 		"DeathImmunityDamageReduction_postfix"		"%"
 
 		//Healing Booster
-		"upgrade_healing_booster_desc"		"Increases the effectiveness of your <span class=\"highlight\">healing</span>."
+		"upgrade_healing_booster_desc"		"Tăng hiệu quả <span class=\"highlight\">hồi máu</span> của bạn."
 
 		//Debuff Reducer
-		"upgrade_debuff_reducer_desc"			"Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you."
+		"upgrade_debuff_reducer_desc"			"Giảm <span class=\"highlight\">thời lượng</span> của mọi hiệu ứng tiêu cực áp lên bạn."
 
 		//Debuff Remover | Dispel Magic
-		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Purge all non-ultimate negative effects</span> currently applied to you. If any effects were removed, <span class=\"highlight\">heal yourself</span> and gain a <span class=\"highlight\">move speed bonus</span>. <br><span class=\"diminish\">Cannot be used while Stunned or Slept.</span>"
-		"HealOnActivate_label"		"HP Healed On Activate"
-		"HealOnActivate_postvalue_label"		"HP Healed On Activate"
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Thanh tẩy mọi hiệu ứng tiêu cực không phải tuyệt chiêu</span> hiện đang áp lên bạn. Nếu có hiệu ứng nào bị xóa, <span class=\"highlight\">hồi máu cho bản thân</span> và nhận <span class=\"highlight\">thưởng tốc độ di chuyển</span>. <br><span class=\"diminish\">Không thể dùng khi đang bị Choáng hoặc Ngủ.</span>"
+		"HealOnActivate_label"		"Máu hồi khi kích hoạt"
+		"HealOnActivate_postvalue_label"		"Máu hồi khi kích hoạt"
 
 		"damage_reduction_postfix"						"%"
 
 		//Decay
-		"upgrade_rupture_desc"				"Inflict <span class=\"highlight\">damage over time</span> to a target, dealing damage based on their current health.<br>Decay's damage is non-lethal and does not apply item procs."
-		"HealReductionDuration_label"		"Heal Reduction Duration"
-		"HealReductionDuration_postvalue_label"		"Heal Reduction Duration"
+		"upgrade_rupture_desc"				"Gây <span class=\"highlight\">sát thương theo thời gian</span> lên mục tiêu, gây sát thương dựa trên máu hiện tại của chúng.<br>Sát thương của Phân rã không gây chết và không kích hoạt hiệu ứng vật phẩm."
+		"HealReductionDuration_label"		"Thời gian giảm hồi máu"
+		"HealReductionDuration_postvalue_label"		"Thời gian giảm hồi máu"
 		"HealReductionDuration_postfix"		"s"
 
 		//Discord | Scourge
-		"upgrade_discord_desc"						"Apply <span class=\"highlight\">Spirit Resist</span>, <span class=\"highlight\">Debuff Resist</span> and an aura on a friendly target that deals <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}damage</span> to enemies proportional to their max health. Existing debuffs on the target are reduced.<br>Can be self cast."
-		"MaxHealthPercentAsDPS_label"				"Max Health per second"
-		"MaxHealthPercentAsDPS_postvalue_label"				"Max Health per second"
+		"upgrade_discord_desc"						"Áp <span class=\"highlight\">Kháng phép thuật</span>, <span class=\"highlight\">Kháng hiệu ứng tiêu cực</span> và một vùng hào quang lên mục tiêu đồng minh, gây <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}sát thương</span> cho kẻ địch tỉ lệ theo máu tối đa của chúng. Các hiệu ứng tiêu cực hiện có trên mục tiêu bị giảm.<br>Có thể tự dùng."
+		"MaxHealthPercentAsDPS_label"				"Máu tối đa mỗi giây"
+		"MaxHealthPercentAsDPS_postvalue_label"				"Máu tối đa mỗi giây"
 		"MaxHealthPercentAsDPS_postfix"				"%"
 		
 		//Fortitude
-		"upgrade_chonky_desc"							"After not taking damage for a period, gain health regen."
-		"upgrade_chonky_high_health_passive_desc"		"When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Move Speed</span>."
+		"upgrade_chonky_desc"							"Sau một khoảng thời gian không nhận sát thương, nhận hồi phục máu."
+		"upgrade_chonky_high_health_passive_desc"		"Khi bạn <span class=\"highlight\">trên {s:HealthThreshold}% máu</span>, bạn có <span class=\"highlight\">Tốc độ di chuyển</span> cộng thêm."
 
 		//Leech
-		"upgrade_damage_recycler_desc"				"Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>."
+		"upgrade_damage_recycler_desc"				"Giảm hiệu quả của <span class=\"highlight\">giảm hồi máu</span> do kẻ địch gây ra."
 		"LeechHealOnKill_prefix"					"+"
-		"LeechHealOnKill_label"						"Max HP Heal On Kill"
-		"LeechHealOnKill_postvalue_label"						"Max HP Heal On Kill"
+		"LeechHealOnKill_label"						"Máu tối đa hồi khi hạ gục"
+		"LeechHealOnKill_postvalue_label"						"Máu tối đa hồi khi hạ gục"
 		"LeechHealOnKill_postfix"					"%"
 		
 		//Rebirth
-		"upgrade_personal_rejuvenator_desc"		"Respawns the hero at the spot they died."
+		"upgrade_personal_rejuvenator_desc"		"Hồi sinh tướng tại nơi họ đã chết."
 		"RespawnDelay_postfix"						"s"
 		"SpawnTimePenalty_prefix"				"+"
-		"SpawnTimePenalty_label"				"Increased Respawn Time"
-		"SpawnTimePenalty_postvalue_label"				"Increased Respawn Time"
+		"SpawnTimePenalty_label"				"Thời gian hồi sinh tăng thêm"
+		"SpawnTimePenalty_postvalue_label"				"Thời gian hồi sinh tăng thêm"
 		"SpawnTimePenalty_postfix"				"s"
 
 		//Phantom Strike
-		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleport</span> to an enemy target and pull them to the ground. Dealing <span class=\"highlight\">damage</span>, <span class=\"highlight\">Move speed</span> reduction and <span class=\"highlight\">Disarm</span>."
-		"PhantomStrikeDebuffDuration_label"		"Debuff Duration"
-		"PhantomStrikeDebuffDuration_postvalue_label"		"Debuff Duration"
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Dịch chuyển</span> đến một mục tiêu địch và kéo chúng xuống đất. Gây <span class=\"highlight\">sát thương</span>, giảm <span class=\"highlight\">Tốc độ di chuyển</span> và <span class=\"highlight\">Tước vũ khí</span>."
+		"PhantomStrikeDebuffDuration_label"		"Thời gian hiệu ứng tiêu cực"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"Thời gian hiệu ứng tiêu cực"
 		"PhantomStrikeDebuffDuration_postfix"		"s"
-		"modifier_phantom_strike_bulletshield"		"Bullet Shield"
+		"modifier_phantom_strike_bulletshield"		"Lá chắn đạn"
 
 		//Soul Rebirth
-		"upgrade_rebirth_passive"				"If you die, after {s:RespawnDelay}s you will <span class=\"highlight\">respawn at your death location</span> with partial health."
+		"upgrade_rebirth_passive"				"Nếu bạn chết, sau {s:RespawnDelay}s bạn sẽ <span class=\"highlight\">hồi sinh tại nơi chết</span> với một phần máu."
 
 		//Return Fire
-		"upgrade_return_fire_desc"					"Automatically <span class=\"highlight\">fire a bullet</span> towards any attacker who damages you with their abilities or weapon."
-		"ActiveFireRate_label"						"Fire Rate"
-		"ActiveFireRate_postvalue_label"						"Fire Rate"
+		"upgrade_return_fire_desc"					"Tự động <span class=\"highlight\">bắn một viên đạn</span> về phía bất kỳ kẻ tấn công nào gây sát thương cho bạn bằng kỹ năng hoặc vũ khí."
+		"ActiveFireRate_label"						"Tốc độ bắn"
+		"ActiveFireRate_postvalue_label"						"Tốc độ bắn"
 		"ActiveFireRate_postfix"						"%"
 
 		//Metal Skin
-		"upgrade_metal_skin_desc"						"Become <span class=\"highlight\">immune to bullets</span>."
+		"upgrade_metal_skin_desc"						"Trở nên <span class=\"highlight\">miễn nhiễm đạn</span>."
 		"AbilityApplyDelay_postfix"						"s"
 
 		//Battle Vest
-		"upgrade_regenerating_bullet_shield_desc"	"While you are <span class=\"highlight\">above {s:LifeThreshold}% health</span>, gain <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> and <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
+		"upgrade_regenerating_bullet_shield_desc"	"Khi bạn <span class=\"highlight\">trên {s:LifeThreshold}% máu</span>, nhận <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> và <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
 
 		//Enchanter's Emblem
-		"upgrade_magic_shield_desc"		"While you are <span class=\"highlight\">above {s:LifeThreshold}% health</span>, gain bonus <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> and <span class=\"highlight\">Cooldown Reduction</span>."
+		"upgrade_magic_shield_desc"		"Khi bạn <span class=\"highlight\">trên {s:LifeThreshold}% máu</span>, nhận thêm <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> và <span class=\"highlight\">Giảm thời gian hồi chiêu</span>."
 		
 		// "upgrade_weapon_shielding"						"Weapon Shielding"
-		"upgrade_weapon_shielding_desc"			"Gain a <span class=\"highlight\">Barrier</span> whenever you take significant {g:citadel_inline_attribute:'WeaponDamage'} from enemy Heroes in a small time frame."
-		"DamageWindow_label"								"Time Frame"
-		"DamageWindow_postvalue_label"								"Time Frame"
+		"upgrade_weapon_shielding_desc"			"Nhận một <span class=\"highlight\">Lá chắn</span> mỗi khi bạn chịu {g:citadel_inline_attribute:'WeaponDamage'} đáng kể từ tướng địch trong một khoảng thời gian ngắn."
+		"DamageWindow_label"								"Khoảng thời gian"
+		"DamageWindow_postvalue_label"								"Khoảng thời gian"
 		"DamageWindow_postfix"								"s"
 		
 		// "upgrade_spirit_bubble"							"Spirit Bubble"
-		"upgrade_spirit_bubble_desc"			"Gain a <span class=\"highlight\">Barrier</span> whenever you take significant {g:citadel_inline_attribute:'SpiritDamage'} from enemy Heroes in a small time frame."
+		"upgrade_spirit_bubble_desc"			"Nhận một <span class=\"highlight\">Lá chắn</span> mỗi khi bạn chịu {g:citadel_inline_attribute:'SpiritDamage'} đáng kể từ tướng địch trong một khoảng thời gian ngắn."
 
 		// "upgrade_grit"							"Grit"
-		"upgrade_grit_desc"			"Gain a <span class=\"highlight\">Barrier</span> for a short duration."
+		"upgrade_grit_desc"			"Nhận một <span class=\"highlight\">Lá chắn</span> trong thời gian ngắn."
 
 		//Unstoppable
-		"upgrade_unstoppable_desc"				"Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+		"upgrade_unstoppable_desc"				"Tạm thời áp chế <span class=\"highlight\">hiệu ứng trạng thái tiêu cực</span> và trở nên <span class=\"highlight\">miễn nhiễm</span> với <span class=\"highlight\">Choáng, Câm lặng, Ngủ, Trói và Tước vũ khí</span>. <br>Không thể dùng khi đang <span class=\"highlight\">Choáng</span> hoặc <span class=\"highlight\">Ngủ</span>."
 
 		//Colossus
-		"upgrade_colossus_desc"			"Grow <span class=\"highlight\">larger in size</span>, gaining {g:citadel_inline_attribute:'BulletResist'}, {g:citadel_inline_attribute:'SpiritResist'}, and {g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Nearby enemies suffer from {g:citadel_inline_attribute:'Slow'} and have reduced <span class=\"highlight\">dash speed</span>."
-		"BuffBulletResist_label"		"Bullet Resist"
-		"BuffBulletResist_postvalue_label"		"Bullet Resist"
+		"upgrade_colossus_desc"			"<span class=\"highlight\">Phóng to kích thước</span>, nhận {g:citadel_inline_attribute:'BulletResist'}, {g:citadel_inline_attribute:'SpiritResist'}, và {g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Kẻ địch ở gần chịu {g:citadel_inline_attribute:'Slow'} và bị giảm <span class=\"highlight\">tốc độ lướt</span>."
+		"BuffBulletResist_label"		"Kháng đạn"
+		"BuffBulletResist_postvalue_label"		"Kháng đạn"
 		"BuffBulletResist_postfix"		"%"
-		"BuffTechResist_label"			"Spirit Resist"
-		"BuffTechResist_postvalue_label"			"Spirit Resist"
+		"BuffTechResist_label"			"Kháng phép thuật"
+		"BuffTechResist_postvalue_label"			"Kháng phép thuật"
 		"BuffTechResist_postfix"		"%"
 
 		// Rebuttal - upgrade_melee_rebuttal
-		"upgrade_melee_rebuttal_desc"				"On a successful <span class=\"highlight\">Parry</span> against an enemy Hero, <span class=\"highlight\">Heal</span> yourself for the damage parried and returns that damage to the target, and temporarily gain increased <span class=\"highlight\">damage.</span>"
+		"upgrade_melee_rebuttal_desc"				"Khi <span class=\"highlight\">Đỡ đòn</span> thành công trước một tướng địch, <span class=\"highlight\">Hồi máu</span> cho bản thân bằng sát thương đã đỡ và trả lại sát thương đó cho mục tiêu, đồng thời tạm thời tăng <span class=\"highlight\">sát thương.</span>"
 
 		// Counterspell
-		"upgrade_counterspell_desc"				"Your next parry <span class=\"highlight\">protects you from the damage and effects of enemy abilities and items</span>. On a successful spell parry {g:citadel_inline_attribute:'Heal'} and gain {g:citadel_inline_attribute:'MoveSpeed'} and {g:citadel_inline_attribute:'Spirit'}."
+		"upgrade_counterspell_desc"				"Lần đỡ đòn tiếp theo của bạn <span class=\"highlight\">bảo vệ bạn khỏi sát thương và hiệu ứng của kỹ năng và vật phẩm địch</span>. Khi đỡ phép thành công {g:citadel_inline_attribute:'Heal'} và nhận {g:citadel_inline_attribute:'MoveSpeed'} và {g:citadel_inline_attribute:'Spirit'}."
 		
-		"ParrySuccessHealPercentage_label"					"Damage Parried as Heal"
-		"ParrySuccessHealPercentage_postvalue_label"					"Damage Parried as Heal"
+		"ParrySuccessHealPercentage_label"					"Sát thương đỡ được chuyển thành hồi máu"
+		"ParrySuccessHealPercentage_postvalue_label"					"Sát thương đỡ được chuyển thành hồi máu"
 		"ParrySuccessHealPercentage_postfix"					"%"
 
 		// 
-		"upgrade_tech_purge_desc"	"When below <span class=\"highlight\">{s:HealthThreshold}% health</span>, gain additional Spirit Resist."
-		"upgrade_improved_bullet_armor_desc"	"When below <span class=\"highlight\">{s:HealthThreshold}% health</span>, gain additional <span class=\"highlight\">Bullet Resist</span>."
+		"upgrade_tech_purge_desc"	"Khi dưới <span class=\"highlight\">{s:HealthThreshold}% máu</span>, nhận thêm Kháng phép thuật."
+		"upgrade_improved_bullet_armor_desc"	"Khi dưới <span class=\"highlight\">{s:HealthThreshold}% máu</span>, nhận thêm <span class=\"highlight\">Kháng đạn</span>."
 
 		// Spellbreaker
-		"upgrade_spellbreaker_desc"				"The next instance of high {g:citadel_inline_attribute:'SpiritDamage'} you take is significantly reduced."
-		"SpiritDamageReductionProc_label"		"Spirit Damage Reduction"
-		"SpiritDamageReductionProc_postvalue_label"		"Spirit Damage Reduction"
+		"upgrade_spellbreaker_desc"				"Lần nhận {g:citadel_inline_attribute:'SpiritDamage'} cao tiếp theo của bạn bị giảm đáng kể."
+		"SpiritDamageReductionProc_label"		"Giảm sát thương phép thuật"
+		"SpiritDamageReductionProc_postvalue_label"		"Giảm sát thương phép thuật"
 		"SpiritDamageReductionProc_postfix"		"%"
 
-		"upgrade_juggernaut_slow_desc"			"Enemies that shoot you have their <span class=\"highlight\">Fire Rate</span> slowed."
-		"FireRateSlowDuration_label"			"Duration"
-		"FireRateSlowDuration_postvalue_label"			"Duration"
+		"upgrade_juggernaut_slow_desc"			"Kẻ địch bắn bạn bị làm chậm <span class=\"highlight\">Tốc độ bắn</span>."
+		"FireRateSlowDuration_label"			"Thời gian"
+		"FireRateSlowDuration_postvalue_label"			"Thời gian"
 		"FireRateSlowDuration_postfix"			"s"
 
-		"upgrade_trophy_collector_desc"			"Whenever you score an <span class=\"highlight\">assist or kill</span>, gain extra <span class=\"highlight\">sprint</span>, <span class=\"highlight\">ability range</span> and <span class=\"highlight\">passive soul generation</span>. This effect stacks and persists through death."
-		"StackingGoldPerMinute_label"			"Souls per Minute"
-		"StackingGoldPerMinute_postvalue_label"			"Souls per Minute"
+		"upgrade_trophy_collector_desc"			"Mỗi khi bạn ghi một <span class=\"highlight\">hỗ trợ hoặc hạ gục</span>, nhận thêm <span class=\"highlight\">chạy nước rút</span>, <span class=\"highlight\">tầm kỹ năng</span> và <span class=\"highlight\">tạo Linh hồn thụ động</span>. Hiệu ứng này cộng dồn và được giữ nguyên khi chết."
+		"StackingGoldPerMinute_label"			"Linh hồn mỗi phút"
+		"StackingGoldPerMinute_postvalue_label"			"Linh hồn mỗi phút"
 		
 		// Indomitable
-		"upgrade_upgrade_auto_cleanse_desc"		"The next <span class=\"highlight\">Stun, Chain, Immobilize, Sleep or Silence</span> is automatically cleansed. When this happens, you gain a <span class=\"highlight\">barrier</span> and all your <span class=\"highlight\">ability cooldowns</span> get reduced by {s:CooldownReductionOnProc}%."
+		"upgrade_upgrade_auto_cleanse_desc"		"<span class=\"highlight\">Choáng, Xích, Bất động, Ngủ hoặc Câm lặng</span> tiếp theo sẽ tự động được tẩy trừ. Khi đó, bạn nhận một <span class=\"highlight\">lá chắn</span> và toàn bộ <span class=\"highlight\">thời gian hồi chiêu kỹ năng</span> của bạn được giảm {s:CooldownReductionOnProc}%."
 		
 		//-----------------------------------------------------------------------------
 		// Upgrades: Utility
 		//----------------------------------------------------------------------------- 
 		
 		//Superior Stamina
-		"upgrade_superior_stamina_passive"			"Allows an additional use of <span class=\"highlight\">Air Jump</span> or <span class=\"highlight\">Air Dash</span> before landing."
+		"upgrade_superior_stamina_passive"			"Cho phép dùng thêm một lần <span class=\"highlight\">Nhảy trên không</span> hoặc <span class=\"highlight\">Lướt trên không</span> trước khi tiếp đất."
 
 		//Enduring Speed
-		"upgrade_cardio_calibrator_desc"			"Reduces the effect of enemy <span class=\"highlight\">Move Speed</span> penalties."
+		"upgrade_cardio_calibrator_desc"			"Giảm hiệu quả của hình phạt <span class=\"highlight\">Tốc độ di chuyển</span> do kẻ địch gây ra."
 
 		//Health Nova
-		"upgrade_health_nova_desc"					"<span class=\"highlight\">Heal</span> yourself and nearby allies."
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">Hồi máu</span> cho bản thân và đồng minh ở gần."
 
 		//Shadow Weave
-		"upgrade_cloaking_device_active_desc"		"Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Melee Damage</span>."
-		"modifier_cloaking_device_active_stealth"		"Shadow Weave - Stealth"
-		"modifier_cloaking_device_active_ambush"		"Shadow Weave - Ambush"
+		"upgrade_cloaking_device_active_desc"		"Trở nên <span class=\"highlight\">Tàng hình</span>. Mỗi khi bạn nhận sát thương khi đang tàng hình, bạn bị lộ diện trong thời gian ngắn."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Tấn công hoặc dùng kỹ năng sẽ kết thúc tàng hình và bắt đầu một <span class=\"highlight\">phục kích</span>, tạm thời cho bạn <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Sát thương cận chiến</span> cộng thêm."
+		"modifier_cloaking_device_active_stealth"		"Dệt bóng - Tàng hình"
+		"modifier_cloaking_device_active_ambush"		"Dệt bóng - Phục kích"
 		"AmbushBonusTechPower_prefix"					"+"
-		"AmbushBonusTechPower_label"					"Ambush Spirit Power"
-		"AmbushBonusTechPower_postvalue_label"					"Ambush Spirit Power"
+		"AmbushBonusTechPower_label"					"Sức mạnh phép thuật khi phục kích"
+		"AmbushBonusTechPower_postvalue_label"					"Sức mạnh phép thuật khi phục kích"
 		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Ambush Fire Rate"
-		"AmbushBonusFireRate_postvalue_label"					"Ambush Fire Rate"
+		"AmbushBonusFireRate_label"					"Tốc độ bắn khi phục kích"
+		"AmbushBonusFireRate_postvalue_label"					"Tốc độ bắn khi phục kích"
 		"AmbushBonusFireRate_postfix"					"%"
-		"AmbushBonusMeleeDamage_label"					"Ambush Melee Damage"
-		"AmbushBonusMeleeDamage_postvalue_label"		"Ambush Melee Damage"
+		"AmbushBonusMeleeDamage_label"					"Sát thương cận chiến khi phục kích"
+		"AmbushBonusMeleeDamage_postvalue_label"		"Sát thương cận chiến khi phục kích"
 		"AmbushBonusMeleeDamage_postfix"				"%"
-		"AmbushDuration_label"						"Ambush Duration"
-		"AmbushDuration_postvalue_label"						"Ambush Duration"
+		"AmbushDuration_label"						"Thời gian phục kích"
+		"AmbushDuration_postvalue_label"						"Thời gian phục kích"
 		"AmbushDuration_postfix"						"s"
-		"StealthDuration_label"						"Stealth Duration"
-		"StealthDuration_postvalue_label"						"Stealth Duration"
+		"StealthDuration_label"						"Thời gian tàng hình"
+		"StealthDuration_postvalue_label"						"Thời gian tàng hình"
 		"StealthDuration_postfix"						"s"
-		"SpottedRadius_label"						"Spot Radius"
-		"SpottedRadius_postvalue_label"						"Spot Radius"
+		"SpottedRadius_label"						"Bán kính phát hiện"
+		"SpottedRadius_postvalue_label"						"Bán kính phát hiện"
 		"SpottedRadius_postfix"						"m"
 
 		//Majestic Leap
-		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Launch yourself</span> high into the air and grant yourself a <span class=\"highlight\">Barrier</span>. While in the air, you can use the active again to drop down faster.<br><br><span class=\"diminish\">Cannot be used for {s:InterruptCooldown}s if attacked by enemy Hero.</span>"
-		"upgrade_rocket_booster_drop_down"			"Drop Down"
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Phóng bản thân</span> lên cao và nhận một <span class=\"highlight\">Lá chắn</span>. Khi đang ở trên không, bạn có thể dùng lại kỹ năng chủ động để rơi xuống nhanh hơn.<br><br><span class=\"diminish\">Không thể dùng trong {s:InterruptCooldown}s nếu bị tướng địch tấn công.</span>"
+		"upgrade_rocket_booster_drop_down"			"Rơi xuống"
 		
 		//Drain Will
 		"SpiritStealDuration_postfix"	"s"
 
 		//Reactive Barrier
-		"upgrade_vex_barrier_desc"		"Gain a <span class=\"highlight\">Barrier</span> when you are <span class=\"highlight\">Stunned, Chained, Immobilized, Slept or Silenced</span>."
+		"upgrade_vex_barrier_desc"		"Nhận một <span class=\"highlight\">Lá chắn</span> khi bạn bị <span class=\"highlight\">Choáng, Xích, Bất động, Ngủ hoặc Câm lặng</span>."
 
 		//Spell Shield
-		"upgrade_spellshield_desc"		"Block the next {g:citadel_inline_attribute:'SpiritDamage'} or <span class=\"highlight\">Debuff</span>, preventing its effects. Only regenerates outside of combat."
-		"upgrade_spellshield_shield"	"Anti-Spirit Sigil"
-		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Hexafoil Ward Broken!"
+		"upgrade_spellshield_desc"		"Chặn {g:citadel_inline_attribute:'SpiritDamage'} hoặc <span class=\"highlight\">Hiệu ứng tiêu cực</span> tiếp theo, ngăn hiệu ứng của nó. Chỉ hồi phục khi ngoài giao tranh."
+		"upgrade_spellshield_shield"	"Phù hiệu chống phép thuật"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Hộ thể Hexafoil đã bị phá vỡ!"
 		"SpellShieldFlavorText_label"	"Label!"
 
 		"SpellShieldFlavorText_postvalue_label"	"Label!"
 
 		//Heal On Level
-		"upgrade_heal_on_level_desc"	"When you receive a <span class=\"highlight\">Boon</span>, automatically <span class=\"highlight\">heal</span>."
-		"upgrade_heal_on_level_buff"	"Heal On Level"
-		"HealOnlevelHealAmount_label"	"Heal Amount"
-		"HealOnlevelHealAmount_postvalue_label"	"Heal Amount"
-		"upgrade_heal_on_level/heal_on_level_buff"			"Heal On Level"
+		"upgrade_heal_on_level_desc"	"Khi bạn nhận một <span class=\"highlight\">Ân huệ</span>, tự động <span class=\"highlight\">hồi máu</span>."
+		"upgrade_heal_on_level_buff"	"Hồi máu khi lên cấp"
+		"HealOnlevelHealAmount_label"	"Lượng hồi máu"
+		"HealOnlevelHealAmount_postvalue_label"	"Lượng hồi máu"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Hồi máu khi lên cấp"
 
 		//Absorbing armor / witchmail
-		"upgrade_absorbing_armor_desc" "Taking heavy hits of {g:citadel_inline_attribute:'SpiritDamage'} from an enemy reduces a <span class=\"highlight\">random ability cooldown</span>."
+		"upgrade_absorbing_armor_desc" "Chịu những đòn nặng {g:citadel_inline_attribute:'SpiritDamage'} từ kẻ địch sẽ giảm <span class=\"highlight\">thời gian hồi chiêu của một kỹ năng ngẫu nhiên</span>."
 
 		//Healing Buff
-		"upgrade_healbuff_desc" "Applying {g:citadel_inline_attribute:'Heal'} to yourself or an ally grants the target {g:citadel_inline_attribute:'BonusFireRate'} and {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\">Does not apply on innate Regen or passive Bullet/Spirit Lifesteals.</span>"
+		"upgrade_healbuff_desc" "Áp {g:citadel_inline_attribute:'Heal'} lên bản thân hoặc đồng minh giúp mục tiêu nhận {g:citadel_inline_attribute:'BonusFireRate'} và {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\">Không áp dụng với Hồi phục tự nhiên hoặc Hút máu đạn/phép thuật thụ động.</span>"
 
 		//Infinite Magazine
-		"upgrade_infinitemagazine_desc" "Gain <span class=\"highlight\">infinite ammo</span> and {g:citadel_inline_attribute:'BonusFireRate'}."
+		"upgrade_infinitemagazine_desc" "Nhận <span class=\"highlight\">đạn vô hạn</span> và {g:citadel_inline_attribute:'BonusFireRate'}."
 
 		//APRounds
-		"upgrade_aprounds_desc" "Your Bullets have a chance to become unavoidable, <span class=\"highlight\">piercing through</span> enemies and <span class=\"highlight\">ignoring their Bullet Resistance</span>."
+		"upgrade_aprounds_desc" "Đạn của bạn có khả năng trở nên không thể né, <span class=\"highlight\">xuyên qua</span> kẻ địch và <span class=\"highlight\">bỏ qua Kháng đạn của chúng</span>."
 
 		//Deflecting Armor
-		"upgrade_deflecting_armor_desc" "Gain a chance to either deflect incoming bullets, preventing all {g:citadel_inline_attribute:'WeaponDamage'} or prevent all <span class=\"highlight\">on-hit effects</span> from bullets."
-		"DeflectionPercent_label" "Deflection Percent"
-		"DeflectionPercent_postvalue_label" "Deflection Percent"
+		"upgrade_deflecting_armor_desc" "Có khả năng làm lệch đạn đến, ngăn toàn bộ {g:citadel_inline_attribute:'WeaponDamage'} hoặc ngăn toàn bộ <span class=\"highlight\">hiệu ứng khi trúng</span> từ đạn."
+		"DeflectionPercent_label" "Tỉ lệ làm lệch"
+		"DeflectionPercent_postvalue_label" "Tỉ lệ làm lệch"
 		"DeflectionPercent_postfix" "%"	
 		
-		"BulletProcDeflectionPercent_label" "On-Hit Prevention Percent"
-		"BulletProcDeflectionPercent_postvalue_label" "On-Hit Prevention Percent"
+		"BulletProcDeflectionPercent_label" "Tỉ lệ ngăn hiệu ứng khi trúng"
+		"BulletProcDeflectionPercent_postvalue_label" "Tỉ lệ ngăn hiệu ứng khi trúng"
 		"BulletProcDeflectionPercent_postfix" "%"
 
 		// Shadow Step Active
-		"upgrade_shadow_step_desc"	"<span class=\"highlight\">Teleport</span> straight ahead."
+		"upgrade_shadow_step_desc"	"<span class=\"highlight\">Dịch chuyển</span> thẳng về phía trước."
 
 		//Shadow Step Passive
-		"upgrade_shadow_step_passive_desc"	"Periodically deals {g:citadel_inline_attribute:'SpiritDamage'} to all nearby enemies."
+		"upgrade_shadow_step_passive_desc"	"Định kỳ gây {g:citadel_inline_attribute:'SpiritDamage'} cho tất cả kẻ địch ở gần."
 
-		"upgrade_haunting_scream_desc"	"Launch an expanding projectile which <span class=\"highlight\">Curses</span> enemies for a short duration."
+		"upgrade_haunting_scream_desc"	"Phóng ra một đạn phép mở rộng dần <span class=\"highlight\">Nguyền rủa</span> kẻ địch trong thời gian ngắn."
 		
-		"upgrade_apex_combat_desc"		"Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>"
+		"upgrade_apex_combat_desc"		"Đạn của bạn sẽ <span class=\"highlight\">nảy</span> sang kẻ địch gần mục tiêu, <span class=\"highlight\">áp dụng mọi hiệu ứng kích hoạt của đạn</span> và <span class=\"highlight\">gây một phần trăm sát thương gốc.</span>"
 
-		"upgrade_aerial_supremacy_passive"			"Allows <span class=\"highlight\">unlimited</span> use of <span class=\"highlight\">Air Jump</span> or <span class=\"highlight\">Air Dash</span> before landing."
+		"upgrade_aerial_supremacy_passive"			"Cho phép dùng <span class=\"highlight\">không giới hạn</span> <span class=\"highlight\">Nhảy trên không</span> hoặc <span class=\"highlight\">Lướt trên không</span> trước khi tiếp đất."
 
-		"upgrade_infinite_rounds_desc" "You have <span class=\"highlight\">infinite</span> ammo."
+		"upgrade_infinite_rounds_desc" "Bạn có đạn <span class=\"highlight\">vô hạn</span>."
 
 		// BulletShredImbue Ballistic Enchantment
-		"upgrade_bulletshredimbue_desc" "Imbue an ability with increased <span class=\"highlight\">range</span>. Dealing damage with that ability grants you increased <span class=\"highlight\">weapon damage</span> per <span class=\"highlight\">unique hero hit</span>. Has reduced effect on non-heroes."
+		"upgrade_bulletshredimbue_desc" "Cường hóa một kỹ năng với <span class=\"highlight\">tầm</span> tăng thêm. Gây sát thương bằng kỹ năng đó giúp bạn tăng <span class=\"highlight\">sát thương vũ khí</span> cho mỗi <span class=\"highlight\">tướng khác nhau bị trúng</span>. Hiệu quả giảm đối với mục tiêu không phải tướng."
 
 		// Recharging Bullets
-		"upgrade_rechargingbullets_desc" "Dealing significant {g:citadel_inline_attribute:'WeaponDamage'} replenishes a charge for <span class=\"highlight\">each of your charged abilities</span>."
-		"CooldownReductionOnProc_postvalue_label" "Cooldown Reduction"
-		"CooldownReductionOnProc_label" "Cooldown Reduction"
+		"upgrade_rechargingbullets_desc" "Gây {g:citadel_inline_attribute:'WeaponDamage'} đáng kể sẽ hồi lại một lượt dùng cho <span class=\"highlight\">mỗi kỹ năng nhiều lượt dùng của bạn</span>."
+		"CooldownReductionOnProc_postvalue_label" "Giảm thời gian hồi chiêu"
+		"CooldownReductionOnProc_label" "Giảm thời gian hồi chiêu"
 		"CooldownReductionOnProc_postfix" "s"
 		"CooldownReductionOnProc_prefix" "{s:sign}"
 
@@ -947,48 +946,47 @@
 		//-----------------------------------------------------------------------------
 		// Street Brawl Tier5
 		//----------------------------------------------------------------------------- 
-		"upgrade_icarus_wings_desc"		"When Airborne, You deal more damage and take reduced damage. Allows <span class=\"highlight\">unlimited</span> Air Dash and Jumping."
-		"upgrade_mystical_piano_desc"	"After a short delay, enemies in the target area will be stunned and have their stamina depleted. After the stun they will be temporarily dazed."
-		"upgrade_nullification_aura_desc"	"Removes any positive buffs and prevents stamina usage and healing effects on enemies."
-		"upgrade_nullification_aura_deathdamage_desc"	"Deals heavy spirit damage upon your death."
-		"upgrade_celestial_guidance_desc"	"Applies an extremely powerful cleanse that replenishes your allies globally."
-		"upgrade_eternal_gift_desc"			"Periodically gain a random permanent stat buff."
-		"upgrade_eternal_gift_respawn_desc"		"Reduces your next death's respawn timer."
-		"upgrade_patrons_blessing_desc"			"Provides yourself and allies with a powerful spirit focused aura. Has reduced values on allies."
-		"upgrade_patrons_blessing_proc_desc"	"Dealing significant <span class=\"highlight\">Damage</span> to an enemy Hero within {s:DamageThresholdDuration}s causes you to heal yourself and nearby allies."
+		"upgrade_icarus_wings_desc"		"Khi ở trên không, bạn gây nhiều sát thương hơn và nhận ít sát thương hơn. Cho phép Lướt và Nhảy trên không <span class=\"highlight\">không giới hạn</span>."
+		"upgrade_mystical_piano_desc"	"Sau một khoảng trễ ngắn, kẻ địch trong khu vực mục tiêu sẽ bị choáng và cạn thể lực. Sau khi hết choáng, chúng sẽ bị choáng váng tạm thời."
+		"upgrade_nullification_aura_desc"	"Xóa mọi hiệu ứng tích cực và ngăn dùng thể lực cũng như các hiệu ứng hồi máu lên kẻ địch."
+		"upgrade_nullification_aura_deathdamage_desc"	"Gây sát thương phép thuật nặng khi bạn chết."
+		"upgrade_celestial_guidance_desc"	"Áp một hiệu ứng tẩy trừ cực mạnh, hồi phục đồng minh của bạn trên toàn bản đồ."
+		"upgrade_eternal_gift_desc"			"Định kỳ nhận một hiệu ứng tăng chỉ số vĩnh viễn ngẫu nhiên."
+		"upgrade_eternal_gift_respawn_desc"		"Giảm thời gian hồi sinh của lần chết tiếp theo."
+		"upgrade_patrons_blessing_desc"			"Cấp cho bạn và đồng minh một hào quang mạnh tập trung vào phép thuật. Giá trị trên đồng minh bị giảm."
+		"upgrade_patrons_blessing_proc_desc"	"Gây <span class=\"highlight\">Sát thương</span> đáng kể cho một tướng địch trong vòng {s:DamageThresholdDuration}s sẽ khiến bạn hồi máu cho bản thân và đồng minh ở gần."
 
-		"AllyPercentage_postvalue_label" "Ally Percentage"
-		"AllyPercentage_label" "Ally Percentage"
+		"AllyPercentage_postvalue_label" "Tỉ lệ đồng minh"
+		"AllyPercentage_label" "Tỉ lệ đồng minh"
 		"AllyPercentage_postfix" "%"
 		"AllyPercentage_prefix" "{s:sign}"
-		"RespawnTime_postvalue_label" "Respawn Time"
-		"RespawnTime_label" "Respawn Time"
+		"RespawnTime_postvalue_label" "Thời gian hồi sinh"
+		"RespawnTime_label" "Thời gian hồi sinh"
 		"RespawnTime_postfix" "%"
 		"RespawnTime_prefix" "{s:sign}"
 
-		"upgrade_eldritch_shot_desc"			"Your next bullet applies a powerful debuff reducing the enemy's damage output, healing and movement speed. It also deals {g:citadel_inline_attribute:'BonusSpiritDamage'} based on the target's current Health. <br><br>The bullet is larger and penetrates through targets."
-		"upgrade_cloak_of_opportunity_desc"		"Block the next debuff that would apply <span class=\"highlight\">movement lock, Stun, Chained, Immobilize, or Sleep</span> and become <span class=\"highlight\">Unstoppable</span>. Also gain a <span class=\"highlight\">Barrier</span> and bonus {g:citadel_inline_attribute:'MoveSpeed'}"
-		"upgrade_runed_gauntlets_desc"			"Every time you land a heavy melee, your existing cooldowns get reduced."
-		"upgrade_runed_gauntlets_parry_desc"		"Pierces through parry."
-		"upgrade_electric_slippers_desc"		"When sliding, evade bullets, gain fire rate and deal damage to enemies around you. <span class=\"diminish\"><br><br>Cooldown is per target.</span>"
-		"upgrade_prism_blast_desc"				"You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which lasers blast out and rotate around you."
-		"upgrade_unstable_concoction_desc"		"Consume a concoction that grants you <span class=\"highlight\">Unstoppable</span> and increased <span class=\"highlight\">speed, health, spirit and weapon damage</span>. After a short duration <span class=\"highlight\">you die and explode</span>, stunning nearby enemies and dealing damage based on your maximum health. Dying this way reduces your respawn time by <span class=\"highlight\">{s:RespawnTimeMod}%</span>."
-		"upgrade_shivas_bracelet_desc"			"Imbued ability has its <span class=\"highlight\">Cooldown reduced</span> and gains <span class=\"highlight\">Spirit Power</span>. When the ability deals damage, <span class=\"highlight\">freeze</span> the target and apply <span class=\"highlight\">bonus damage</span>. <span class=\"diminish\"><br><br>Cooldown is per target.</span>"
-		"upgrade_shadow_strike_desc"			"Go <span class=\"highlight\">Invisible</span> on <span class=\"highlight\">Stamina use</span> with no detection range. Doing a <span class=\"highlight\">melee attack</span> while invisible will cause you to <span class=\"highlight\">steal bullet and spirit resistance</span> from them and deal <span class=\"highlight\">damage over time</span>."
-		"upgrade_omnicharge_pendant_desc"		"Imbue any active non-ultimate ability with <span class=\"highlight\">Bonus Ability Charges</span>. Already charged abilities receive more bonus charges."
-		"upgrade_omnicharge_pendant_charges"	"Bonus Charges"
+		"upgrade_eldritch_shot_desc"			"Viên đạn tiếp theo của bạn gây một hiệu ứng tiêu cực mạnh làm giảm sát thương gây ra, hồi máu và tốc độ di chuyển của kẻ địch. Nó cũng gây {g:citadel_inline_attribute:'BonusSpiritDamage'} dựa trên máu hiện tại của mục tiêu. <br><br>Viên đạn lớn hơn và xuyên qua mục tiêu."
+		"upgrade_cloak_of_opportunity_desc"		"Chặn hiệu ứng tiêu cực tiếp theo sẽ gây <span class=\"highlight\">khóa di chuyển, Choáng, Xích, Bất động hoặc Ngủ</span> và trở nên <span class=\"highlight\">Không thể cản phá</span>. Đồng thời nhận một <span class=\"highlight\">Lá chắn</span> và {g:citadel_inline_attribute:'MoveSpeed'} cộng thêm"
+		"upgrade_runed_gauntlets_desc"			"Mỗi lần bạn tung cận chiến nặng trúng đích, thời gian hồi chiêu hiện có của bạn được giảm."
+		"upgrade_runed_gauntlets_parry_desc"		"Xuyên qua đỡ đòn."
+		"upgrade_electric_slippers_desc"		"Khi trượt, né đạn, nhận tốc độ bắn và gây sát thương cho kẻ địch xung quanh bạn. <span class=\"diminish\"><br><br>Thời gian hồi chiêu tính riêng cho từng mục tiêu.</span>"
+		"upgrade_prism_blast_desc"				"Bạn bước vào trạng thái hư không và trở nên <span class=\"highlight\">không thể bị chọn làm mục tiêu và bất tử</span> trong thời gian ngắn, trong lúc đó các tia laser bắn ra và xoay quanh bạn."
+		"upgrade_unstable_concoction_desc"		"Uống một loại thuốc giúp bạn <span class=\"highlight\">Không thể cản phá</span> và tăng <span class=\"highlight\">tốc độ, máu, sát thương phép thuật và vũ khí</span>. Sau một thời gian ngắn <span class=\"highlight\">bạn chết và phát nổ</span>, làm choáng kẻ địch ở gần và gây sát thương dựa trên máu tối đa của bạn. Chết theo cách này giảm thời gian hồi sinh của bạn <span class=\"highlight\">{s:RespawnTimeMod}%</span>."
+		"upgrade_shivas_bracelet_desc"			"Kỹ năng được cường hóa được <span class=\"highlight\">giảm thời gian hồi chiêu</span> và nhận <span class=\"highlight\">Sức mạnh phép thuật</span>. Khi kỹ năng gây sát thương, <span class=\"highlight\">đóng băng</span> mục tiêu và gây <span class=\"highlight\">sát thương cộng thêm</span>. <span class=\"diminish\"><br><br>Thời gian hồi chiêu tính riêng cho từng mục tiêu.</span>"
+		"upgrade_shadow_strike_desc"			"Trở nên <span class=\"highlight\">Tàng hình</span> khi <span class=\"highlight\">dùng thể lực</span> mà không có tầm phát hiện. Thực hiện <span class=\"highlight\">đòn cận chiến</span> khi đang tàng hình sẽ khiến bạn <span class=\"highlight\">đánh cắp kháng đạn và kháng phép thuật</span> của chúng và gây <span class=\"highlight\">sát thương theo thời gian</span>."
+		"upgrade_omnicharge_pendant_desc"		"Cường hóa bất kỳ kỹ năng chủ động không phải tuyệt chiêu với <span class=\"highlight\">Lượt dùng kỹ năng cộng thêm</span>. Kỹ năng vốn đã nhiều lượt dùng nhận nhiều lượt cộng thêm hơn."
+		"upgrade_omnicharge_pendant_charges"	"Lượt dùng cộng thêm"
 
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Snowball"
-		"cosmetic_ability_snowball_desc"		"Throw snowballs at your friends and enemies. Distance and other properties improve as you make progress in the <span class=\"highlight\">2025 Holiday Challenge</span>.<br><br><span class=\"diminish\">Throwing a Snowball at an ally won't inflict damage and will reset its cooldown.</span>"
-		"SnowballSpeed_label"			"Throw Speed"
-		"SnowballSpeed_postvalue_label"		"Velocity"
+		"cosmetic_ability_snowball"		"Quả cầu tuyết"
+		"cosmetic_ability_snowball_desc"		"Ném quả cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném quả cầu tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại thời gian hồi chiêu của nó.</span>"
+		"SnowballSpeed_label"			"Tốc độ ném"
+		"SnowballSpeed_postvalue_label"		"Vận tốc"
 		"SnowballSpeed_postfix"			"m/s"
-		"SnowballCount_label"			"Snowballs Thrown"
-		"SnowballCount_postvalue_label"		"Projectiles"
+		"SnowballCount_label"			"Số quả cầu tuyết đã ném"
+		"SnowballCount_postvalue_label"		"Số đạn"
 
-		"cosmetic_item_voting_poster"		"Place Poster"
-	}
+		"cosmetic_item_voting_poster"		"Dán áp phích"		}
 }
