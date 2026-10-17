@@ -269,7 +269,7 @@
 		"CasterHealthPercent_postfix"					"%"
 
 		//Burst Fire
-		"upgrade_burst_fire_desc"						"Tạm thời nhận <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Tốc độ di chuyển</span> khi một viên đạn của bạn trúng một tướng địch."
+		"upgrade_burst_fire_desc"						"Tạm thời nhận <span class=\"highlight\">Tốc độ bắn</span> và <span class=\"highlight\">Tốc độ di chuyển</span> khi một viên đạn của bạn trúng một tướng."
 
 		//Intensifying Magazine
 		"upgrade_intensifying_clip_desc"				"Tăng <span class=\"highlight\">Sát thương vũ khí</span> khi bạn bắn liên tục."
