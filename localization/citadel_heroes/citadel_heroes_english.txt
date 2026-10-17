@@ -5191,9 +5191,11 @@
 
 		//--------------Ability 2 
 		"ability_chessmaster_knightbuff" "Mã cánh vua"
-		"ability_chessmaster_knightbuff_desc" "Thăng cấp một đồng minh thành <span class=\"highlight\">quân Mã</span>, cấp <span class=\"highlight\">thể lực cộng thêm</span> và {g:citadel_inline_attribute:'CombatBarrier'} trong một khoảng thời gian.<br><br>Nếu tự dùng, bạn sẽ tự phát triển thành <span class=\"highlight\">Vua</span>, nhận gấp đôi {g:citadel_inline_attribute:'CombatBarrier'} nhưng không có thể lực. <br><br><span class=\"diminish\">Di chuyển ({g:citadel_binding:'ADS'}):</span> Di chuyển quân cờ, khiến nó <span class=\"highlight\">bất khả xâm phạm</span> trong suốt thời gian trước khi đáp xuống."
+		"ability_chessmaster_knightbuff_trigger" "Di chuyển Vua"
+		"ability_chessmaster_knightbuff_desc" "Thăng cấp một đồng minh thành <span class=\"highlight\">quân Mã</span>, cấp <span class=\"highlight\">thể lực cộng thêm</span> và {g:citadel_inline_attribute:'CombatBarrier'} trong một khoảng thời gian.<br><br>Nếu tự dùng, bạn sẽ tự phát triển thành <span class=\"highlight\">Vua</span>, nhận gấp đôi {g:citadel_inline_attribute:'CombatBarrier'} nhưng không có thể lực. <br><br><span class=\"diminish\">Di chuyển ({g:citadel_binding:'ADS'}):</span> Di chuyển quân cờ, khiến nó <span class=\"highlight\">bất khả xâm phạm</span> trong suốt thời gian trước khi đáp xuống. Nếu tự dùng, hãy kích hoạt lại kỹ năng để di chuyển."
 		"ability_chessmaster_knightbuff_t2_desc" "+{s:CombatBarrier} Lá chắn<br>+{s:Stamina} Thể lực"
 		"ability_chessmaster_knightbuff_t3_desc" "Có thể chọn hai đồng minh trong bán kính.<br>Khi tự dùng: <span class=\"highlight\">Xóa toàn bộ hiệu ứng tiêu cực</span> sau khi di chuyển"
+		"ability_chessmaster_knightbuff/rookbuff" "Mã cánh vua"
 
 
 		//--------------Ability 3 
@@ -5361,6 +5363,98 @@
 		"DeadpackUlt_Target_Modifier"					"Màn trình diễn trực tiếp"
 		"GrabRange_postvalue_label"						"Tầm tóm"
 		"GrabRange_label"								"Tầm tóm"
+
+		//-----------------------------------------------------------------------------
+		// Artist
+		//-----------------------------------------------------------------------------
+		"citadel_weapon_artist_set"			"Giải pháp sáng tạo"
+
+
+		//-----Ability 1
+		"ability_artist_pullbrush" "Mực sống"
+		"ability_artist_homingbrush" "Mực sống"
+		"ability_artist_homingbrush_desc_passive" "<span class=\"diminish\">Bị động:</span> Thi triển bất kỳ kỹ năng nào khác sẽ làm mới thời gian hồi chiêu của <span class=\"highlight\">Trạng thái dòng chảy</span>."
+		"ability_artist_homingbrush_desc_active" "<span class=\"diminish\">Tăng cường ({g:citadel_binding:'ABILITY1'}):</span> <span class=\"highlight\">3</span> viên đạn tiếp theo của bạn trở nên sống động, cho phép bạn điều hướng chúng khi bay. Đạn gây {g:citadel_inline_attribute:'BulletDamage'} tăng thêm và {g:citadel_inline_attribute:'SpiritDamage'} lan trong một vùng nhỏ.<br><br>Mỗi lần trúng một tướng sẽ giảm <span class=\"highlight\">thời gian hồi chiêu của mọi kỹ năng</span>, và một nửa đối với <span class=\"highlight\">thời gian hồi chiêu của mọi vật phẩm</span>."
+		"ability_artist_homingbrush_desc_active_alt" "<span class=\"diminish\">Vẽ ({g:citadel_binding:'ADS'}):</span> Thay vào đó, vẽ một nét mực đặc chặn đạn và nhân vật đi xuyên qua.<br><br>Nét vẽ có thể bị phá bằng cận chiến nặng, nhưng sẽ gây {g:citadel_inline_attribute:'SpiritDamage'} cho kẻ tấn công.</span>"
+		"ability_artist_homingbrush/stack" "Mực sống"
+		"ability_artist_homingbrush/stackingbuff" "Mực sống"
+		"BulletDamageMultiplier_postvalue_label" "Sát thương đạn"
+		"BulletDamageMultiplier_postfix" "%"
+
+		"ability_artist_homingbrush/active" "Mực sống"
+		"ability_artist_homingbrush_t2_desc" "Khi tăng cường: Nhận +{s:BonusFireRatePerStack}% Tốc độ bắn trong {s:StackDuration}s, cộng dồn {s:MaxStacks} lần"
+		"ability_artist_homingbrush_t1_desc" "Thời gian hồi chiêu {s:AbilityCooldown}s<br>Khoảng cách vẽ tối đa {s:MaxDrawDistance}m"
+		"ability_artist_homingbrush_t3_desc" "+{s:CooldownReductionPerHit}s Giảm thời gian hồi chiêu mỗi lần trúng<br>Cải thiện hệ số tăng"
+		
+		"MaxDrawDistance_label" "Kích thước vẽ tối đa"
+		"MaxDrawDistance_postvalue_label" "Kích thước vẽ tối đa"
+		"MaxDrawDistance_postfix" "m"
+		"DrawDuration_label" "Thời gian vẽ"
+		"DrawDuration_postvalue_label" "Thời gian vẽ"
+		"DrawDuration_postfix" "s"
+
+		
+		//---Ability 2
+		"ability_artist_rollingprojectile" "Trạng thái dòng chảy"
+		"ability_artist_rollingprojectile_desc" "Kéo một cây cọ tiếp tục di chuyển về phía trước, để lại một vệt giúp đồng minh có <span class=\"highlight\">khoảng cách trượt cộng thêm</span> và gây {g:citadel_inline_attribute:'Slow'} giảm dần cùng {g:citadel_inline_attribute:'SpiritDamage'} lên kẻ địch nó đi qua, tăng dần theo quãng đường đi được. <br><br>Kích hoạt lại kỹ năng để búng cây cọ về phía trước, kết thúc kỹ năng sớm nhưng gây {g:citadel_inline_attribute:'SpiritDamage'} trong một vùng rộng hơn."
+		"ability_artist_rollingprojectile_t1_desc" "Khi trượt: +{s:StaminaCooldownReduction}% Hồi phục thể lực"
+		"ability_artist_rollingprojectile_t2_desc" "Thời gian hồi chiêu {s:AbilityCooldown}s<br>+{s:ExplosionRadius}m Tầm búng<br>+{s:GroundAuraDuration}s Thời gian vệt"
+		"ability_artist_rollingprojectile_t3_desc" "Khi trượt: Nhận Khuếch đại sát thương theo thời gian, tối đa {s:OutgoingDamagePercent}% trong {s:DamageAmpDuration}s"
+		"ability_artist_rollingprojectile/debuff" "Trạng thái dòng chảy"
+		"GroundAuraDuration_postfix" "s"
+		"GroundAuraDuration_postvalue_label" "Thời gian hào quang mặt đất"
+		"GroundAuraDuration_label" "Thời gian hào quang mặt đất"
+
+		
+
+		//------Ability 3
+		"ability_artist_tether" "Tĩnh vật"
+		"ability_artist_tether_desc" "Chọn một tướng làm <span class=\"highlight\">đối tượng</span> của bạn, gây {g:citadel_inline_attribute:'SpiritDPS'} chừng nào bạn còn nhìn vào họ. <br><br>Nếu bản phác thảo hoàn thành, họ chịu thêm {g:citadel_inline_attribute:'SpiritDamage'}, bị {g:citadel_inline_attribute:'Stun'} và rơi ra một <span class=\"highlight\">bản phác thảo</span> có thể nhặt lên.<br><br> Với mỗi <span class=\"highlight\">bản phác thảo</span> thu thập được, bạn nhận vĩnh viễn các chỉ số dựa trên tướng đó."
+		"ability_artist_tether_t1_desc" "Khi thi triển: Nhận {s:HealthRegen} Hồi phục máu trong {s:BuffDuration}s, được làm mới khi nhặt"
+		"ability_artist_tether_t2_desc" "Khi đang vẽ: Đối tượng gây {s:OutgoingDamagePercent}% Sát thương"
+		"ability_artist_tether_t3_desc" "+{s:BonusMoveSpeedPercent}% Tốc độ di chuyển<br>Thời gian hồi chiêu {s:AbilityCooldown}s<br>+{s:StunDuration}s Thời gian choáng"
+		"ability_artist_tether/buildup" "Đang vẽ tĩnh vật"
+		"ability_artist_tether/buildup/stun" "Tĩnh vật"
+		"ability_artist_tether/buildup/buff" "Tĩnh vật"
+		"ability_artist_tether/self" "Tĩnh vật"
+		"ability_artist_tether/stun" "Tĩnh vật"
+		"BuildUpPerAbility_postvalue_label" "Tích lũy mỗi kỹ năng"
+		"BuildUpPerAbility_label" "Tích lũy mỗi kỹ năng"
+		"BuildUpPerAbility_postfix" "%"
+		"TotalDrawingTime_postvalue_label" "Thời gian để vẽ"
+		"TotalDrawingTime_postfix" "s"
+		"OutgoingDamagePercentPerPickup_postvalue_label" "Sát thương cộng thêm mỗi bản vẽ"
+		"OutgoingDamagePercentPerPickup_postfix" "%"
+		"IncomingDamagePercentReductionPerPickup_postvalue_label" "Giảm sát thương mỗi bản vẽ"
+		"IncomingDamagePercentReductionPerPickup_postfix" "%"
+		"SpiritPerPickup_postvalue_label" "Phép thuật mỗi bản phác thảo"
+		"SpiritPerPickup_label" "Phép thuật mỗi bản phác thảo"
+		"CurrentSketches_label" "Bản phác thảo đã thu thập:"
+		"Citadel_Graph_PermanentBuff_ArtistMystic" "Bản phác thảo của Họa sĩ"
+		"Citadel_Graph_PermanentBuff_ArtistBrawler" "Bản phác thảo Đấu sĩ"
+		"Citadel_Graph_PermanentBuff_ArtistAssassin" "Bản phác thảo Sát thủ"
+		"Citadel_Graph_PermanentBuff_ArtistMarksman" "Bản phác thảo Xạ thủ"
+
+		"artist_drawing_mystic" "Bản phác thảo Huyền bí"
+		"artist_drawing_marksman" "Bản phác thảo Xạ thủ"
+		"artist_drawing_brawler" "Bản phác thảo Đấu sĩ"
+		"artist_drawing_assassin" "Bản phác thảo Sát thủ"
+
+
+		//----Ability 4
+		"ability_artist_bamboogrove" "Phong cảnh trừu tượng"
+		"ability_artist_bamboogrove_desc" "Tạo một vòng mực tròn chặn tầm nhìn và cấp cho đồng minh {g:citadel_inline_attribute:'Spirit'}.<br><br>Kẻ địch bên trong bị lộ diện, và khi rời đi sẽ chịu {g:citadel_inline_attribute:'SpiritDamage'} cùng {g:citadel_inline_attribute:'Silence'} và {g:citadel_inline_attribute:'Slow'}, đồng thời phá hủy lớp mực."
+		"ability_artist_bamboogrove/center/buff" "Phong cảnh trừu tượng"
+		"ability_artist_bamboogrove_t2_desc" "Khi nhận hiệu ứng tích cực: +{s:AbilityLifestealPercentHero}% Hút máu phép thuật<br>+{s:TechPower} Sức mạnh phép thuật"
+		"ability_artist_bamboogrove_t3_desc" "+{s:SilenceDuration}s Thời gian câm lặng<br>+{s:AbilityDuration}s Thời gian kỹ năng<br>Mực không còn bị phá hủy"
+
+		"ability_artist_bamboogrove/groundaura/silence" "Phong cảnh trừu tượng"
+		"ability_artist_bamboogrove/groveally/buff" "Phong cảnh trừu tượng"
+		"AttackFrequency_postvalue_label" "Tần suất tấn công"
+		"AttackFrequency_postfix" "s"
+		"GroveRadius_postvalue_label" "Bán kính vùng vẽ"
+		"GroveRadius_label" "Bán kính vùng vẽ"
+		"GroveRadius_postfix" "m"
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
@@ -5521,8 +5615,9 @@
 		"ability_melee_ratking"					"Melee"
 		"ability_melee_baba"					"Melee"
 		"ability_baba_bench_melee"				"Melee"
-		"ability_melee_chessmaster"						"Melee"
-		"ability_melee_deadpack"						"Melee"
+		"ability_melee_chessmaster"				"Melee"
+		"ability_melee_deadpack"				"Melee"
+		"ability_melee_artist"					"Melee"
 
 		"Citadel_Familiar_HeroTag_1" "Helpful"
 		"Citadel_Familiar_HeroTag_2" "Tiny"
