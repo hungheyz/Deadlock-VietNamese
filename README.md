@@ -1,5 +1,6 @@
 - Hướng dẫn ở YOUTUBE: https://www.youtube.com/watch?v=9HYuEr49Mck
-- Nếu game bị lỗi việt hoá thì có thể ấn Kiểm tra lại dữ liệu của trò chơi là sẽ trở về tiếng anh gốc không bị lỗi nữa
+- Nếu game bị lỗi việt hoá thì có thể ấn Kiểm tra lại dữ liệu của trò chơi (verify integrity of game files) là sẽ trở về tiếng anh gốc không bị lỗi nữa
+- <img width="1050" height="745" alt="{BDCE229B-F2EA-4DB2-894E-55FEE570DEB3}" src="https://github.com/user-attachments/assets/8e23dd65-5cb8-46f2-b1e1-4ca94b5fd0a6" />
 - 📧 Email: hungheyz@gmail.com
 - 💬 Facebook: https://www.facebook.com/chong.syndra
 - Mỗi khi game update nhẹ game có thể sẽ reset về tiếng anh 
