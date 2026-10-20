@@ -5383,7 +5383,7 @@
 
 		"ability_artist_homingbrush/active" "Mực sống"
 		"ability_artist_homingbrush_t2_desc" "Khi tăng cường: Nhận +{s:BonusFireRatePerStack}% Tốc độ bắn trong {s:StackDuration}s, cộng dồn {s:MaxStacks} lần"
-		"ability_artist_homingbrush_t1_desc" "Thời gian hồi chiêu {s:AbilityCooldown}s<br>Khoảng cách vẽ tối đa {s:MaxDrawDistance}m"
+		"ability_artist_homingbrush_t1_desc" "Thời gian hồi chiêu {s:AbilityCooldown}s<br>+{s:MaxDrawDistance}m Khoảng cách vẽ tối đa"
 		"ability_artist_homingbrush_t3_desc" "+{s:CooldownReductionPerHit}s Giảm thời gian hồi chiêu mỗi lần trúng<br>Cải thiện hệ số tăng"
 		
 		"MaxDrawDistance_label" "Kích thước vẽ tối đa"
