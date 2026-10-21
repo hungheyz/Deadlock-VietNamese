@@ -281,7 +281,7 @@
 		"ShootDurationForMax_postfix"							"s"
 		
 		//Escalating Resilience
-		"upgrade_reinforcing_casings_desc"    "Cung cấp <span class=\"highlight\">Kháng đạn</span> khi đạn của bạn trúng một tướng địch. <span class=\"highlight\">Mỗi phát bắn chỉ có thể cho một tầng.</span>"
+		"upgrade_reinforcing_casings_desc"    "Cung cấp <span class=\"highlight\">Kháng đạn</span> khi đạn của bạn trúng một tướng. <span class=\"highlight\">Mỗi phát bắn chỉ có thể cho một tầng.</span>"
 		"MaxArmorStacks_label"				"Kháng đạn tối đa"
 		"MaxArmorStacks_postvalue_label"				"Kháng đạn tối đa"
 		"MaxArmorStacks_postfix"				"%"
@@ -831,7 +831,7 @@
 		"StackingGoldPerMinute_postvalue_label"			"Linh hồn mỗi phút"
 		
 		// Indomitable
-		"upgrade_upgrade_auto_cleanse_desc"		"<span class=\"highlight\">Choáng, Xích, Bất động, Ngủ hoặc Câm lặng</span> tiếp theo sẽ tự động được tẩy trừ. Khi đó, bạn nhận một <span class=\"highlight\">lá chắn</span> và toàn bộ <span class=\"highlight\">thời gian hồi chiêu kỹ năng</span> của bạn được giảm {s:CooldownReductionOnProc}%."
+		"upgrade_upgrade_auto_cleanse_desc"		"<span class=\"highlight\">Choáng, Xích, Bất động, Ngủ, Câm lặng hoặc Sợ hãi</span> tiếp theo sẽ tự động được tẩy trừ. Khi đó, bạn nhận một <span class=\"highlight\">lá chắn</span> và toàn bộ <span class=\"highlight\">thời gian hồi chiêu kỹ năng</span> của bạn được giảm {s:CooldownReductionOnProc}%."
 		
 		//-----------------------------------------------------------------------------
 		// Upgrades: Utility
