@@ -1178,7 +1178,7 @@
 
 		"ability_warden_riot_protocol"			"Tử thủ"
 		"ability_warden_riot_protocol_quip"		"Phát ra các xung hút máu từ kẻ địch"
-		"ability_warden_riot_protocol_desc"		"Sau khi tích năng lượng trong {s:AbilityCastDelay}s, <span class=\"highlight\">phát ra các xung gây sát thương cho kẻ địch và hồi máu cho bạn</span> dựa trên sát thương gây ra. <br>Khi đang niệm Tử thủ, bạn có <span class=\"highlight\">kháng đạn và kháng phép thuật</span> tăng mạnh."
+		"ability_warden_riot_protocol_desc"		"Sau khi tích năng lượng trong {s:AbilityCastDelay}s, <span class=\"highlight\">phát ra các xung gây sát thương cho kẻ địch và hồi máu cho bạn</span> dựa trên sát thương gây ra. <br>Khi đang niệm Tử thủ, bạn có <span class=\"highlight\">kháng đạn và kháng phép thuật</span> tăng mạnh.<br><br><span class=\"small_diminish\">Miễn nhiễm sợ hãi khi Tử thủ đang kích hoạt.</span>"
 		"ability_warden_riot_protocol_t2_desc"  "+{s:PulseDPS} DPS<br>Thời gian hồi chiêu {s:AbilityCooldown}s"
 		"ability_warden_riot_protocol_t3_desc"  "+{s:AbilityDuration}s Thời gian<br>Không thể cản phá và +{s:BulletResist}%  Kháng khi đang niệm"
 		"modifier_warden_riot_protocol"			"Tử thủ"
