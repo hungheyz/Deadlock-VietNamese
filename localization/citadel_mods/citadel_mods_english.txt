@@ -598,7 +598,7 @@
 		"upgrade_quick_silver_desc"				"Kỹ năng được cường hóa của bạn tích năng lượng theo thời gian với {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, và <span class=\"highlight\">nạp lại đạn</span> khi sử dụng."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Hồi máu</span> và nhận thêm <span class=\"highlight\">Tốc độ di chuyển</span> trong thời gian ngắn khi bạn thi triển một kỹ năng."
+		"upgrade_resonant_healing_desc"			"Khi đang giao chiến, <span class=\"highlight\">hồi máu</span> và nhận thêm <span class=\"highlight\">Tốc độ di chuyển</span> trong thời gian ngắn khi bạn thi triển một kỹ năng."
 		"HealingPerCast_Label"					"Hồi máu khi thi triển kỹ năng"
 
 		"HealingPerCast_postvalue_label"					"Hồi máu khi thi triển kỹ năng"
@@ -715,8 +715,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Thanh tẩy mọi hiệu ứng tiêu cực không phải tuyệt chiêu</span> hiện đang áp lên bạn. Nếu có hiệu ứng nào bị xóa, <span class=\"highlight\">hồi máu cho bản thân</span> và nhận <span class=\"highlight\">thưởng tốc độ di chuyển</span>. <br><span class=\"diminish\">Không thể dùng khi đang bị Choáng hoặc Ngủ.</span>"
-		"HealOnActivate_label"		"Máu hồi khi kích hoạt"
-		"HealOnActivate_postvalue_label"		"Máu hồi khi kích hoạt"
+		"HealOnActivate_label"		"Lượng hồi máu"
+		"HealOnActivate_postvalue_label"		"Lượng hồi máu"
 
 		"damage_reduction_postfix"						"%"
 
@@ -848,22 +848,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Trở nên <span class=\"highlight\">Tàng hình</span>. Mỗi khi bạn nhận sát thương khi đang tàng hình, bạn bị lộ diện trong thời gian ngắn."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Tấn công hoặc dùng kỹ năng sẽ kết thúc tàng hình và bắt đầu một <span class=\"highlight\">phục kích</span>, tạm thời cho bạn <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Sát thương cận chiến</span> cộng thêm."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Tấn công hoặc dùng kỹ năng sẽ kết thúc tàng hình và bắt đầu một <span class=\"highlight\">phục kích</span>, tạm thời cho bạn <span class=\"highlight\">Sát thương vũ khí</span> và <span class=\"highlight\">Sức mạnh phép thuật</span> cộng thêm."
 		"modifier_cloaking_device_active_stealth"		"Dệt bóng - Tàng hình"
 		"modifier_cloaking_device_active_ambush"		"Dệt bóng - Phục kích"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Sức mạnh phép thuật khi phục kích"
 		"AmbushBonusTechPower_postvalue_label"					"Sức mạnh phép thuật khi phục kích"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Tốc độ bắn khi phục kích"
-		"AmbushBonusFireRate_postvalue_label"					"Tốc độ bắn khi phục kích"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Sát thương vũ khí khi phục kích"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Sát thương vũ khí khi phục kích"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Sát thương cận chiến khi phục kích"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Sát thương cận chiến khi phục kích"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Thời gian phục kích"
 		"AmbushDuration_postvalue_label"						"Thời gian phục kích"
 		"AmbushDuration_postfix"						"s"
+		"AmbushBuildUpDuration_label"				"Thời gian để phục kích đầy"
+		"AmbushBuildUpDuration_postvalue_label"		"Thời gian để phục kích đầy"
+		"AmbushBuildUpDuration_postfix"				"s"
 		"StealthDuration_label"						"Thời gian tàng hình"
 		"StealthDuration_postvalue_label"						"Thời gian tàng hình"
 		"StealthDuration_postfix"						"s"
@@ -980,13 +983,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Quả cầu tuyết"
-		"cosmetic_ability_snowball_desc"		"Ném quả cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném quả cầu tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại thời gian hồi chiêu của nó.</span>"
-		"SnowballSpeed_label"			"Tốc độ ném"
-		"SnowballSpeed_postvalue_label"		"Vận tốc"
-		"SnowballSpeed_postfix"			"m/s"
-		"SnowballCount_label"			"Số quả cầu tuyết đã ném"
-		"SnowballCount_postvalue_label"		"Số đạn"
+		"HealPerMinute_label"			"Tăng hồi máu mỗi phút"
+		"TechPowerPerMinute_label"		"Tăng Sức mạnh phép thuật mỗi phút"
+		"BonusFireRatePerMinute_label"		"Tăng tốc độ bắn mỗi phút"
+		"BonusMoveSpeedPerMinute_label"		"Tăng tốc độ di chuyển mỗi phút"
 
 		"cosmetic_item_voting_poster"		"Dán áp phích"		}
 }
