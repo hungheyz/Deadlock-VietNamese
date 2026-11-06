@@ -4763,7 +4763,8 @@
 
 		"ability_unicorn_luminousstrike"				"Dao Găm Rực Sáng"
 		"ability_unicorn_luminousstrike_desc"			"Gọi một luồng sáng từ bầu trời xuống. Sau một khoảng thời gian ngắn, luồng sáng sẽ hình thành hoàn chỉnh và phát nổ, gây {g:citadel_inline_attribute:'SpiritDamage'} lên tất cả mục tiêu trong khu vực.<br><br> Celeste nhận một hiệu ứng tăng sức mạnh theo tầng, giúp tăng sát thương phép thuật mỗi khi kỹ năng này trúng tướng địch."
-		"ability_unicorn_luminousstrike_t2_desc"		"Hồi chiêu {s:AbilityCooldown}s và +{s:ImpactDamage} sát thương va chạm"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% khuếch đại phép thuật và +{s:FireRatePerStack}% tốc độ bắn mỗi tầng"
+		"ability_unicorn_luminousstrike_t2_desc"		"Thời gian hồi chiêu {s:AbilityCooldown}s, +{s:ImpactDamage} Sát thương va chạm và +{s:AbilityCastRange}m Tầm thi triển"						
+		"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% Khuếch đại phép thuật và +{s:FireRatePerStack}% Tốc độ bắn mỗi tầng"				"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% khuếch đại phép thuật và +{s:FireRatePerStack}% tốc độ bắn mỗi tầng"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Thiêu đốt từ Đòn Đánh Rực Sáng"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Dao Găm Rực Sáng"
 
