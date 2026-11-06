@@ -4839,7 +4839,7 @@
 		"ability_fencer_lunge_on_proc"		"Khi kích hoạt đủ số tầng tối đa"
 
 		"ability_fencer_riposte"	"Phản Đòn"
-		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">gạt đỡ</span> đòn tấn công tiếp theo. Khi gạt đỡ thành công, tạm thời trở nên <span class=\"highlight\">bất khả xâm phạm</span> và chọn một tướng địch để lao đến, <span class=\"highlight\">làm bất động</span> chúng, ngăn chúng <span class=\"highlight\">đỡ đòn</span>, và giảm <span class=\"highlight\">Kháng cận chiến</span> của chúng.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để chọn mục tiêu.<br>Không kích hoạt với sát thương từ lính hoặc quái trung lập.</span>"
+		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">đỡ gạt</span> đòn tấn công tiếp theo. Khi đỡ gạt thành công, bạn sẽ trở nên <span class=\"highlight\">bất khả xâm phạm</span> trong chốc lát và chọn một tướng địch để lao tới, <span class=\"highlight\">khống chế</span> và <span class=\"highlight\">tước vũ khí</span> của chúng, ngăn chúng <span class=\"highlight\">phản đòn</span> và giảm <span class=\"highlight\">Kháng cận chiến</span>.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để chọn mục tiêu.<br>Không kích hoạt trước sát thương từ lính hoặc quái trung lập.</span>"
 		"RiposteChannelTime_postvalue_label"	"Thời gian đỡ gạt"
 		"RiposteChannelTime_postfix"			"s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4859,7 +4859,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Phản Đòn"
-		"ability_fencer_riposte_attack_desc"	"Thực hiện một cú lao nhanh về phía trước và làm bất động kẻ địch bằng chuôi kiếm của bạn, ngăn chúng đỡ đòn."
+		"ability_fencer_riposte_attack_desc"	"Nhanh chóng lao về phía trước, dùng chuôi vũ khí đánh vào kẻ địch để <span class=\"highlight\">khống chế</span> và <span class=\"highlight\">tước vũ khí</span> của chúng, ngăn chúng phản đòn."
 		"MeleeResistReductionDuration_label"			"Thời gian giảm Kháng cận chiến"
 		"MeleeResistReductionDuration_postvalue_label"	"Thời gian hiệu ứng tiêu cực"
 		"MeleeResistReductionDuration_postfix"			"s"
@@ -4974,7 +4974,7 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "Giảm sát thương"
 		"ability_ratking_standard_bearer_desc" "Tích lực và triệu hồi lá cờ hiệu của Ratannia, giúp tất cả đồng minh ở gần nhận thêm {g:citadel_inline_attribute:'MoveSpeed'}, <span class=\"highlight\">miễn nhiễm làm chậm</span> và <span class=\"highlight\">giảm sát thương nhận vào</span> khi ở gần lá cờ."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed}m Tốc độ di chuyển"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed}m tốc độ di chuyển<br>Hồi chiêu {s:AbilityCooldown}s"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration}s Thời gian cờ<br>+{s:Radius}m Bán kính"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} Sát thương và +{s:AllyDamageReduction}% Giảm sát thương"
 		
