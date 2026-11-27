@@ -969,7 +969,7 @@
 		"RespawnTime_prefix" "{s:sign}"
 
 		"upgrade_eldritch_shot_desc"			"Viên đạn tiếp theo của bạn gây một hiệu ứng tiêu cực mạnh làm giảm sát thương gây ra, hồi máu và tốc độ di chuyển của kẻ địch. Nó cũng gây {g:citadel_inline_attribute:'BonusSpiritDamage'} dựa trên máu hiện tại của mục tiêu. <br><br>Viên đạn lớn hơn và xuyên qua mục tiêu."
-		"upgrade_cloak_of_opportunity_desc"		"Chặn hiệu ứng tiêu cực tiếp theo sẽ gây <span class=\"highlight\">khóa di chuyển, Choáng, Xích, Bất động hoặc Ngủ</span> và trở nên <span class=\"highlight\">Không thể cản phá</span>. Đồng thời nhận một <span class=\"highlight\">Lá chắn</span> và {g:citadel_inline_attribute:'MoveSpeed'} cộng thêm"
+		"upgrade_cloak_of_opportunity_desc"		"Chặn hiệu ứng tiêu cực tiếp theo sẽ gây <span class=\"highlight\">khóa di chuyển, Choáng, Xích, Bất động, Ngủ hoặc Sợ hãi</span> và trở nên <span class=\"highlight\">Không thể cản phá</span>. Đồng thời nhận một <span class=\"highlight\">Lá chắn</span> và {g:citadel_inline_attribute:'MoveSpeed'} cộng thêm"
 		"upgrade_runed_gauntlets_desc"			"Mỗi lần bạn tung cận chiến nặng trúng đích, thời gian hồi chiêu hiện có của bạn được giảm."
 		"upgrade_runed_gauntlets_parry_desc"		"Xuyên qua đỡ đòn."
 		"upgrade_electric_slippers_desc"		"Khi trượt, né đạn, nhận tốc độ bắn và gây sát thương cho kẻ địch xung quanh bạn. <span class=\"diminish\"><br><br>Thời gian hồi chiêu tính riêng cho từng mục tiêu.</span>"
