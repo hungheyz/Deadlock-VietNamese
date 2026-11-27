@@ -1152,6 +1152,7 @@
 		"ability_warden_high_alert"				"Ý chí"
 		"ability_warden_high_alert_quip"			"Nhận một Lá chắn và tốc độ di chuyển"
 		"ability_warden_high_alert_desc"			"Nhận một <span class=\"highlight\">Lá chắn</span> và <span class=\"highlight\">tốc độ di chuyển cộng thêm</span>."
+		"ability_warden_high_alert_t1_desc"		"<span class=\"highlight\">+{s:MoveSpeedBonusPct}%</span> Tốc độ di chuyển và <span class=\"highlight\">+{s:CombatBarrier}</span> Lá chắn"
 		"ability_warden_high_alert_t2_desc"		"Thời gian hồi chiêu {s:AbilityCooldown}s và +{s:AbilityDuration}s Thời gian"
 		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:StatusResistancePercent}%</span> Kháng hiệu ứng tiêu cực và hệ số tăng của Lá chắn được cải thiện"
 
@@ -2300,6 +2301,9 @@
 		"modifier_citadel_shiv_dash_impact_slow"	"Chém loạn xạ"
 		"modifier_shiv_dash_heal_reduction"		"Giảm hồi máu từ Chém loạn xạ"
 		"BurstFireOnHeroHit_postfix"				"s"
+		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">+{s:ImpactDamage}</span> Sát thương va chạm<br><span class=\"highlight\">+{s:DashRange}m</span> Tầm lướt"
+
+		"citadel_ability_shiv_dash_t3_desc"		"<span class=\"highlight\">{s:TechArmorDamageReduction}%</span> Kháng phép thuật<br><span class=\"highlight\">-{s:CooldownReductionOnHit}s</span> Thời gian hồi chiêu mỗi tướng bị trúng."
 		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">{s:TechArmorDamageReduction}%</span> Kháng phép thuật<br><span class=\"highlight\">+{s:DashRange}m</span> Tầm lướt"
 
 		"citadel_ability_shiv_dash_t3_desc"		"<span class=\"highlight\">+{s:ImpactDamage}</span> Sát thương va chạm<br><span class=\"highlight\">-{s:CooldownReductionOnHit}s</span> Thời gian hồi chiêu mỗi tướng bị trúng."
@@ -2479,7 +2483,7 @@
 
 		"mirage_teleport"		"Lữ hành"
 		"mirage_teleport_quip"	"Dịch chuyển đến tướng đồng minh hoặc kẻ địch"
-		"mirage_teleport_desc"	"Chọn một vị trí trên bản đồ nhỏ.  Sau một khoảng chờ ngắn, <span class=\"highlight\">dịch chuyển</span> đến vị trí đó.  Nhận sát thương hoặc bị Choáng, Bất động, Ngủ hoặc Câm lặng di chuyển trong thời gian chờ sẽ khiến dịch chuyển bị gián đoạn.<br><br>Sau khi dịch chuyển, nhận một <span class=\"highlight\">Lá chắn</span>."
+		"mirage_teleport_desc"	"Chọn một vị trí trên bản đồ nhỏ.  Sau một khoảng chờ ngắn, <span class=\"highlight\">dịch chuyển</span> đến vị trí đó.  Nhận sát thương hoặc bị Choáng, Bất động, Ngủ hoặc Câm lặng di chuyển trong thời gian chờ sẽ khiến dịch chuyển bị gián đoạn.<br><br>Sau khi dịch chuyển, nhận một <span class=\"highlight\">Lá chắn</span>.<br><br>{g:citadel_binding:'AltCast'} để nhắm vào khu vực hồi máu của căn cứ bạn."
 		"MirageTeleportMoveSpeed_conditional"	"Sau khi dịch chuyển"
 		"mirage_teleport_movespeed"		"Lữ khách - Thưởng di chuyển"
 		"mirage_teleport_t1_desc"	"+{s:BonusMoveSpeed}m Tốc độ di chuyển và +{s:BonusFireRate}% Tốc độ bắn"
@@ -2553,7 +2557,7 @@
 		"citadel_ability_tengu_stone_form"			"Hóa đá"
 		"citadel_ability_tengu_stone_form_quip"		"Hóa thành đá bất hoại và làm choáng kẻ địch ở gần"
 		"citadel_ability_tengu_stone_form_desc"		"Hóa thành <span class=\"highlight\">đá bất hoại</span> rồi giáng mạnh xuống đất, <span class=\"highlight\">làm choáng và gây sát thương</span> lên kẻ địch ở gần. Hồi máu cho bạn theo một tỷ lệ máu tối đa."
-		"citadel_ability_tengu_stone_form_t3_desc"	"<span class=\"highlight\">+{s:StunDuration}s</span> Thời gian làm choáng và tăng khả năng cộng hưởng với sức mạnh phép thuật của sát thương"
+		"citadel_ability_tengu_stone_form_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Thời gian hồi chiêu và hệ số tăng sát thương theo phép thuật được tăng lên"
 		"MaxHealthRegen_label"						"Hồi máu tối đa"
 		"MaxHealthRegen_postvalue_label"						"Hồi máu tối đa"
 		"MaxHealthRegen_postfix"					"%"
@@ -2587,8 +2591,8 @@
 		"citadel_ability_tengu_airlift"				"Thả bom từ trên không"
 		"citadel_ability_tengu_airlift_quip"		"Cái chết từ trên cao! Bay lên rồi thả đồng minh xuống kẻ địch"
 		"citadel_ability_tengu_airlift_desc"		"<span class=\"highlight\">Tóm lấy một đồng minh</span> và <span class=\"highlight\">cất cánh</span> cùng họ. Thả đồng minh xuống để tạo ra vụ nổ, gây {g:citadel_inline_attribute:'SpiritDamage'}. Khi chuyến bay kết thúc, bạn và đồng minh được tăng sát thương gây ra. <span class=\"diminish\"><br><br>Hồi chiêu giảm {s:CooldownReductionPctOnOthers}% khi sử dụng lên đồng minh.<br>Chịu sát thương sẽ tạm thời ngăn bạn sử dụng kỹ năng.<br>Khi bị nhấc lên, đồng minh không thể tấn công và chỉ gây {s:AllyOutgoingDamagePercent}% sát thương.</span>"
-		"citadel_ability_tengu_airlift_t1_desc"		"Khi kết thúc chuyến bay: Tạo <span class=\"highlight\">{s:AirDropBulletShield}</span> Khiên hấp thụ sát thương đạn cho {s:hero_name} và đồng minh, lượng khiên tăng theo sức mạnh phép thuật"
-		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:AirDropDebuffDuration}s</span> lên kẻ địch trúng đòn"
+		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">+{s:SlowPercent}%</span> Làm chậm trong <span class=\"highlight\">{s:AirDropDebuffDuration}s</span> lên kẻ địch bị trúng"
+		"citadel_ability_tengu_airlift_t2_desc"		"Khi kết thúc bay : <span class=\"highlight\">{s:AirDropBulletShield}</span> Lá chắn cho {s:hero_name} và đồng minh, tăng theo phép thuật"
 		"citadel_ability_tengu_airlift_t3_desc"		"<span class=\"highlight\">Gây câm lặng</span> trong <span class=\"highlight\">{s:AirDropSilenceDuration}s</span> lên kẻ địch trúng đòn.<br>Tăng sát thương và khả năng cộng hưởng của khiên."
 		"modifier_airlift_ally"						"Thả bom từ trên không"
 
@@ -3740,7 +3744,7 @@
 		"ability_vampirebat_lovebites_desc" "Đạn của bạn gây thêm {g:citadel_inline_attribute:'SpiritDamage'}. Gây sát thương bằng kỹ năng sẽ tích lũy để tung ra một cú <span class=\"highlight\">cắn</span> tàn bạo, gây một đợt {g:citadel_inline_attribute:'BonusSpiritDamage'}. <br><br><span class=\"diminish\">Nụ Hôn Đẫm Máu có thời gian hồi riêng trên mỗi mục tiêu.</span>"
 		"ability_vampirebat_lovebites/lovebites_proc" "Nụ Hôn Đẫm Máu"
 		"ability_vampirebat_lovebites_t1_desc" "Khi kích hoạt: <span class=\"highlight\">+{s:SlowPercent}%</span> Làm chậm trong {s:SlowDuration}s"
-		"ability_vampirebat_lovebites_t2_desc" "<span class=\"highlight\">+{s:MagicDamagePerBullet}</span> Sát thương phép thuật mỗi viên đạn & <br><span class=\"highlight\">+{s:BonusDamage}</span> Sát thương cộng thêm"
+		"ability_vampirebat_lovebites_t2_desc" "<span class=\"highlight\">+{s:MagicDamagePerBullet}</span> Sát thương phép thuật mỗi viên đạn & <br><span class=\"highlight\">+{s:BonusDamage}</span> Sát thương cộng thêm với hệ số tăng theo phép thuật được tăng lên"
 		"ability_vampirebat_lovebites_t3_desc" "Thời gian hồi <span class=\"highlight\">{s:PerTargetCooldown}</span> <br>Khi kích hoạt: <span class=\"highlight\">+{s:BonusFireRate}%</span> Tốc độ bắn trong {s:BuffDuration}s"
 
 		"vampirebat_lovebites" "Nụ Hôn Đẫm Máu"
@@ -4839,7 +4843,7 @@
 		"ability_fencer_lunge_on_proc"		"Khi kích hoạt đủ số tầng tối đa"
 
 		"ability_fencer_riposte"	"Phản Đòn"
-		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">đỡ gạt</span> đòn tấn công tiếp theo. Khi đỡ gạt thành công, bạn sẽ trở nên <span class=\"highlight\">bất khả xâm phạm</span> trong chốc lát và chọn một tướng địch để lao tới, <span class=\"highlight\">khống chế</span> và <span class=\"highlight\">tước vũ khí</span> của chúng, ngăn chúng <span class=\"highlight\">phản đòn</span> và giảm <span class=\"highlight\">Kháng cận chiến</span>.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để chọn mục tiêu.<br>Không kích hoạt trước sát thương từ lính hoặc quái trung lập.</span>"
+		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">gạt đỡ</span> mọi sát thương từ <span class=\"highlight\">kỹ năng</span> đến. Khi gạt đỡ thành công, tạm thời trở nên <span class=\"highlight\">bất khả xâm phạm</span> và có khả năng lao đến một tướng địch mà đòn tấn công của chúng bạn đã gạt đỡ. Đánh trúng chúng gây {g:citadel_inline_attribute:'SpiritDamage'}, đẩy lùi chúng, gây {g:citadel_inline_attribute:'Slow'} và ngăn <span class=\"highlight\">dùng thể lực</span>.<br><br>Khi đang gạt đỡ, <span class=\"highlight\">đạn</span> bị phản ngược lại về phía kẻ tấn công.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để phản công.<br>Đạn bị phản không kích hoạt phản công.</span>"
 		"RiposteChannelTime_postvalue_label"	"Thời gian đỡ gạt"
 		"RiposteChannelTime_postfix"			"s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4859,11 +4863,11 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Phản Đòn"
-		"ability_fencer_riposte_attack_desc"	"Nhanh chóng lao về phía trước, dùng chuôi vũ khí đánh vào kẻ địch để <span class=\"highlight\">khống chế</span> và <span class=\"highlight\">tước vũ khí</span> của chúng, ngăn chúng phản đòn."
+		"ability_fencer_riposte_attack_desc"	"Thực hiện một cú lao nhanh đến tướng địch được chọn mà đòn tấn công của chúng bạn đã gạt đỡ, gây sát thương cho chúng bằng chuôi kiếm của bạn, đẩy lùi chúng, làm chậm chúng và ngăn dùng thể lực."
 		"MeleeResistReductionDuration_label"			"Thời gian giảm Kháng cận chiến"
 		"MeleeResistReductionDuration_postvalue_label"	"Thời gian hiệu ứng tiêu cực"
 		"MeleeResistReductionDuration_postfix"			"s"
-		"ability_fencer_riposte_t2_desc"	"<span class=\"highlight\">{s:MeleeResistReduction}%</span> Kháng cận chiến và <span class=\"highlight\">+{s:ImmobilizeDuration}s</span> Thời gian bất động"
+		"ability_fencer_riposte_t2_desc"	"<span class=\"highlight\">+{s:Damage}</span> Sát thương <br><span class=\"highlight\">+{s:SlowDuration}s</span> Thời gian hiệu ứng tiêu cực"
 		"ability_fencer_riposte_t3_desc"	"Nhận <span class=\"highlight\">{s:TargetLifesteal}%</span> hút máu từ đạn, phép thuật và cận chiến khi tấn công mục tiêu Phản Đòn trong {s:TargetLifestealDuration}s"
 		"modifier_fencer_riposte_target_lifesteal"		"Đánh dấu để hút máu"
 		"TargetLifesteal_label"				"Hút máu từ đạn và phép thuật khi đánh mục tiêu"
@@ -5387,7 +5391,7 @@
 		"ability_artist_homingbrush/active" "Mực sống"
 		"ability_artist_homingbrush_t2_desc" "Khi tăng cường: Nhận +{s:BonusFireRatePerStack}% Tốc độ bắn trong {s:StackDuration}s, cộng dồn {s:MaxStacks} lần"
 		"ability_artist_homingbrush_t1_desc" "Thời gian hồi chiêu {s:AbilityCooldown}s<br>+{s:MaxDrawDistance}m Khoảng cách vẽ tối đa"
-		"ability_artist_homingbrush_t3_desc" "+{s:CooldownReductionPerHit}s Giảm thời gian hồi chiêu mỗi lần trúng<br>Cải thiện hệ số tăng"
+		"ability_artist_homingbrush_t3_desc" "+{s:BulletDamageMultiplier}% Sát thương đạn<br>+{s:CooldownReductionPerHit}s Giảm thời gian hồi chiêu mỗi lần trúng<br>Hệ số tăng sát thương phép thuật được tăng lên"
 		
 		"MaxDrawDistance_label" "Kích thước vẽ tối đa"
 		"MaxDrawDistance_postvalue_label" "Kích thước vẽ tối đa"
@@ -5691,7 +5695,10 @@
 		
 		"citadel_weapon_bebop_set"				"Humble Pie"
 		"citadel_weapon_bebop_set_desc"		"Fires a continuous beam with no bullet travel"
-
+		"citadel_weapon_shiv_set_alt_desc"		"Bắn một loạt đạn ghém nặng, tiêu hao thêm đạn"
+		"citadel_weapon_yamato_set_alt_desc"	"Phóng một mũi tên nổ, tiêu hao thêm đạn"
+		"citadel_weapon_viscous_set_alt_desc"	"Ném một quả cầu chất nhầy phát nổ khi va chạm, tiêu hao thêm đạn"
+		"citadel_weapon_deadpack_set_alt_desc"	"Giữ phím bắn để tích lực cho một phát bắn nặng"
 		"citadel_weapon_nano_set"				"Sweetest Lie"
 		"citadel_weapon_dynamo_set"			"The Vonnegun"
 		"citadel_weapon_kelvin_set"			"Expedition's End"
