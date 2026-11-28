@@ -4843,7 +4843,7 @@
 		"ability_fencer_lunge_on_proc"		"Khi kích hoạt đủ số tầng tối đa"
 
 		"ability_fencer_riposte"	"Phản Đòn"
-		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">gạt đỡ</span> mọi sát thương từ <span class=\"highlight\">kỹ năng</span> đến. Khi gạt đỡ thành công, tạm thời trở nên <span class=\"highlight\">bất khả xâm phạm</span> và có khả năng lao đến một tướng địch mà đòn tấn công của chúng bạn đã gạt đỡ. Đánh trúng chúng gây {g:citadel_inline_attribute:'SpiritDamage'}, đẩy lùi chúng, gây {g:citadel_inline_attribute:'Slow'} và ngăn <span class=\"highlight\">dùng thể lực</span>.<br><br>Khi đang gạt đỡ, <span class=\"highlight\">đạn</span> bị phản ngược lại về phía kẻ tấn công.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để phản công.<br>Đạn bị phản không kích hoạt phản công.</span>"
+		"ability_fencer_riposte_desc" "Chuẩn bị <span class=\"highlight\">gạt đỡ</span> mọi sát thương từ <span class=\"highlight\">kỹ năng</span> và <span class=\"highlight\">cận chiến</span> đến. Khi gạt đỡ thành công, tạm thời trở nên <span class=\"highlight\">bất khả xâm phạm</span> và có khả năng lao đến một tướng địch mà đòn tấn công của chúng bạn đã gạt đỡ. Đánh trúng chúng gây {g:citadel_inline_attribute:'SpiritDamage'}, đẩy lùi chúng, gây {g:citadel_inline_attribute:'Slow'} và ngăn <span class=\"highlight\">dùng thể lực</span>.<br><br>Khi đang gạt đỡ, <span class=\"highlight\">đạn</span> bị phản ngược lại về phía kẻ tấn công.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability2'} để phản công.<br>Đạn bị phản không kích hoạt phản công.</span>"
 		"RiposteChannelTime_postvalue_label"	"Thời gian đỡ gạt"
 		"RiposteChannelTime_postfix"			"s"
 		"LungeCooldownReduction_prefix"			"-"
